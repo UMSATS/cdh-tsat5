@@ -1,0 +1,134 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S010TQ144STD (Microsemi)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   cdh_tsat5_system   ########
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system:	3 (9.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     79                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system:	79 (246.88 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block cdh_tsat5_system:	1 (3.13 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       10                 100 %                
+=================================================
+Total IO PADS in the block cdh_tsat5_system:	10 (31.25 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   cdh_tsat5_system_sb   ########
+Instance path:   cdh_tsat5_system.cdh_tsat5_system_sb                    
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system.cdh_tsat5_system_sb:	3 (9.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     79                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system.cdh_tsat5_system_sb:	79 (246.88 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block cdh_tsat5_system.cdh_tsat5_system_sb:	1 (3.13 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z1   ########
+Instance path:   cdh_tsat5_system_sb.CoreResetP_Z1                 
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CoreResetP_Z1:	3 (9.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     73                 92.4 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreResetP_Z1:	73 (228.13 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cdh_tsat5_system_sb_CCC_0_FCCC   ########
+Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC                 
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  2.53 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	2 (6.25 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	1 (3.13 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cdh_tsat5_system_sb_FABOSC_0_OSC   ########
+Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC                 
+======================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  2.53 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC:	2 (6.25 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   cdh_tsat5_system_sb_MSS   ########
+Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_MSS                 
+=============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  1.27 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_MSS:	1 (3.13 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

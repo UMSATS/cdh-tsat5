@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\designer\impl1\cdh_tsat5_system.adb"
+LIST SOURCE_FILES
+VALUE "C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn;edn"
+VALUE "C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\constraint\io\user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\synthesis\cdh_tsat5_system_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

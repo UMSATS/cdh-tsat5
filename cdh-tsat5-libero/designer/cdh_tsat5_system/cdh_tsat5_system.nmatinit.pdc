@@ -1,0 +1,43 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.9 SP2 11.9.2.1
+
+# Design Name: cdh_tsat5_system 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Wed Jan 16 10:08:41 2019 
+
+
+#
+# I/O constraints
+#
+
+set_io GPIO_0_M2F -DIRECTION OUTPUT -pinname 117 -fixed no
+set_io GPIO_1_M2F -DIRECTION OUTPUT -pinname 118 -fixed no
+set_io GPIO_2_M2F -DIRECTION OUTPUT -pinname 122 -fixed no
+set_io GPIO_3_M2F -DIRECTION OUTPUT -pinname 123 -fixed no
+set_io GPIO_4_M2F -DIRECTION OUTPUT -pinname 124 -fixed no
+set_io GPIO_5_M2F -DIRECTION OUTPUT -pinname 125 -fixed no
+set_io GPIO_6_M2F -DIRECTION OUTPUT -pinname 128 -fixed no
+set_io GPIO_7_M2F -DIRECTION OUTPUT -pinname 129 -fixed no
+set_io MMUART_0_RXD_F2M -DIRECTION INPUT -pinname 1 -fixed no
+set_io MMUART_0_TXD_M2F -DIRECTION OUTPUT -pinname 2 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location cdh_tsat5_system_sb_0/CORERESETP_0/sm1_areset_n_clk_base -fixed no 398 79
+set_location cdh_tsat5_system_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 218 102
+set_location ip_interface_inst -fixed no 191 0
+set_location cdh_tsat5_system_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 396 92
+set_location cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_F2M_int -fixed no 407 79
+set_location cdh_tsat5_system_sb_0/CCC_0/GL0_INST -fixed no 220 54
+set_location cdh_tsat5_system_sb_0/CORERESETP_0/POWER_ON_RESET_N_q1 -fixed no 406 79
+set_location cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST -fixed no 300 104
+set_location cdh_tsat5_system_sb_0/CCC_0/CCC_INST -fixed no 390 92
+set_location cdh_tsat5_system_sb_0/SYSRESET_POR -fixed no 396 8
+set_location cdh_tsat5_system_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 218 78

@@ -1,0 +1,20 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       1 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     0 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    4      0      0      'cdh_tsat5_system_sb_0/CCC_0/GL0_INST' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
