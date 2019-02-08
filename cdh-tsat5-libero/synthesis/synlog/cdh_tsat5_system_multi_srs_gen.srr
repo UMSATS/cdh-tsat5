@@ -1,11 +1,12 @@
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
+File C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jan 16 10:03:16 2019
+# Thu Feb 07 17:14:22 2019
 
 ###########################################################]

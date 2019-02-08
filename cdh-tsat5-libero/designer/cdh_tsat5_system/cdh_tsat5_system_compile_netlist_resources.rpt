@@ -1,6 +1,6 @@
 Resource Report
 Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)
-Date: Wed Jan 16 10:03:24 2019
+Date: Thu Feb 07 17:14:31 2019
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+-----------------------------------------------------------------------------+
-| Topcell | cdh_tsat5_system                                                            |
-| Format  | EDIF                                                                        |
-| Source  | C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn |
-+---------+-----------------------------------------------------------------------------+
++---------+---------------------------------------------------------------------------------------------+
+| Topcell | cdh_tsat5_system                                                                            |
+| Format  | EDIF                                                                                        |
+| Source  | C:\Work\UMSATS\TSAT5\corespi_test\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn |
++---------+---------------------------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+
@@ -37,16 +37,16 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 0    | 12084 | 0.00       |
-| DFF                       | 3    | 12084 | 0.02       |
+| 4LUT                      | 146  | 12084 | 1.21       |
+| DFF                       | 87   | 12084 | 0.72       |
 | I/O Register              | 0    | 252   | 0.00       |
-| User I/O                  | 10   | 84    | 11.90      |
-| -- Single-ended I/O       | 10   | 84    | 11.90      |
+| User I/O                  | 21   | 84    | 25.00      |
+| -- Single-ended I/O       | 21   | 84    | 25.00      |
 | -- Differential I/O Pairs | 0    | 37    | 0.00       |
 | RAM64x18                  | 0    | 22    | 0.00       |
 | RAM1K18                   | 0    | 21    | 0.00       |
 | MACC                      | 0    | 22    | 0.00       |
-| Chip Globals              | 1    | 8     | 12.50      |
+| Chip Globals              | 2    | 8     | 25.00      |
 | CCC                       | 1    | 2     | 50.00      |
 | RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
 | RCOSC_1MHZ                | 0    | 1     | 0.00       |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 0    | 3   |
+| Fabric Logic             | 146  | 87  |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 0    | 3   |
+| Total Used               | 146  | 87  |
 +--------------------------+------+-----+
 
 MSS Resource Usage
@@ -86,12 +86,21 @@ MSS Resource Usage
 
 * These resources are always marked as used when you are using the MSS
 
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 1    |
+| 5      | 1    |
+| 8      | 1    |
+| Total  | 3    |
++--------+------+
+
 I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 1            | 0           | 0               |
-| Output I/O                    | 9            | 0           | 0               |
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 19           | 0           | 0               |
 | Bidirectional I/O             | 0            | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
@@ -101,7 +110,7 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 | I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
 +--------------+--------+------+-------+--------+---------------+
-| LVCMOS25     |  2.50v |  N/A |  1    |  9     |  0            |
+| LVCMOS25     |  2.50v |  N/A |  2    |  19    |  0            |
 +--------------+--------+------+-------+--------+---------------+
 
 I/O Placement
@@ -110,17 +119,20 @@ I/O Placement
 +----------+-------+------------+
 | Locked   |  0    | 0.00%      |
 | Placed   |  0    | 0.00%      |
-| UnPlaced |  10   | 100.00%    |
+| UnPlaced |  21   | 100.00%    |
 +----------+-------+------------+
 
 Nets assigned to chip global resources
-+--------+---------+------------------------------------------------------+
-| Fanout | Type    | Name                                                 |
-+--------+---------+------------------------------------------------------+
-| 4      | INT_NET | Net   : cdh_tsat5_system_sb_0/GL0_INST               |
-|        |         | Driver: cdh_tsat5_system_sb_0/CCC_0/GL0_INST/U0_RGB1 |
-|        |         | Source: NETLIST                                      |
-+--------+---------+------------------------------------------------------+
++--------+---------+-------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                          |
++--------+---------+-------------------------------------------------------------------------------+
+| 84     | INT_NET | Net   : cdh_tsat5_system_sb_0/GL0_INST                                        |
+|        |         | Driver: cdh_tsat5_system_sb_0/CCC_0/GL0_INST/U0_RGB1                          |
+|        |         | Source: NETLIST                                                               |
+| 73     | INT_NET | Net   : cdh_tsat5_system_sb_0/MSS_HPMS_READY_int_RNILIU7                      |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNILIU7/U0_RGB1 |
+|        |         | Source: NETLIST                                                               |
++--------+---------+-------------------------------------------------------------------------------+
 
 Nets assigned to row global resources
 +--------+------+------+
@@ -129,54 +141,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                   |
-+--------+---------+------------------------------------------------------------------------+
-| 2      | INT_NET | Net   : cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_0_POWER_ON_RESET_N   |
-|        |         | Driver: cdh_tsat5_system_sb_0/SYSRESET_POR                             |
-| 1      | INT_NET | Net   : MMUART_0_RXD_F2M_c                                             |
-|        |         | Driver: MMUART_0_RXD_F2M_ibuf                                          |
-| 1      | INT_NET | Net   : GPIO_0_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_1_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_2_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_3_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_4_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_5_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_6_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_7_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-+--------+---------+------------------------------------------------------------------------+
++--------+---------+----------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                             |
++--------+---------+----------------------------------------------------------------------------------+
+| 28     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/i_enable_spi              |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/i_enable_spi              |
+| 20     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PADDR[2]                     |
+|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST           |
+| 20     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]            |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]            |
+| 19     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[3] |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[3] |
+| 19     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[1] |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[1] |
+| 18     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PSELx                        |
+|        |         | Driver: cdh_tsat5_system_sb_0/CoreAPB3_0/CAPB3l0OI[0]                            |
+| 17     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PADDR[3]                     |
+|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST           |
+| 13     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PWRITE                       |
+|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST           |
+| 13     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PENABLE                      |
+|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST           |
+| 13     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[0] |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[0] |
++--------+---------+----------------------------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                   |
-+--------+---------+------------------------------------------------------------------------+
-| 2      | INT_NET | Net   : cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_0_POWER_ON_RESET_N   |
-|        |         | Driver: cdh_tsat5_system_sb_0/SYSRESET_POR                             |
-| 1      | INT_NET | Net   : MMUART_0_RXD_F2M_c                                             |
-|        |         | Driver: MMUART_0_RXD_F2M_ibuf                                          |
-| 1      | INT_NET | Net   : GPIO_0_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_1_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_2_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_3_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_4_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_5_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_6_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : GPIO_7_M2F_c                                                   |
-|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST |
-+--------+---------+------------------------------------------------------------------------+
++--------+---------+----------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                             |
++--------+---------+----------------------------------------------------------------------------------+
+| 28     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/i_enable_spi              |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/i_enable_spi              |
+| 20     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PADDR[2]                     |
+|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST           |
+| 20     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]            |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]            |
+| 19     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[3] |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[3] |
+| 19     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[1] |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[1] |
+| 18     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PSELx                        |
+|        |         | Driver: cdh_tsat5_system_sb_0/CoreAPB3_0/CAPB3l0OI[0]                            |
+| 17     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PADDR[3]                     |
+|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST           |
+| 13     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PWRITE                       |
+|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST           |
+| 13     | INT_NET | Net   : cdh_tsat5_system_sb_0/CoreAPB3_0_APBmslave0_PENABLE                      |
+|        |         | Driver: cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST           |
+| 13     | INT_NET | Net   : cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[0] |
+|        |         | Driver: cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[0] |
++--------+---------+----------------------------------------------------------------------------------+
 

@@ -7,14 +7,15 @@
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
-0 instances converted, 4 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 88 clock pin(s) of sequential element(s)
+0 instances converted, 88 sequential instances remain driven by gated/generated clocks
 
-=============================================================================================================================== Gated/Generated Clocks ===============================================================================================================================
-Clock Tree ID     Driving Element                          Drive Element Type     Fanout     Sample Instance                                            Explanation                                                                                                                   
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       cdh_tsat5_system_sb_0.CCC_0.CCC_INST     CCC                    4          cdh_tsat5_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-======================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================== Gated/Generated Clocks =====================================================================================================================================================================
+Clock Tree ID     Driving Element                                                                               Drive Element Type     Fanout     Sample Instance                                                                   Explanation                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       cdh_tsat5_system_sb_0.CCC_0.CCC_INST                                                          CCC                    84         cdh_tsat5_system_sb_0.CORERESETP_0.RESET_N_M2F_q1                                 Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4.u_master.un3_busy_i_0_0_0_RNIQSV12     CFG3                   4          cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4.u_master.next_state[0]     No clocks found on inputs                                                                                                     
+==================================================================================================================================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

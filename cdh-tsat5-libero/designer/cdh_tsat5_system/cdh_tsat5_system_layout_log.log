@@ -6,54 +6,54 @@ High-effort              : OFF
 Repair min-delay         : ON
 Incremental              : OFF
 
-INFO: Reading User PDC file C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Work\UMSATS\TSAT5\corespi_test\cdh-tsat5\cdh-tsat5-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 10 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 14 fixed I/O macros, 7 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V4.0 - 11.9.2 
-Design: cdh_tsat5_system                Started: Wed Jan 16 10:08:20 2019
+Design: cdh_tsat5_system                Started: Thu Feb 07 17:17:22 2019
 
 Initializing Standard Placement ...
 Placing design...
 End of placement.
 Pre-Placement Runtime        : 0 seconds
-Placement Runtime            : 0 seconds
+Placement Runtime            : 1 seconds
 
 Placer completed successfully.
 
 Design: cdh_tsat5_system                
-Finished: Wed Jan 16 10:08:25 2019
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 126.9 Mbytes
+Finished: Thu Feb 07 17:17:29 2019
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:07
+Total Memory Usage: 126.5 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Wed Jan 16 10:08:29 2019
+Design: C:\Work\UMSATS\TSAT5\corespi_test\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Thu Feb 07 17:17:32 2019
 
 
 Router completed successfully.
 
-Design: C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Wed Jan 16 10:08:35 2019
+Design: C:\Work\UMSATS\TSAT5\corespi_test\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
+Finished: Thu Feb 07 17:17:38 2019
 Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 475.9 Mbytes
+Total Memory Usage: 475.7 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Wed Jan 16 10:08:36 2019
+Design: C:\Work\UMSATS\TSAT5\corespi_test\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Thu Feb 07 17:17:40 2019
 
 
 Router completed successfully.
 
-Design: C:\Work\UMSATS\TSAT5\Libero\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Wed Jan 16 10:08:41 2019
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
+Design: C:\Work\UMSATS\TSAT5\corespi_test\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
+Finished: Thu Feb 07 17:17:45 2019
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:05
 Total Memory Usage: 475.6 Mbytes
                         o - o - o - o - o - o
 
@@ -61,9 +61,9 @@ Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 0    | 12084 | 0.00       |
-| DFF           | 3    | 12084 | 0.02       |
+| 4LUT          | 146  | 12084 | 1.21       |
+| DFF           | 87   | 12084 | 0.72       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 3    | 12084 | 0.02       |
+| Logic Element | 154  | 12084 | 1.27       |
 +---------------+------+-------+------------+
 

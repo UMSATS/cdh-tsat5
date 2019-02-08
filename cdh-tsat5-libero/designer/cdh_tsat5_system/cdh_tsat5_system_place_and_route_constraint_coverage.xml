@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 11.9.2.1</text>
 <text>Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)
-Date: Wed Jan 16 10:08:52 2019 </text>
+Date: Thu Feb 07 17:17:56 2019 </text>
 <table>
 <header>
 </header>
@@ -51,51 +51,51 @@ Date: Wed Jan 16 10:08:52 2019 </text>
 <row>
  <cell>Setup</cell>
  <cell>            0</cell>
- <cell>            2</cell>
- <cell>            2</cell>
+ <cell>          155</cell>
+ <cell>          155</cell>
 </row>
 <row>
  <cell>Recovery</cell>
  <cell>            0</cell>
- <cell>            4</cell>
- <cell>            4</cell>
+ <cell>           84</cell>
+ <cell>           84</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
  <cell>            0</cell>
- <cell>            9</cell>
- <cell>            9</cell>
+ <cell>           19</cell>
+ <cell>           19</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
  <cell>            0</cell>
- <cell>           15</cell>
- <cell>           15</cell>
+ <cell>          258</cell>
+ <cell>          258</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
  <cell>            0</cell>
- <cell>            2</cell>
- <cell>            2</cell>
+ <cell>          155</cell>
+ <cell>          155</cell>
 </row>
 <row>
  <cell>Removal</cell>
  <cell>            0</cell>
- <cell>            4</cell>
- <cell>            4</cell>
+ <cell>           84</cell>
+ <cell>           84</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
  <cell>            0</cell>
- <cell>            9</cell>
- <cell>            9</cell>
+ <cell>           19</cell>
+ <cell>           19</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
  <cell>            0</cell>
- <cell>           15</cell>
- <cell>           15</cell>
+ <cell>          258</cell>
+ <cell>          258</cell>
 </row>
 </table>
 <section>
@@ -112,67 +112,69 @@ Date: Wed Jan 16 10:08:52 2019 </text>
 <row>
  <cell>Setup</cell>
  <cell>            0</cell>
- <cell>            2</cell>
- <cell>            2</cell>
+ <cell>          151</cell>
+ <cell>          151</cell>
 </row>
 <row>
  <cell>Recovery</cell>
  <cell>            0</cell>
- <cell>            4</cell>
- <cell>            4</cell>
+ <cell>           84</cell>
+ <cell>           84</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
  <cell>            0</cell>
- <cell>            9</cell>
- <cell>            9</cell>
+ <cell>           19</cell>
+ <cell>           19</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
  <cell>            0</cell>
- <cell>           15</cell>
- <cell>           15</cell>
+ <cell>          254</cell>
+ <cell>          254</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
  <cell>            0</cell>
- <cell>            2</cell>
- <cell>            2</cell>
+ <cell>          151</cell>
+ <cell>          151</cell>
 </row>
 <row>
  <cell>Removal</cell>
  <cell>            0</cell>
- <cell>            4</cell>
- <cell>            4</cell>
+ <cell>           84</cell>
+ <cell>           84</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
  <cell>            0</cell>
- <cell>            9</cell>
- <cell>            9</cell>
+ <cell>           19</cell>
+ <cell>           19</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
  <cell>            0</cell>
- <cell>           15</cell>
- <cell>           15</cell>
+ <cell>          254</cell>
+ <cell>          254</cell>
 </row>
 </table>
 <section>
 <name>Enhancement Suggestions</name>
 <text></text>
 <text> - Clock constraint is missing </text>
-<text> - Max input delay constraint missing on port:</text>
+<text> - Max input delay constraint missing on ports:</text>
 <text>   </text>
 <list>
  <item>MMUART_0_RXD_F2M</item>
+ <item>m_miso</item>
 </list>
 <text></text>
-<text> - Min input delay constraint missing on port:</text>
+<text> - Min input delay constraint missing on ports:</text>
 <text>   </text>
 <list>
  <item>MMUART_0_RXD_F2M</item>
+ <item>m_miso</item>
 </list>
 <text></text>
 <text></text>
@@ -188,6 +190,16 @@ Date: Wed Jan 16 10:08:52 2019 </text>
  <item>GPIO_6_M2F</item>
  <item>GPIO_7_M2F</item>
  <item>MMUART_0_TXD_M2F</item>
+ <item>m_mosi</item>
+ <item>m_sck</item>
+ <item>m_ss[0]</item>
+ <item>m_ss[1]</item>
+ <item>m_ss[2]</item>
+ <item>m_ss[3]</item>
+ <item>m_ss[4]</item>
+ <item>m_ss[5]</item>
+ <item>m_ss[6]</item>
+ <item>m_ss[7]</item>
 </list>
 <text></text>
 <text> - Min output delay constraint missing on ports:</text>
@@ -202,38 +214,404 @@ Date: Wed Jan 16 10:08:52 2019 </text>
  <item>GPIO_6_M2F</item>
  <item>GPIO_7_M2F</item>
  <item>MMUART_0_TXD_M2F</item>
+ <item>m_mosi</item>
+ <item>m_sck</item>
+ <item>m_ss[0]</item>
+ <item>m_ss[1]</item>
+ <item>m_ss[2]</item>
+ <item>m_ss[3]</item>
+ <item>m_ss[4]</item>
+ <item>m_ss[5]</item>
+ <item>m_ss[6]</item>
+ <item>m_ss[7]</item>
 </list>
 <text></text>
 <text></text>
 <text> - Setup uncconstrained for the following pins:</text>
 <text>   </text>
 <list>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base:D</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int:D</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_M2F_clk_base:D</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/mss_ready_select:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/mss_ready_state:EN</item>
  <item>cdh_tsat5_system_sb_0/CORERESETP_0/sm1_areset_n_clk_base:D</item>
- <item>cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:MMUART0_RXD_F2H_SCP</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/clear_error:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/clear_error:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/d_sck:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/d_tx_shift_reg_load:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_sck:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_tx_reg_empty:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_tx_reg_empty:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/mosi:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_waiting:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_waiting:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_error_i:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_error_i:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_enable2:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[0]:D</item>
 </list>
 <text></text>
 <text> - Recovery uncconstrained for the following pins:</text>
 <text>   </text>
 <list>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int:ALn</item>
  <item>cdh_tsat5_system_sb_0/CORERESETP_0/POWER_ON_RESET_N_q1:ALn</item>
  <item>cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_F2M_int:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/mss_ready_select:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/mss_ready_state:ALn</item>
  <item>cdh_tsat5_system_sb_0/CORERESETP_0/sm1_areset_n_clk_base:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/clear_error:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/d_sck:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/d_tx_shift_reg_load:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_sck:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_tx_reg_empty:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/mosi:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_waiting:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_error_i:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_enable2:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tsck:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tss:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_data_ready:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/i_enable_spi:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[7]:ALn</item>
  <item>cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:USER_MSS_RESET_N</item>
 </list>
 <text></text>
 <text> - Hold uncconstrained for the following pins:</text>
 <text>   </text>
 <list>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base:D</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int:D</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_M2F_clk_base:D</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/mss_ready_select:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/mss_ready_state:EN</item>
  <item>cdh_tsat5_system_sb_0/CORERESETP_0/sm1_areset_n_clk_base:D</item>
- <item>cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:MMUART0_RXD_F2H_SCP</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/clear_error:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/clear_error:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/d_sck:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/d_tx_shift_reg_load:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_sck:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_tx_reg_empty:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_tx_reg_empty:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/mosi:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_waiting:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_waiting:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_error_i:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_error_i:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_enable2:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[0]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[1]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[2]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[3]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[3]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[4]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[4]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[5]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[5]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[6]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[6]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[7]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[7]:EN</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[0]:D</item>
 </list>
 <text></text>
 <text> - Removal uncconstrained for the following pins:</text>
 <text>   </text>
 <list>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int:ALn</item>
  <item>cdh_tsat5_system_sb_0/CORERESETP_0/POWER_ON_RESET_N_q1:ALn</item>
  <item>cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_F2M_int:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/mss_ready_select:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORERESETP_0/mss_ready_state:ALn</item>
  <item>cdh_tsat5_system_sb_0/CORERESETP_0/sm1_areset_n_clk_base:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/clear_error:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/control_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.ss_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/clock_count[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/d_sck:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/d_tx_shift_reg_load:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_sck:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/i_tx_reg_empty:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/mosi:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_data_waiting:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_error_i:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_enable2:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/rx_shift_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/state[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tsck:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tss:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_data_ready:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/tx_shift_reg[7]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/i_enable_spi:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[0]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[1]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[2]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[3]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[4]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[5]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[6]:ALn</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/tx_data_reg[7]:ALn</item>
  <item>cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:USER_MSS_RESET_N</item>
 </list>
 <text></text>
@@ -300,6 +678,93 @@ Date: Wed Jan 16 10:08:52 2019 </text>
  <cell>            0</cell>
 </row>
 </table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>gated-clocks</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/next_state[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/next_state[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/next_state[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/next_state[3]:D</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/next_state[0]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/next_state[1]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/next_state[2]:D</item>
+ <item>cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/next_state[3]:D</item>
+</list>
+<text></text>
+</section>
 </section>
 <section>
 <name>Input to Output</name>
