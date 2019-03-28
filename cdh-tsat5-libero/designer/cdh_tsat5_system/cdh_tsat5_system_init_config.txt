@@ -1,13 +1,13 @@
 Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)
 Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)
-Date: Thu Feb 07 17:19:03 2019
+Date: Thu Mar 28 10:53:04 2019
 
 cdh_tsat5_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 +-------------------+--------------------+---------------+-------+
 | Register          | Field              | INIT          | Value |
 +-------------------+--------------------+---------------+-------+
-| FCCC_RFDIV_CR     | RFDIV[7:0]         | INIT[7:0]     | 8'h1  |
-| FCCC_FBDIV_CR0    | FBDIV[7:0]         | INIT[15:8]    | 8'h3  |
+| FCCC_RFDIV_CR     | RFDIV[7:0]         | INIT[7:0]     | 8'h18 |
+| FCCC_FBDIV_CR0    | FBDIV[7:0]         | INIT[15:8]    | 8'h3f |
 | FCCC_FBDIV_CR1    | FBDIV[13:8]        | INIT[21:16]   | 6'h0  |
 | FCCC_GPD0_CR      | GPDIV[7:0]         | INIT[29:22]   | 8'h1  |
 | FCCC_GPD1_CR      | GPDIV[7:0]         | INIT[37:30]   | 8'h1  |
@@ -36,7 +36,7 @@ cdh_tsat5_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 | FCCC_PDLY_CR      | RF_DLINE           | INIT[138:138] | 1'h1  |
 | FCCC_PLL_CR0      | LOCKWIN[2:0]       | INIT[141:139] | 3'h6  |
 | FCCC_PLL_CR1      | LOCKCNT[3:0]       | INIT[145:142] | 4'h5  |
-| FCCC_PLL_CR7      | DIVQ[2:0]          | INIT[148:146] | 3'h3  |
+| FCCC_PLL_CR7      | DIVQ[2:0]          | INIT[148:146] | 3'h2  |
 | FCCC_PLL_CR5      | MODE32K            | INIT[149:149] | 1'h0  |
 | FCCC_PLL_CR5      | MODE_1V2           | INIT[150:150] | 1'h1  |
 | FCCC_PLL_CR5      | MODE_3V3           | INIT[151:151] | 1'h0  |
@@ -46,7 +46,7 @@ cdh_tsat5_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 | FCCC_PLL_CR2      | SSMF[4:0]          | INIT[160:156] | 5'h0  |
 | FCCC_PLL_CR8      | DIVR[5:0]          | INIT[166:161] | 6'h0  |
 | FCCC_PLL_CR9      | DIVF[5:0]          | INIT[174:167] | 8'h0  |
-| FCCC_PLL_CR10     | RANGE              | INIT[178:175] | 4'h7  |
+| FCCC_PLL_CR10     | RANGE              | INIT[178:175] | 4'h2  |
 | FCCC_GPMUX0_CR    | NOPIPE_SYNCRST0    | INIT[179:179] | 1'h1  |
 | FCCC_GPMUX1_CR    | NOPIPE_SYNCRST1    | INIT[180:180] | 1'h1  |
 | FCCC_GPMUX2_CR    | NOPIPE_SYNCRST2    | INIT[181:181] | 1'h1  |
@@ -83,7 +83,7 @@ cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP
 | ESRAM_MAX_LAT           | SW_MAX_LAT_ESRAM1           | INIT[154:152]   | 3'b000       | INIT[1]   | 1             |
 | DDR_CONFIG              | SW_CC_DDRFWREMAP            | INIT[155:155]   | 1'h0         | INIT[2]   | 1             |
 | ENVM_CONFIG             | SW_ENVMREMAPSIZE            | INIT[160:156]   | 5'b10001     | INIT[3]   | 1             |
-| ENVM_CONFIG             | NV_FREQRNG                  | INIT[168:161]   | 8'h04        | INIT[3]   | 1             |
+| ENVM_CONFIG             | NV_FREQRNG                  | INIT[168:161]   | 8'h06        | INIT[3]   | 1             |
 | ENVM_CONFIG             | NV_DPD0                     | INIT[169:169]   | 1'h0         | INIT[3]   | 1             |
 | ENVM_CONFIG             | NV_DPD1                     | INIT[170:170]   | 1'h0         | INIT[3]   | 1             |
 | ENVM_CONFIG             | ENVM_PERSIST                | INIT[171:171]   | 1'h0         | INIT[3]   | 1             |
@@ -141,7 +141,7 @@ cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP
 | SOFTRESET               | G4SPI1_SOFTRESET            | INIT[360:360]   | 1'h1         | INIT[28]  | 1             |
 | SOFTRESET               | I2C0_SOFTRESET              | INIT[361:361]   | 1'h1         | INIT[29]  | 1             |
 | SOFTRESET               | I2C1_SOFTRESET              | INIT[362:362]   | 1'h1         | INIT[30]  | 1             |
-| SOFTRESET               | CAN_SOFTRESET               | INIT[363:363]   | 1'h1         | INIT[31]  | 1             |
+| SOFTRESET               | CAN_SOFTRESET               | INIT[363:363]   | 1'h0         | INIT[31]  | 1             |
 | SOFTRESET               | USB_SOFTRESET               | INIT[364:364]   | 1'h1         | INIT[32]  | 1             |
 | SOFTRESET               | COMBLK_SOFTRESET            | INIT[365:365]   | 1'h0         | INIT[33]  | 1             |
 | SOFTRESET               | FPGA_SOFTRESET              | INIT[366:366]   | 1'h1         | INIT[34]  | 1             |
@@ -213,10 +213,10 @@ cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP
 | MAC_CONFIG              | ETH_LINE_SPEED              | INIT[538:537]   | 2'h0         | INIT[61]  | 1             |
 | MAC_CONFIG              | ETH_PHY_MODE                | INIT[541:539]   | 3'h0         | INIT[61]  | 1             |
 | MAC_CONFIG              | RGMII_TXC_DELAY_SEL         | INIT[545:542]   | 4'h0         | INIT[61]  | 1             |
-| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVR               | INIT[551:546]   | 6'h01        | INIT[62]  | 1             |
-| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVF               | INIT[561:552]   | 10'h001      | INIT[62]  | 1             |
-| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVQ               | INIT[564:562]   | 3'h3         | INIT[62]  | 1             |
-| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_RANGE              | INIT[568:565]   | 4'h9         | INIT[62]  | 1             |
+| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVR               | INIT[551:546]   | 6'h02        | INIT[62]  | 1             |
+| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVF               | INIT[561:552]   | 10'h002      | INIT[62]  | 1             |
+| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVQ               | INIT[564:562]   | 3'h2         | INIT[62]  | 1             |
+| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_RANGE              | INIT[568:565]   | 4'h8         | INIT[62]  | 1             |
 | MSSDDR_PLL_STATUS_LOW   | FACC_PLL_LOCKWIN            | INIT[571:569]   | 3'h4         | INIT[62]  | 1             |
 | MSSDDR_PLL_STATUS_LOW   | FACC_PLL_LOCKCNT            | INIT[575:572]   | 4'h0         | INIT[62]  | 1             |
 | MSSDDR_PLL_STATUS_HIGH  | FACC_PLL_BYPASS             | INIT[576:576]   | 1'h0         | INIT[63]  | 1             |
@@ -229,7 +229,7 @@ cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP
 | MSSDDR_PLL_STATUS_HIGH  | FACC_PLL_SSMF               | INIT[588:584]   | 5'h00        | INIT[63]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | DIVISOR_A                   | INIT[590:589]   | 2'h0         | INIT[64]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | APB0_DIVISOR                | INIT[593:591]   | 3'h0         | INIT[65]  | 1             |
-| MSSDDR_FACC_CONFIG_1    | APB1_DIVISOR                | INIT[596:594]   | 3'h0         | INIT[66]  | 1             |
+| MSSDDR_FACC_CONFIG_1    | APB1_DIVISOR                | INIT[596:594]   | 3'h2         | INIT[66]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | DDR_CLK_EN                  | INIT[597:597]   | 1'h0         | INIT[67]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | FCLK_DIVISOR                | INIT[600:598]   | 3'h0         | INIT[68]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | FACC_GLMUX_SEL              | INIT[601:601]   | 1'h0         | INIT[69]  | 1             |
@@ -401,8 +401,8 @@ cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP
 | IOMUXCELL_12_CONFIG     | MSS_IOMUXSEL5LOWER          | INIT[997:997]   | 1'h0         | INIT[102] | 1             |
 | IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL0               | INIT[998:998]   | 1'h0         | INIT[103] | 1             |
 | IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL1               | INIT[999:999]   | 1'h0         | INIT[103] | 1             |
-| IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL2               | INIT[1000:1000] | 1'h0         | INIT[103] | 1             |
-| IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL3               | INIT[1001:1001] | 1'h0         | INIT[103] | 1             |
+| IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL2               | INIT[1000:1000] | 1'h1         | INIT[103] | 1             |
+| IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL3               | INIT[1001:1001] | 1'h1         | INIT[103] | 1             |
 | IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL4UPPER          | INIT[1002:1002] | 1'h0         | INIT[103] | 1             |
 | IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL4MID            | INIT[1003:1003] | 1'h0         | INIT[103] | 1             |
 | IOMUXCELL_13_CONFIG     | MSS_IOMUXSEL4LOWER          | INIT[1004:1004] | 1'h0         | INIT[103] | 1             |
@@ -421,8 +421,8 @@ cdh_tsat5_system_sb_0/cdh_tsat5_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP
 | IOMUXCELL_14_CONFIG     | MSS_IOMUXSEL5LOWER          | INIT[1017:1017] | 1'h0         | INIT[104] | 1             |
 | IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL0               | INIT[1018:1018] | 1'h0         | INIT[105] | 1             |
 | IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL1               | INIT[1019:1019] | 1'h0         | INIT[105] | 1             |
-| IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL2               | INIT[1020:1020] | 1'h0         | INIT[105] | 1             |
-| IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL3               | INIT[1021:1021] | 1'h0         | INIT[105] | 1             |
+| IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL2               | INIT[1020:1020] | 1'h1         | INIT[105] | 1             |
+| IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL3               | INIT[1021:1021] | 1'h1         | INIT[105] | 1             |
 | IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL4UPPER          | INIT[1022:1022] | 1'h0         | INIT[105] | 1             |
 | IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL4MID            | INIT[1023:1023] | 1'h0         | INIT[105] | 1             |
 | IOMUXCELL_15_CONFIG     | MSS_IOMUXSEL4LOWER          | INIT[1024:1024] | 1'h0         | INIT[105] | 1             |

@@ -26,8 +26,8 @@ DSP Blocks:    0 of 22 (0%)
 
 I/O ports: 22
 I/O primitives: 21
-INBUF          2 uses
-OUTBUF         19 uses
+INBUF          3 uses
+OUTBUF         18 uses
 
 
 Global Clock Buffers: 2
