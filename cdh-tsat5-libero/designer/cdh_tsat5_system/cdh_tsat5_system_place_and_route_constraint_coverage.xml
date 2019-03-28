@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 11.9.2.1</text>
 <text>Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)
-Date: Thu Feb 07 17:17:56 2019 </text>
+Date: Thu Mar 28 10:51:38 2019 </text>
 <table>
 <header>
 </header>
@@ -51,8 +51,8 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <row>
  <cell>Setup</cell>
  <cell>            0</cell>
- <cell>          155</cell>
- <cell>          155</cell>
+ <cell>          156</cell>
+ <cell>          156</cell>
 </row>
 <row>
  <cell>Recovery</cell>
@@ -63,8 +63,8 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <row>
  <cell>Output Setup</cell>
  <cell>            0</cell>
- <cell>           19</cell>
- <cell>           19</cell>
+ <cell>           18</cell>
+ <cell>           18</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
@@ -76,8 +76,8 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <row>
  <cell>Hold</cell>
  <cell>            0</cell>
- <cell>          155</cell>
- <cell>          155</cell>
+ <cell>          156</cell>
+ <cell>          156</cell>
 </row>
 <row>
  <cell>Removal</cell>
@@ -88,8 +88,8 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <row>
  <cell>Output Hold</cell>
  <cell>            0</cell>
- <cell>           19</cell>
- <cell>           19</cell>
+ <cell>           18</cell>
+ <cell>           18</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
@@ -112,8 +112,8 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <row>
  <cell>Setup</cell>
  <cell>            0</cell>
- <cell>          151</cell>
- <cell>          151</cell>
+ <cell>          152</cell>
+ <cell>          152</cell>
 </row>
 <row>
  <cell>Recovery</cell>
@@ -124,8 +124,8 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <row>
  <cell>Output Setup</cell>
  <cell>            0</cell>
- <cell>           19</cell>
- <cell>           19</cell>
+ <cell>           18</cell>
+ <cell>           18</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
@@ -137,8 +137,8 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <row>
  <cell>Hold</cell>
  <cell>            0</cell>
- <cell>          151</cell>
- <cell>          151</cell>
+ <cell>          152</cell>
+ <cell>          152</cell>
 </row>
 <row>
  <cell>Removal</cell>
@@ -149,8 +149,8 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <row>
  <cell>Output Hold</cell>
  <cell>            0</cell>
- <cell>           19</cell>
- <cell>           19</cell>
+ <cell>           18</cell>
+ <cell>           18</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
@@ -166,6 +166,7 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <text> - Max input delay constraint missing on ports:</text>
 <text>   </text>
 <list>
+ <item>CAN_RX_F2M</item>
  <item>MMUART_0_RXD_F2M</item>
  <item>m_miso</item>
 </list>
@@ -173,6 +174,7 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <text> - Min input delay constraint missing on ports:</text>
 <text>   </text>
 <list>
+ <item>CAN_RX_F2M</item>
  <item>MMUART_0_RXD_F2M</item>
  <item>m_miso</item>
 </list>
@@ -181,11 +183,10 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <text> - Max output delay constraint missing on ports:</text>
 <text>   </text>
 <list>
+ <item>CAN_TX_M2F</item>
  <item>GPIO_0_M2F</item>
  <item>GPIO_1_M2F</item>
- <item>GPIO_2_M2F</item>
  <item>GPIO_3_M2F</item>
- <item>GPIO_4_M2F</item>
  <item>GPIO_5_M2F</item>
  <item>GPIO_6_M2F</item>
  <item>GPIO_7_M2F</item>
@@ -205,11 +206,10 @@ Date: Thu Feb 07 17:17:56 2019 </text>
 <text> - Min output delay constraint missing on ports:</text>
 <text>   </text>
 <list>
+ <item>CAN_TX_M2F</item>
  <item>GPIO_0_M2F</item>
  <item>GPIO_1_M2F</item>
- <item>GPIO_2_M2F</item>
  <item>GPIO_3_M2F</item>
- <item>GPIO_4_M2F</item>
  <item>GPIO_5_M2F</item>
  <item>GPIO_6_M2F</item>
  <item>GPIO_7_M2F</item>

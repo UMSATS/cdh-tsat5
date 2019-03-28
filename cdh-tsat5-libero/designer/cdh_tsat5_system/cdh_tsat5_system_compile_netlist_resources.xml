@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)</text>
-<text>Date: Thu Feb 07 17:14:31 2019
+<text>Date: Thu Mar 28 10:48:11 2019
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Work\UMSATS\TSAT5\corespi_test\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn</cell>
+ <cell>C:\Work\UMSATS\TSAT5\mss_can_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -257,7 +257,7 @@
 </row>
 <row>
  <cell>CAN</cell>
- <cell>0</cell>
+ <cell>1</cell>
  <cell>1</cell>
 </row>
 <row>
@@ -338,13 +338,13 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>2</cell>
+ <cell>3</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>19</cell>
+ <cell>18</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -381,8 +381,8 @@
  <cell>LVCMOS25</cell>
  <cell> 2.50v</cell>
  <cell> N/A</cell>
- <cell> 2</cell>
- <cell> 19</cell>
+ <cell> 3</cell>
+ <cell> 18</cell>
  <cell> 0</cell>
 </row>
 </table>

@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Work\UMSATS\TSAT5\corespi_test\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\cdh_tsat5_system_fpga_mapper.srr</data>
+<data>C:\Work\UMSATS\TSAT5\mss_can_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\cdh_tsat5_system_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>

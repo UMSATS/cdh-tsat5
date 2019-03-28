@@ -3,7 +3,7 @@
 <doc>
 <title>Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)</text>
-<text>Date: Thu Feb 07 17:19:03 2019
+<text>Date: Thu Mar 28 10:53:04 2019
 </text>
 <section><name>cdh_tsat5_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP</name></section>
 <table>
@@ -17,13 +17,13 @@
  <cell>FCCC_RFDIV_CR</cell>
  <cell>RFDIV[7:0]</cell>
  <cell>INIT[7:0]</cell>
- <cell>8&apos;h1</cell>
+ <cell>8&apos;h18</cell>
 </row>
 <row>
  <cell>FCCC_FBDIV_CR0</cell>
  <cell>FBDIV[7:0]</cell>
  <cell>INIT[15:8]</cell>
- <cell>8&apos;h3</cell>
+ <cell>8&apos;h3f</cell>
 </row>
 <row>
  <cell>FCCC_FBDIV_CR1</cell>
@@ -197,7 +197,7 @@
  <cell>FCCC_PLL_CR7</cell>
  <cell>DIVQ[2:0]</cell>
  <cell>INIT[148:146]</cell>
- <cell>3&apos;h3</cell>
+ <cell>3&apos;h2</cell>
 </row>
 <row>
  <cell>FCCC_PLL_CR5</cell>
@@ -257,7 +257,7 @@
  <cell>FCCC_PLL_CR10</cell>
  <cell>RANGE</cell>
  <cell>INIT[178:175]</cell>
- <cell>4&apos;h7</cell>
+ <cell>4&apos;h2</cell>
 </row>
 <row>
  <cell>FCCC_GPMUX0_CR</cell>
@@ -466,7 +466,7 @@
  <cell>ENVM_CONFIG</cell>
  <cell>NV_FREQRNG</cell>
  <cell>INIT[168:161]</cell>
- <cell>8&apos;h04</cell>
+ <cell>8&apos;h06</cell>
  <cell>INIT[3]</cell>
  <cell>1</cell>
 </row>
@@ -930,7 +930,7 @@
  <cell>SOFTRESET</cell>
  <cell>CAN_SOFTRESET</cell>
  <cell>INIT[363:363]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[31]</cell>
  <cell>1</cell>
 </row>
@@ -1506,7 +1506,7 @@
  <cell>MSSDDR_PLL_STATUS_LOW</cell>
  <cell>FACC_PLL_DIVR</cell>
  <cell>INIT[551:546]</cell>
- <cell>6&apos;h01</cell>
+ <cell>6&apos;h02</cell>
  <cell>INIT[62]</cell>
  <cell>1</cell>
 </row>
@@ -1514,7 +1514,7 @@
  <cell>MSSDDR_PLL_STATUS_LOW</cell>
  <cell>FACC_PLL_DIVF</cell>
  <cell>INIT[561:552]</cell>
- <cell>10&apos;h001</cell>
+ <cell>10&apos;h002</cell>
  <cell>INIT[62]</cell>
  <cell>1</cell>
 </row>
@@ -1522,7 +1522,7 @@
  <cell>MSSDDR_PLL_STATUS_LOW</cell>
  <cell>FACC_PLL_DIVQ</cell>
  <cell>INIT[564:562]</cell>
- <cell>3&apos;h3</cell>
+ <cell>3&apos;h2</cell>
  <cell>INIT[62]</cell>
  <cell>1</cell>
 </row>
@@ -1530,7 +1530,7 @@
  <cell>MSSDDR_PLL_STATUS_LOW</cell>
  <cell>FACC_PLL_RANGE</cell>
  <cell>INIT[568:565]</cell>
- <cell>4&apos;h9</cell>
+ <cell>4&apos;h8</cell>
  <cell>INIT[62]</cell>
  <cell>1</cell>
 </row>
@@ -1634,7 +1634,7 @@
  <cell>MSSDDR_FACC_CONFIG_1</cell>
  <cell>APB1_DIVISOR</cell>
  <cell>INIT[596:594]</cell>
- <cell>3&apos;h0</cell>
+ <cell>3&apos;h2</cell>
  <cell>INIT[66]</cell>
  <cell>1</cell>
 </row>
@@ -3010,7 +3010,7 @@
  <cell>IOMUXCELL_13_CONFIG</cell>
  <cell>MSS_IOMUXSEL2</cell>
  <cell>INIT[1000:1000]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[103]</cell>
  <cell>1</cell>
 </row>
@@ -3018,7 +3018,7 @@
  <cell>IOMUXCELL_13_CONFIG</cell>
  <cell>MSS_IOMUXSEL3</cell>
  <cell>INIT[1001:1001]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[103]</cell>
  <cell>1</cell>
 </row>
@@ -3170,7 +3170,7 @@
  <cell>IOMUXCELL_15_CONFIG</cell>
  <cell>MSS_IOMUXSEL2</cell>
  <cell>INIT[1020:1020]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[105]</cell>
  <cell>1</cell>
 </row>
@@ -3178,7 +3178,7 @@
  <cell>IOMUXCELL_15_CONFIG</cell>
  <cell>MSS_IOMUXSEL3</cell>
  <cell>INIT[1021:1021]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[105]</cell>
  <cell>1</cell>
 </row>
