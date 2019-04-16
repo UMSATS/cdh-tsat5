@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)</text>
-<text>Date: Thu Mar 28 10:48:11 2019
+<text>Date: Tue Apr 16 14:48:52 2019
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Work\UMSATS\TSAT5\mss_can_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn</cell>
+ <cell>C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn</cell>
 </row>
 </table>
 <section><name>Options</name></section>

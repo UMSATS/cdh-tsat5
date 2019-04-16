@@ -15,6 +15,6 @@ set_def {RTG4_MITIGATION_ON} {0}
 set_def USE_CONSTRAINTS_FLOW 1
 set_def NETLIST_TYPE EDIF
 set_name cdh_tsat5_system
-set_workdir {C:\Work\UMSATS\TSAT5\mss_can_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system}
-set_log     {C:\Work\UMSATS\TSAT5\mss_can_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_coverage_pr.log}
+set_workdir {C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system}
+set_log     {C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_coverage_pr.log}
 set_design_state pre_layout
