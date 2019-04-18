@@ -5,11 +5,11 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <report_link name="Hierarchical Area report">
-<data>C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_hier_area_report.xml</data>
+<data>C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_hier_area_report.xml</data>
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tooltip="Total Carry Cells used" name="Carry Cells">
@@ -22,7 +22,7 @@ The file contains the area information from mapper to be displayed as part of th
 <data>0</data>
 </parameter>
 <parameter tooltip="Total I/O Cells used" name="I/O Cells">
-<data>21</data>
+<data>25</data>
 </parameter>
 <parameter tooltip="Total Global Clock Buffers used" name="Global Clock Buffers">
 <data>2</data>

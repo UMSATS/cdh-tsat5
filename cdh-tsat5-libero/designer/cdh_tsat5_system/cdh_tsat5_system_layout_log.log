@@ -6,55 +6,55 @@ High-effort              : OFF
 Repair min-delay         : ON
 Incremental              : OFF
 
-INFO: Reading User PDC file C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Work\UMSATS\TSAT5\external_rtc_integration_try2\cdh-tsat5\cdh-tsat5-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 14 fixed I/O macros, 7 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 18 fixed I/O macros, 7 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V4.0 - 11.9.2 
-Design: cdh_tsat5_system                Started: Tue Apr 16 14:48:58 2019
+Design: cdh_tsat5_system                Started: Thu Apr 18 16:05:22 2019
 
 Initializing Standard Placement ...
 Placing design...
 End of placement.
-Pre-Placement Runtime        : 0 seconds
-Placement Runtime            : 1 seconds
+Pre-Placement Runtime        : 1 seconds
+Placement Runtime            : 0 seconds
 
 Placer completed successfully.
 
 Design: cdh_tsat5_system                
-Finished: Tue Apr 16 14:49:04 2019
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 126.8 Mbytes
+Finished: Thu Apr 18 16:05:28 2019
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:06
+Total Memory Usage: 126.7 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Tue Apr 16 14:49:07 2019
+Design: C:\Work\UMSATS\TSAT5\external_rtc_integration_try2\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Thu Apr 18 16:05:32 2019
 
 
 Router completed successfully.
 
-Design: C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Tue Apr 16 14:49:13 2019
+Design: C:\Work\UMSATS\TSAT5\external_rtc_integration_try2\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
+Finished: Thu Apr 18 16:05:38 2019
 Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 475.9 Mbytes
+Total Memory Usage: 476.0 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Tue Apr 16 14:49:14 2019
+Design: C:\Work\UMSATS\TSAT5\external_rtc_integration_try2\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Thu Apr 18 16:05:39 2019
 
 
 Router completed successfully.
 
-Design: C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Tue Apr 16 14:49:20 2019
+Design: C:\Work\UMSATS\TSAT5\external_rtc_integration_try2\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
+Finished: Thu Apr 18 16:05:45 2019
 Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 475.9 Mbytes
+Total Memory Usage: 476.1 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
@@ -64,6 +64,6 @@ Resource Usage
 | 4LUT          | 146  | 12084 | 1.21       |
 | DFF           | 87   | 12084 | 0.72       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 158  | 12084 | 1.31       |
+| Logic Element | 152  | 12084 | 1.26       |
 +---------------+------+-------+------------+
 

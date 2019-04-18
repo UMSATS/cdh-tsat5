@@ -1,4 +1,4 @@
-# Tue Apr 16 14:48:44 2019
+# Thu Apr 18 15:27:12 2019
 
 Synopsys Generic Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:56:37
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -9,7 +9,7 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
@@ -18,33 +18,33 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
 
-@N: MO111 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO111 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: FA239 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|ROM sck_enable (in view: work.spi_master(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|ROM sck_enable (in view: work.spi_master(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@N: MO106 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|Found ROM .delname. (in view: work.spi_master(verilog)) with 11 words by 1 bit.
+@W: FA239 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|ROM sck_enable (in view: work.spi_master(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|ROM sck_enable (in view: work.spi_master(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|Found ROM .delname. (in view: work.spi_master(verilog)) with 11 words by 1 bit.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
 
@@ -57,14 +57,14 @@ original code -> new code
    100 -> 0010000
    101 -> 0100000
    110 -> 1000000
-@N: MO231 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":90:4:90:9|Found counter in view:work.spi_master(verilog) instance clock_count[7:0] 
+@N: MO231 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":90:4:90:9|Found counter in view:work.spi_master(verilog) instance clock_count[7:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
 
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[6] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[6] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 139MB)
 
 
 Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
@@ -82,30 +82,30 @@ Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elaps
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 139MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 139MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 139MB)
 
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.cdh_tsat5_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled (in view: work.cdh_tsat5_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[5] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[4] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[3] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[2] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[1] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[0] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.cdh_tsat5_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled (in view: work.cdh_tsat5_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[5] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[4] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[3] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[2] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[1] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[0] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
 
 Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 139MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 140MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 140MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -122,7 +122,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 140MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 140MB)
 
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 140MB)
@@ -152,12 +152,12 @@ Clock Tree ID     Driving Element                                               
 
 Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 140MB)
 
-Writing Analyst data base C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_m.srm
+Writing Analyst data base C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 140MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 140MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn
+@N: FX1056 |Writing EDF file: C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 L-2016.09M-SP1-5
@@ -167,13 +167,13 @@ Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s
 
 Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 139MB peak: 141MB)
 
-@W: MT246 :"c:\work\umsats\tsat5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\ccc_0\cdh_tsat5_system_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\work\umsats\tsat5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\ccc_0\cdh_tsat5_system_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT420 |Found inferred clock cdh_tsat5_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:cdh_tsat5_system_sb_0.FABOSC_0.RCOSC_25_50MHZ_CCC"
 @W: MT420 |Found inferred clock cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:cdh_tsat5_system_sb_0.CCC_0.GL0_net"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Apr 16 14:48:46 2019
+# Timing Report written on Thu Apr 18 15:27:15 2019
 #
 
 
@@ -181,7 +181,7 @@ Top view:               cdh_tsat5_system
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\synthesis.fdc
+Constraint File(s):    C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -428,10 +428,10 @@ SLE            87 uses
 
 DSP Blocks:    0 of 22 (0%)
 
-I/O ports: 22
-I/O primitives: 21
+I/O ports: 26
+I/O primitives: 25
 INBUF          3 uses
-OUTBUF         18 uses
+OUTBUF         22 uses
 
 
 Global Clock Buffers: 2
@@ -452,6 +452,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 29MB peak: 141MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Tue Apr 16 14:48:46 2019
+# Thu Apr 18 15:27:15 2019
 
 ###########################################################]

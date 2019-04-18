@@ -1,8 +1,8 @@
-C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  cdh_tsat5_system  -multisrs  C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_comp.srs  -osyn  C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_mult.srs  -log  C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\cdh_tsat5_system_multi_srs_gen.srr 
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  cdh_tsat5_system  -multisrs  C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_comp.srs  -osyn  C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_mult.srs  -log  C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\cdh_tsat5_system_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top cdh_tsat5_system -multisrs ..\synwork\cdh_tsat5_system_comp.srs -osyn ..\synwork\cdh_tsat5_system_mult.srs -log ..\synlog\cdh_tsat5_system_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\cdh_tsat5_system_comp.srs|io:i|time:1555447722|size:82387|exec:0|csum:885700D27B1EA23340481F2FD23AC929
-file:..\synwork\cdh_tsat5_system_mult.srs|io:o|time:1555447723|size:3229|exec:0|csum:
-file:..\synlog\cdh_tsat5_system_multi_srs_gen.srr|io:o|time:1555447723|size:543|exec:0|csum:
+file:..\synwork\cdh_tsat5_system_comp.srs|io:i|time:1555622830|size:82743|exec:0|csum:4ADE9760F7FED8096E9BD879D0334539
+file:..\synwork\cdh_tsat5_system_mult.srs|io:o|time:1555622831|size:3364|exec:0|csum:
+file:..\synlog\cdh_tsat5_system_multi_srs_gen.srr|io:o|time:1555622831|size:543|exec:0|csum:
 file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1509037012|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
 file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1509037284|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0
