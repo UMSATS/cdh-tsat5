@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2019 4 16 14 48 46)
+      (timeStamp 2019 4 18 15 27 14)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09M-SP1-5, mapper mapact, Build 2172R"))
      )
@@ -3562,7 +3562,7 @@
         (property RTC_MAIN_XTL_MODE (string ""))
         (property MEMORYFILE (string "ENVM_init.mem"))
         (property ACT_UBITS (string "FFFFFFFFFFFFFF"))
-        (property INIT (string "00000000000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300003000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C33C00008000609080208003FFFFE4000000000020100000000F0F01C0000018257C4010842108421000001FE34001FF80000004000000000200D1007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+        (property INIT (string "00000000000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300003000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C35C00008000609080208003FFFFE4000000000020100000000F0F01C0000018257C4010842108421000001FE34001FF80000004000000000200D1007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
         (property orig_inst_of (string "MSS_010"))
        )
     )
@@ -4085,6 +4085,10 @@
            (port m47_N_12_i (direction INPUT))
            (port CORESPI_0_0_intr_or_0_Y (direction INPUT))
            (port CAN_RX_F2M_c (direction INPUT))
+           (port GPIO_11_M2F_c (direction OUTPUT))
+           (port GPIO_10_M2F_c (direction OUTPUT))
+           (port GPIO_9_M2F_c (direction OUTPUT))
+           (port GPIO_8_M2F_c (direction OUTPUT))
            (port GPIO_7_M2F_c (direction OUTPUT))
            (port GPIO_6_M2F_c (direction OUTPUT))
            (port GPIO_5_M2F_c (direction OUTPUT))
@@ -4103,7 +4107,7 @@
           (instance MSS_ADLIB_INST (viewRef verilog (cellRef MSS_010))
            (property ACT_UBITS (string "FFFFFFFFFFFFFF"))
            (property DDR_CLK_FREQ (string "128.0"))
-           (property INIT (string "00000000000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300003000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C33C00008000609080208003FFFFE4000000000020100000000F0F01C0000018257C4010842108421000001FE34001FF80000004000000000200D1007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+           (property INIT (string "00000000000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300003000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C35C00008000609080208003FFFFE4000000000020100000000F0F01C0000018257C4010842108421000001FE34001FF80000004000000000200D1007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
            (property MEMORYFILE (string "ENVM_init.mem"))
            (property RTC_MAIN_XTL_FREQ (string "0.0"))
            (property RTC_MAIN_XTL_MODE (string ""))
@@ -4217,6 +4221,22 @@
           (net (rename gpio_7_m2f_c "GPIO_7_M2F_c") (joined
            (portRef SPI0_SS0_MGPIO7A_H2F_B (instanceRef MSS_ADLIB_INST))
            (portRef GPIO_7_M2F_c)
+          ))
+          (net (rename gpio_8_m2f_c "GPIO_8_M2F_c") (joined
+           (portRef SPI0_SS1_MGPIO8A_H2F_B (instanceRef MSS_ADLIB_INST))
+           (portRef GPIO_8_M2F_c)
+          ))
+          (net (rename gpio_9_m2f_c "GPIO_9_M2F_c") (joined
+           (portRef SPI0_SS2_MGPIO9A_H2F_B (instanceRef MSS_ADLIB_INST))
+           (portRef GPIO_9_M2F_c)
+          ))
+          (net (rename gpio_10_m2f_c "GPIO_10_M2F_c") (joined
+           (portRef SPI0_SS3_MGPIO10A_H2F_B (instanceRef MSS_ADLIB_INST))
+           (portRef GPIO_10_M2F_c)
+          ))
+          (net (rename gpio_11_m2f_c "GPIO_11_M2F_c") (joined
+           (portRef SPI1_SDI_MGPIO11A_H2F_B (instanceRef MSS_ADLIB_INST))
+           (portRef GPIO_11_M2F_c)
           ))
           (net (rename can_rx_f2m_c "CAN_RX_F2M_c") (joined
            (portRef CAN_RX_F2M_c)
@@ -4966,6 +4986,10 @@
            (port GPIO_5_M2F_c (direction OUTPUT))
            (port GPIO_6_M2F_c (direction OUTPUT))
            (port GPIO_7_M2F_c (direction OUTPUT))
+           (port GPIO_8_M2F_c (direction OUTPUT))
+           (port GPIO_9_M2F_c (direction OUTPUT))
+           (port GPIO_10_M2F_c (direction OUTPUT))
+           (port GPIO_11_M2F_c (direction OUTPUT))
            (port CAN_RX_F2M_c (direction INPUT))
            (port MMUART_0_RXD_F2M_c (direction INPUT))
            (port DEVRST_N (direction INPUT))
@@ -5190,6 +5214,22 @@
            (portRef CAN_RX_F2M_c)
            (portRef CAN_RX_F2M_c (instanceRef cdh_tsat5_system_sb_MSS_0))
           ))
+          (net (rename gpio_11_m2f_c "GPIO_11_M2F_c") (joined
+           (portRef GPIO_11_M2F_c (instanceRef cdh_tsat5_system_sb_MSS_0))
+           (portRef GPIO_11_M2F_c)
+          ))
+          (net (rename gpio_10_m2f_c "GPIO_10_M2F_c") (joined
+           (portRef GPIO_10_M2F_c (instanceRef cdh_tsat5_system_sb_MSS_0))
+           (portRef GPIO_10_M2F_c)
+          ))
+          (net (rename gpio_9_m2f_c "GPIO_9_M2F_c") (joined
+           (portRef GPIO_9_M2F_c (instanceRef cdh_tsat5_system_sb_MSS_0))
+           (portRef GPIO_9_M2F_c)
+          ))
+          (net (rename gpio_8_m2f_c "GPIO_8_M2F_c") (joined
+           (portRef GPIO_8_M2F_c (instanceRef cdh_tsat5_system_sb_MSS_0))
+           (portRef GPIO_8_M2F_c)
+          ))
           (net (rename gpio_7_m2f_c "GPIO_7_M2F_c") (joined
            (portRef GPIO_7_M2F_c (instanceRef cdh_tsat5_system_sb_MSS_0))
            (portRef GPIO_7_M2F_c)
@@ -5314,11 +5354,15 @@
            (port m_miso (direction INPUT))
            (port CAN_TX_M2F (direction OUTPUT))
            (port GPIO_0_M2F (direction OUTPUT))
+           (port GPIO_10_M2F (direction OUTPUT))
+           (port GPIO_11_M2F (direction OUTPUT))
            (port GPIO_1_M2F (direction OUTPUT))
            (port GPIO_3_M2F (direction OUTPUT))
            (port GPIO_5_M2F (direction OUTPUT))
            (port GPIO_6_M2F (direction OUTPUT))
            (port GPIO_7_M2F (direction OUTPUT))
+           (port GPIO_8_M2F (direction OUTPUT))
+           (port GPIO_9_M2F (direction OUTPUT))
            (port MMUART_0_TXD_M2F (direction OUTPUT))
            (port m_mosi (direction OUTPUT))
            (port m_sck (direction OUTPUT))
@@ -5334,6 +5378,10 @@
           )
           (instance GPIO_0_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
           )
+          (instance GPIO_10_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
+          )
+          (instance GPIO_11_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
+          )
           (instance GPIO_1_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
           )
           (instance GPIO_3_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
@@ -5343,6 +5391,10 @@
           (instance GPIO_6_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
           )
           (instance GPIO_7_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
+          )
+          (instance GPIO_8_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
+          )
+          (instance GPIO_9_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
           )
           (instance MMUART_0_TXD_M2F_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
           )
@@ -5420,6 +5472,22 @@
            (portRef PAD (instanceRef GPIO_0_M2F_obuf))
            (portRef GPIO_0_M2F)
           ))
+          (net GPIO_10_M2F_c (joined
+           (portRef GPIO_10_M2F_c (instanceRef cdh_tsat5_system_sb_0))
+           (portRef D (instanceRef GPIO_10_M2F_obuf))
+          ))
+          (net (rename gpio_10_m2f "GPIO_10_M2F") (joined
+           (portRef PAD (instanceRef GPIO_10_M2F_obuf))
+           (portRef GPIO_10_M2F)
+          ))
+          (net GPIO_11_M2F_c (joined
+           (portRef GPIO_11_M2F_c (instanceRef cdh_tsat5_system_sb_0))
+           (portRef D (instanceRef GPIO_11_M2F_obuf))
+          ))
+          (net (rename gpio_11_m2f "GPIO_11_M2F") (joined
+           (portRef PAD (instanceRef GPIO_11_M2F_obuf))
+           (portRef GPIO_11_M2F)
+          ))
           (net GPIO_1_M2F_c (joined
            (portRef GPIO_1_M2F_c (instanceRef cdh_tsat5_system_sb_0))
            (portRef D (instanceRef GPIO_1_M2F_obuf))
@@ -5459,6 +5527,22 @@
           (net (rename gpio_7_m2f "GPIO_7_M2F") (joined
            (portRef PAD (instanceRef GPIO_7_M2F_obuf))
            (portRef GPIO_7_M2F)
+          ))
+          (net GPIO_8_M2F_c (joined
+           (portRef GPIO_8_M2F_c (instanceRef cdh_tsat5_system_sb_0))
+           (portRef D (instanceRef GPIO_8_M2F_obuf))
+          ))
+          (net (rename gpio_8_m2f "GPIO_8_M2F") (joined
+           (portRef PAD (instanceRef GPIO_8_M2F_obuf))
+           (portRef GPIO_8_M2F)
+          ))
+          (net GPIO_9_M2F_c (joined
+           (portRef GPIO_9_M2F_c (instanceRef cdh_tsat5_system_sb_0))
+           (portRef D (instanceRef GPIO_9_M2F_obuf))
+          ))
+          (net (rename gpio_9_m2f "GPIO_9_M2F") (joined
+           (portRef PAD (instanceRef GPIO_9_M2F_obuf))
+           (portRef GPIO_9_M2F)
           ))
           (net MMUART_0_TXD_M2F_c (joined
            (portRef MMUART_0_TXD_M2F_c (instanceRef cdh_tsat5_system_sb_0))

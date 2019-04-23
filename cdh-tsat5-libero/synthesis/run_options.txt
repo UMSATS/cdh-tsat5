@@ -1,27 +1,27 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\synthesis\run_options.txt
-#--  Written on Tue Apr 16 14:48:41 2019
+#--  Project file C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\run_options.txt
+#--  Written on Thu Apr 18 15:27:09 2019
 
 
 #project files
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/spi_master.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/spi_slave.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/corespi_sfr.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/corespi.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb/CCC_0/cdh_tsat5_system_sb_CCC_0_FCCC.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb/FABOSC_0/cdh_tsat5_system_sb_FABOSC_0_OSC.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS_syn.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb/cdh_tsat5_system_sb.v"
-add_file -verilog "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system/cdh_tsat5_system.v"
-add_file -fpga_constraint "C:/Work/UMSATS/TSAT5/watchdog_try4/cdh-tsat5/cdh-tsat5-libero/designer/cdh_tsat5_system/synthesis.fdc"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/spi_master.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/spi_slave.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/corespi_sfr.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CORESPI/3.0.156/rtl/vlog/core/corespi.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb/CCC_0/cdh_tsat5_system_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb/FABOSC_0/cdh_tsat5_system_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS_syn.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb_MSS/cdh_tsat5_system_sb_MSS.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system_sb/cdh_tsat5_system_sb.v"
+add_file -verilog "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/component/work/cdh_tsat5_system/cdh_tsat5_system.v"
+add_file -fpga_constraint "C:/Work/UMSATS/TSAT5/external_rtc_integration/cdh-tsat5/cdh-tsat5-libero/designer/cdh_tsat5_system/synthesis.fdc"
 
 
 

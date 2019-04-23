@@ -24,10 +24,10 @@ SLE            87 uses
 
 DSP Blocks:    0 of 22 (0%)
 
-I/O ports: 22
-I/O primitives: 21
+I/O ports: 26
+I/O primitives: 25
 INBUF          3 uses
-OUTBUF         18 uses
+OUTBUF         22 uses
 
 
 Global Clock Buffers: 2

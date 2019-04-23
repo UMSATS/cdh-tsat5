@@ -17,5 +17,5 @@
 @P: cdh_tsat5_system Part : m2s010tq144std
 @P: cdh_tsat5_system Register bits  : 87 
 @P: cdh_tsat5_system DSP Blocks  : 0
-@P: cdh_tsat5_system I/O primitives : 21
+@P: cdh_tsat5_system I/O primitives : 25
 @P:  CPU Time : 0h:00m:02s

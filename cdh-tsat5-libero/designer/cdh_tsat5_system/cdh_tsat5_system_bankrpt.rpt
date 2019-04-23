@@ -1,5 +1,5 @@
 ********************************************************************
-I/O Bank Report - Date: Tue Apr 16 14:49:22 2019
+I/O Bank Report - Date: Thu Apr 18 16:05:47 2019
 Product: Designer
 Release: v11.9 SP2
 Version: 11.9.2.1
@@ -15,7 +15,7 @@ I/O Function:
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
     Input I/O                             | 3             | 0            | 0
-    Output I/O                            | 18            | 0            | 0
+    Output I/O                            | 22            | 0            | 0
     Bidirectional I/O                     | 0             | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
     Differential Output I/O Pairs         | 0             | 0            | 0
@@ -26,7 +26,7 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVCMOS25                        | 2.50v | N/A   | 3     | 18     | 0            
+    LVCMOS25                        | 2.50v | N/A   | 3     | 22     | 0            
 
 I/O Bank Resource Usage:
 
@@ -41,7 +41,7 @@ I/O Bank Resource Usage:
     Bank4 | N/A   | N/A   | 0    | 18    | 0     | 9      | N/A  | N/A   | N/A      | MSIO    
     Bank5 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | MSIOD   
     Bank6 | N/A   | N/A   | 0    | 11    | 0     | 4      | N/A  | N/A   | N/A      | MSIOD   
-    Bank7 | 2.50v | N/A   | 6    | 16    | 0     | 7      | N/A  | N/A   | N/A      | MSIO    
+    Bank7 | 2.50v | N/A   | 10   | 16    | 0     | 7      | N/A  | N/A   | N/A      | MSIO    
 
 I/O Voltage Usage:
 
@@ -49,5 +49,5 @@ I/O Voltage Usage:
     -------|-------|------|-------
      Vddi  | Vref  | Used | Total 
     -------|-------|------|-------
-     2.50v | N/A   | 21   | 55    
+     2.50v | N/A   | 25   | 55    
 

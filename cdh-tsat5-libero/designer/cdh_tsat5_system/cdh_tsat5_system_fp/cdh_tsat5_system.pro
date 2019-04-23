@@ -1,6 +1,6 @@
 <project name="cdh_tsat5_system" version="1.1">
     <ProjectDirectory>
-        C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp
+        C:\Work\UMSATS\TSAT5\external_rtc_integration_try2\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         M2S010
     </LiberoTargetDevice>
     <LogFile>
-        C:\Work\UMSATS\TSAT5\watchdog_try4\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp\cdh_tsat5_system.log
+        C:\Work\UMSATS\TSAT5\external_rtc_integration_try2\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp\cdh_tsat5_system.log
     </LogFile>
     <SerializationOption>
         Skip
