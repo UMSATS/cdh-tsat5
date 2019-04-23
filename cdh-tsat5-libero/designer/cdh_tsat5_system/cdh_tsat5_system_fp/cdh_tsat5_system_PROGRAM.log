@@ -15,17 +15,17 @@ programmer 'E2001XFI0J' : Scan and Check Chain PASSED.
 programmer 'E2001XFI0J' : device 'M2S010' : Executing action PROGRAM
 programmer 'E2001XFI0J' : device 'M2S010' : Family: Igloo2
 programmer 'E2001XFI0J' : device 'M2S010' : Product:      M2GL005
-programmer 'E2001XFI0J' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007c6844
+programmer 'E2001XFI0J' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007c6944
 programmer 'E2001XFI0J' : device 'M2S010' : EXPORT CRCERR[1] = 0
 programmer 'E2001XFI0J' : device 'M2S010' : EXPORT EDCERR[1] = 0
 programmer 'E2001XFI0J' : device 'M2S010' : Programming FPGA Array...
 programmer 'E2001XFI0J' : device 'M2S010' : ===================================================================================
 programmer 'E2001XFI0J' : device 'M2S010' : EXPORT DSN[128] = 26e00c2a5d9f0e1731e7ee8cb02bea10
 programmer 'E2001XFI0J' : device 'M2S010' : ===================================================================================
-programmer 'E2001XFI0J' : device 'M2S010' : Finished: Thu Apr 18 16:08:25 2019 (Elapsed time 00:00:23)
+programmer 'E2001XFI0J' : device 'M2S010' : Finished: Tue Apr 23 13:18:26 2019 (Elapsed time 00:00:23)
 programmer 'E2001XFI0J' : device 'M2S010' : Executing action PROGRAM PASSED.
 programmer 'E2001XFI0J' : Chain programming PASSED.
-Chain Programming Finished: Thu Apr 18 16:08:25 2019 (Elapsed time 00:00:23)
+Chain Programming Finished: Tue Apr 23 13:18:26 2019 (Elapsed time 00:00:23)
 
                         o - o - o - o - o - o
 
