@@ -9,9 +9,9 @@ OR3             1 use
 RCOSC_25_50MHZ  1 use
 SYSRESET        1 use
 CFG1           1 use
-CFG2           35 uses
-CFG3           31 uses
-CFG4           63 uses
+CFG2           30 uses
+CFG3           30 uses
+CFG4           65 uses
 
 Carry cells:
 ARI1            8 uses - used for arithmetic functions
@@ -24,15 +24,15 @@ SLE            87 uses
 
 DSP Blocks:    0 of 22 (0%)
 
-I/O ports: 26
-I/O primitives: 25
+I/O ports: 19
+I/O primitives: 18
 INBUF          3 uses
-OUTBUF         22 uses
+OUTBUF         15 uses
 
 
 Global Clock Buffers: 2
 
-Total LUTs:    145
+Total LUTs:    141
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -41,5 +41,5 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  87 + 0 + 0 + 0 = 87;
-Total number of LUTs after P&R:  145 + 0 + 0 + 0 = 145;
+Total number of LUTs after P&R:  141 + 0 + 0 + 0 = 141;
 

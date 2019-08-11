@@ -1,13 +1,13 @@
 # Synopsys Constraint Checker, version mapact, Build 2172R, built Oct 30 2017
 # Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-# Written on Thu Apr 18 15:27:12 2019
+# Written on Sun Jun 23 15:17:50 2019
 
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "cdh_tsat5_system"
-Constraint File(s):      "C:\Work\UMSATS\TSAT5\external_rtc_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\synthesis.fdc"
+Constraint File(s):      "C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\synthesis.fdc"
 
 
 
@@ -53,19 +53,12 @@ p:GPIO_8_M2F
 p:GPIO_9_M2F
 p:GPIO_10_M2F
 p:GPIO_11_M2F
+p:GPIO_12_M2F
 p:MMUART_0_RXD_F2M
 p:MMUART_0_TXD_M2F
 p:m_miso
 p:m_mosi
 p:m_sck
-p:m_ss[0]
-p:m_ss[1]
-p:m_ss[2]
-p:m_ss[3]
-p:m_ss[4]
-p:m_ss[5]
-p:m_ss[6]
-p:m_ss[7]
 
 
 Inapplicable constraints
