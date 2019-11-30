@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sun Jun 23 15:17:43 2019
-// Version: v11.9 SP2 11.9.2.1
+// Created by SmartDesign Mon Nov  4 12:42:34 2019
+// Version: v12.1 12.600.0.14
 //////////////////////////////////////////////////////////////////////
 
 `timescale 1ns / 100ps
@@ -172,8 +172,8 @@ cdh_tsat5_system_sb cdh_tsat5_system_sb_0(
         .enable_slave     (  ),
         .m_mosi           ( m_mosi_net_0 ),
         .m_sck            ( m_sck_net_0 ),
-        .m_ss             (  ),
-        .s_miso           (  ) 
+        .s_miso           (  ),
+        .m_ss             (  ) 
         );
 
 

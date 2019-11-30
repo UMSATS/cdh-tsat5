@@ -1,10 +1,10 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
-. cdh_tsat5_system, 87, 126, 15, 0, 0, 0, 0, 2, 18
-.	. cdh_tsat5_system_sb, 87, 126, 15, 0, 0, 0, 0, 2, 0
-.	.	. CORESPI_15s_1s_0s, 77, 122, 15, 0, 0, 0, 0, 0, 0
-.	.	.	. CORESPI_SFR_1s_0s, 77, 122, 15, 0, 0, 0, 0, 0, 0
-.	.	.	.	. spi_master, 51, 78, 13, 0, 0, 0, 0, 0, 0
+. cdh_tsat5_system, 87, 120, 17, 0, 0, 0, 0, 2, 18
+.	. cdh_tsat5_system_sb, 87, 120, 17, 0, 0, 0, 0, 2, 0
+.	.	. CORESPI_15s_1s_0s, 77, 116, 17, 0, 0, 0, 0, 0, 0
+.	.	.	. CORESPI_SFR_1s_0s, 77, 116, 17, 0, 0, 0, 0, 0, 0
+.	.	.	.	. spi_master, 51, 76, 13, 0, 0, 0, 0, 0, 0
 .	.	. CoreAPB3_Z1, 0, 2, 0, 0, 0, 0, 0, 0, 0
 .	.	. CoreResetP_Z2, 10, 2, 0, 0, 0, 0, 0, 1, 0
 .	.	. cdh_tsat5_system_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0

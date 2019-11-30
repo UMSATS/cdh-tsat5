@@ -5,15 +5,15 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <report_link name="Hierarchical Area report">
-<data>C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_hier_area_report.xml</data>
+<data>C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_hier_area_report.xml</data>
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tooltip="Total Carry Cells used" name="Carry Cells">
-<data>15</data>
+<data>17</data>
 </parameter>
 <parameter tooltip="Total Sequential Cells used" name="Sequential Cells">
 <data>87</data>
@@ -28,6 +28,6 @@ The file contains the area information from mapper to be displayed as part of th
 <data>2</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total LUTs used" name="LUTs">
-<data>141</data>
+<data>137</data>
 </parameter>
 </report_table>

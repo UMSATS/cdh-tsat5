@@ -19,8 +19,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>cdh_tsat5_system</data>
 <data>87</data>
-<data>126</data>
-<data>15</data>
+<data>120</data>
+<data>17</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -30,8 +30,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>cdh_tsat5_system_sb</data>
 <data>87</data>
-<data>126</data>
-<data>15</data>
+<data>120</data>
+<data>17</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -41,8 +41,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>CORESPI_15s_1s_0s</data>
 <data>77</data>
-<data>122</data>
-<data>15</data>
+<data>116</data>
+<data>17</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -52,8 +52,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>CORESPI_SFR_1s_0s</data>
 <data>77</data>
-<data>122</data>
-<data>15</data>
+<data>116</data>
+<data>17</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -63,7 +63,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>spi_master</data>
 <data>51</data>
-<data>78</data>
+<data>76</data>
 <data>13</data>
 <data>0</data>
 <data>0</data>

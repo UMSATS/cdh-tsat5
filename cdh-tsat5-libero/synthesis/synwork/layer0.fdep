@@ -1,69 +1,69 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\synthesis\\synwork\\cdh_tsat5_system_comp.srs|-top|cdh_tsat5_system|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work"
-#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509365536
-#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\generic\\smartfusion2.v":1509036198
-#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1509036728
-#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1509036728
-#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1509036728
-#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1509036728
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core\\spi_master.v":1548718023
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core\\spi_slave.v":1548718023
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core\\corespi_sfr.v":1548718023
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core\\corespi.v":1548718023
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1545585456
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1545585456
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb\\CCC_0\\cdh_tsat5_system_sb_CCC_0_FCCC.v":1561324605
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1545585458
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb\\FABOSC_0\\cdh_tsat5_system_sb_FABOSC_0_OSC.v":1561324609
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb_MSS\\cdh_tsat5_system_sb_MSS_syn.v":1561324601
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb_MSS\\cdh_tsat5_system_sb_MSS.v":1561324601
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1548717996
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1548717996
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1548717996
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb\\cdh_tsat5_system_sb.v":1561324609
-#CUR:"C:\\Work\\UMSATS\\TSAT5\\external_mram_integration\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system\\cdh_tsat5_system.v":1561324663
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\synthesis\\synwork\\cdh_tsat5_system_comp.srs|-top|cdh_tsat5_system|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\bin64\\c_ver.exe":1545375128
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1545375133
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1545375136
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb\\CCC_0\\cdh_tsat5_system_sb_CCC_0_FCCC.v":1572714929
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb\\FABOSC_0\\cdh_tsat5_system_sb_FABOSC_0_OSC.v":1572714929
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb_MSS\\cdh_tsat5_system_sb_MSS_syn.v":1572714929
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb_MSS\\cdh_tsat5_system_sb_MSS.v":1572714929
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core\\spi_master.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core\\spi_slave.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core\\corespi_sfr.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CORESPI\\3.0.156\\rtl\\vlog\\core\\corespi.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1572714928
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system_sb\\cdh_tsat5_system_sb.v":1572714929
+#CUR:"C:\\Users\\Joseph Howarth\\Documents\\UMSATS\\cdh-tsat5\\cdh-tsat5-libero\\component\\work\\cdh_tsat5_system\\cdh_tsat5_system.v":1572892954
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_master.v" verilog
-1			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_slave.v" verilog
-2			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v" verilog
-3			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi.v" verilog
-4			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
-5			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
-6			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v" verilog
-7			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
-8			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v" verilog
-9			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v" verilog
-10			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v" verilog
-11			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
-12			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
-13			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
-14			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v" verilog
-15			"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v" verilog
+0			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v" verilog
+1			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+2			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v" verilog
+3			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v" verilog
+4			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v" verilog
+5			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_master.v" verilog
+6			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_slave.v" verilog
+7			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v" verilog
+8			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi.v" verilog
+9			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+10			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+11			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
+12			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
+13			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+14			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v" verilog
+15			"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
-2 0 1
-3 2
-4 -1
-5 4
+2 1
+3 -1
+4 3
+5 -1
 6 -1
-7 -1
+7 5 6
 8 7
 9 -1
 10 9
 11 -1
 12 -1
 13 11 12
-14 6 10 13 5 3 8
+14 0 4 13 10 8 2
 15 14
 #Dependency Lists(Users Of)
-0 2
+0 14
 1 2
-2 3
-3 14
-4 5
-5 14
-6 14
+2 14
+3 4
+4 14
+5 7
+6 7
 7 8
 8 14
 9 10
@@ -74,22 +74,22 @@
 14 15
 15 -1
 #Design Unit to File Association
-module work spi_master 0
-module work spi_slave 1
-module work CORESPI_SFR 2
-module work CORESPI 3
-module work coreresetp_pcie_hotreset 4
-module work CoreResetP 5
-module work cdh_tsat5_system_sb_CCC_0_FCCC 6
-module work RCOSC_1MHZ 7
-module work RCOSC_25_50MHZ 7
-module work XTLOSC 7
-module work RCOSC_1MHZ_FAB 7
-module work RCOSC_25_50MHZ_FAB 7
-module work XTLOSC_FAB 7
-module work cdh_tsat5_system_sb_FABOSC_0_OSC 8
-module work MSS_010 9
-module work cdh_tsat5_system_sb_MSS 10
+module work cdh_tsat5_system_sb_CCC_0_FCCC 0
+module work RCOSC_1MHZ 1
+module work RCOSC_25_50MHZ 1
+module work XTLOSC 1
+module work RCOSC_1MHZ_FAB 1
+module work RCOSC_25_50MHZ_FAB 1
+module work XTLOSC_FAB 1
+module work cdh_tsat5_system_sb_FABOSC_0_OSC 2
+module work MSS_010 3
+module work cdh_tsat5_system_sb_MSS 4
+module work spi_master 5
+module work spi_slave 6
+module work CORESPI_SFR 7
+module work CORESPI 8
+module work coreresetp_pcie_hotreset 9
+module work CoreResetP 10
 module work cdh_tsat5_system_sb 14
 module work cdh_tsat5_system 15
 module COREAPB3_LIB CAPB3II 11

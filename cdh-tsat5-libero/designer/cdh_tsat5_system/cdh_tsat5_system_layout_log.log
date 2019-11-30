@@ -1,69 +1,0 @@
-Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
-***** Place and Route Configurations *****
-Timing-driven            : OFF
-Power-driven             : OFF
-High-effort              : OFF
-Repair min-delay         : ON
-Incremental              : OFF
-
-INFO: Reading User PDC file C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
-
-Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 18 fixed I/O macros, 0 unfixed I/O macros
-
-I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 0 seconds
-
-Placer V4.0 - 11.9.2 
-Design: cdh_tsat5_system                Started: Sun Jun 23 15:19:55 2019
-
-Initializing Standard Placement ...
-Placing design...
-End of placement.
-Pre-Placement Runtime        : 0 seconds
-Placement Runtime            : 0 seconds
-
-Placer completed successfully.
-
-Design: cdh_tsat5_system                
-Finished: Sun Jun 23 15:20:01 2019
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:06
-Total Memory Usage: 126.3 Mbytes
-                        o - o - o - o - o - o
-
-
-Router 
-Design: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sun Jun 23 15:20:05 2019
-
-
-Router completed successfully.
-
-Design: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Sun Jun 23 15:20:11 2019
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 475.7 Mbytes
-                        o - o - o - o - o - o
-
-
-Router 
-Design: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sun Jun 23 15:20:13 2019
-
-
-Router completed successfully.
-
-Design: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Sun Jun 23 15:20:19 2019
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 475.7 Mbytes
-                        o - o - o - o - o - o
-
-Resource Usage
-+---------------+------+-------+------------+
-| Type          | Used | Total | Percentage |
-+---------------+------+-------+------------+
-| 4LUT          | 142  | 12084 | 1.18       |
-| DFF           | 87   | 12084 | 0.72       |
-| I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 156  | 12084 | 1.29       |
-+---------------+------+-------+------------+
-

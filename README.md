@@ -10,10 +10,10 @@ This repository contains software for the TSAT5 (2018-2020) Command and Data Han
 This project requires the Microsemi Smartfusion2 Maker Board.
 
 ### Required Software
-This project requires SoftConsole 4.0 and Libero 11.9.2.
+This project requires SoftConsole 6.1 and Libero 12.1.
 
 ### Configure FPGA
-1. Open the \*.prjx found in cdh-tsat5-libero, with Libero 11.9.2.
+1. Open the \*.prjx found in cdh-tsat5-libero, with Libero 12.1.
 2. Connect the MSR board to the computer.
 3. In the "Design Flow" panel on the left, double-click "Run PROGRAM Action".
 
