@@ -1,6 +1,6 @@
 <project name="cdh_tsat5_system" version="1.1">
     <ProjectDirectory>
-        C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp
+        C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,17 +9,17 @@
         M2S010
     </LiberoTargetDevice>
     <LogFile>
-        C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp\cdh_tsat5_system.log
+        C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system_fp\cdh_tsat5_system.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
     <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb2.0">
         <name>
-            E2001XEMK7
+            E2001XEAAX
         </name>
         <id>
-            E2001XEMK7
+            E2001XEAAX
         </id>
     </programmer>
     <configuration>

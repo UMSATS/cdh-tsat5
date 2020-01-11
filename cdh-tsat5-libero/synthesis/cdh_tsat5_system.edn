@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2019 6 23 15 17 52)
+      (timeStamp 2019 11 30 11 54 25)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09M-SP1-5, mapper mapact, Build 2172R"))
      )
@@ -5443,5 +5443,5 @@
     )
   )
   (design cdh_tsat5_system (cellRef cdh_tsat5_system (libraryRef work))
-	(property PART (string "m2s010tq144std") (owner "Microsemi")))
+	(property PART (string "m2s010vf400std") (owner "Microsemi")))
 )

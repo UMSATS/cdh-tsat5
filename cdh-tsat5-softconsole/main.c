@@ -126,6 +126,7 @@
 #include "drivers/mss_uart/mss_uart.h"    // For baud rate defines and instances
 
 /* Application includes. */
+#include "adc.h"
 #include "can.h"
 #include "flash.h"
 #include "leds.h"
@@ -135,8 +136,6 @@
 #include "uart.h"
 #include "watchdog.h"
 
-
-
 /* External variables */
 extern TaskHandle_t xUART0RxTaskToNotify;
 
@@ -145,6 +144,8 @@ extern TaskHandle_t xUART0RxTaskToNotify;
  */
 static void prvSetupHardware( void );
 
+
+static void vTestADC(void *pvParameters);
 /*
  * Test code for CoreSPI.
  */
@@ -202,7 +203,7 @@ int main( void )
                             NULL,                        // Task parameter is not used
                             1,                           // Task runs at priority 1
                             NULL);                       // Task handle is not used
-
+/*
     // Create UART0 RX Task
     status = xTaskCreate(    vTaskUARTBridge,            // The task function that handles all UART RX events
                             "UART0 Receiver",            // Text name for debugging
@@ -210,8 +211,15 @@ int main( void )
                             (void *) &g_mss_uart0,       // Task parameter is the UART instance used by the task
                             2,                           // Task runs at priority 2
                             &xUART0RxTaskToNotify);      // Task handle for task notification
+*/
+    status = xTaskCreate(vTestADC,
+                             "Test ADC",
+                             1000,
+                             NULL,
+                             1,
+                             NULL);
 
-    status = xTaskCreate(vTestSPI,
+ /*   status = xTaskCreate(vTestSPI,
                          "Test SPI",
                          1000,
                          NULL,
@@ -254,14 +262,14 @@ int main( void )
                          configMINIMAL_STACK_SIZE,
                          NULL,
                          1,
-                         NULL);
+                         NULL);*/
 						 
-	status = xTaskCreate(vTestFlash,
+	/*status = xTaskCreate(vTestFlash,
                          "Test Flash",
                          2000,
                          NULL,
                          1,
-                         NULL);
+                         NULL);*/
 
     // TR - Not quite sure of the reason, but it appears that when we have a task created for both
     //      vTestRTC and vTestMRAM, the device stops communicating over SPI after the vTestRTC task
@@ -269,12 +277,12 @@ int main( void )
     //      while loop "while ( transfer_idx < transfer_size )" on line 134 in "SPI_block_read". The
     //      rx_data_ready variable never evaluates to "true", and so the software is entering an infinite
     //      loop, waiting for the CoreSPI status to be "rx ready" to perform the final read.
-    status = xTaskCreate(vTestMRAM,
+    /*status = xTaskCreate(vTestMRAM,
                          "Test MRAM",
                          256,
                          NULL,
                          1,
-                         NULL);
+                         NULL);*/
 
     vTaskStartScheduler();
 
@@ -296,6 +304,14 @@ static void prvSetupHardware( void )
     init_rtc();
     init_mram();
     init_CAN(CAN_BAUD_RATE_1000K);
+}
+
+static void vTestADC(void *pvParameters)
+{
+	vTaskSuspendAll();
+	initADC();
+	readADC(CORE_SPI_0, 0, IN0);
+	xTaskResumeAll();
 }
 
 /*-----------------------------------------------------------*/

@@ -2,11 +2,11 @@
 
 # User I/O Constraints file 
 
-# Version: v11.9 SP2 11.9.2.1
+# Version: v11.9 SP4 11.9.4.4
 
 # Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ
 
-# Date generated: Sun Jun 23 15:18:23 2019 
+# Date generated: Sat Jan 11 11:44:32 2020 
 
 
 # 
@@ -26,19 +26,13 @@
 # 
 
 set_io CAN_RX_F2M     \
-    -pinname 92       \
+    -pinname 117      \
     -fixed yes        \
     -DIRECTION INPUT
 
 
 set_io CAN_TX_M2F      \
     -pinname 94        \
-    -fixed yes         \
-    -DIRECTION OUTPUT
-
-
-set_io GPIO_0_M2F      \
-    -pinname 117       \
     -fixed yes         \
     -DIRECTION OUTPUT
 
@@ -98,7 +92,7 @@ set_io GPIO_8_M2F      \
 
 
 set_io GPIO_9_M2F      \
-    -pinname 9         \
+    -pinname 92        \
     -fixed yes         \
     -DIRECTION OUTPUT
 

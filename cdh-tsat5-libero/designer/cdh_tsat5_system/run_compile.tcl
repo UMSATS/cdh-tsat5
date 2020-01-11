@@ -82,7 +82,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn"}
+    -value {"C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -96,7 +96,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system} \
+    -desdir {C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system} \
     -design cdh_tsat5_system \
     -fam SmartFusion2 \
     -die PA4M1000_N \

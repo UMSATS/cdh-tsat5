@@ -1,5 +1,5 @@
 DESIGN=cdh_tsat5_system
-DESDIR=C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system
+DESDIR=C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144
@@ -24,7 +24,7 @@ MINDELAYG4_REPAIR=1
 RANDOM_SEED=0
 NETLIST_TYPE=EDIF
 LAYOUT_STATE=NOT_VALID
-PDC_FILE=C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\constraint\io\user.pdc,,
+PDC_FILE=C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\constraint\io\user.pdc,,
 USE_CONSTRAINT_FLOW=1
 TARGET_DEVICES_FOR_MIGRATION='PA4M1000_N '
 RESTRICTPROBEPINS=1

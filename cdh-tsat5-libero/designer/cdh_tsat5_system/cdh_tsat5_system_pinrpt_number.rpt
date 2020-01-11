@@ -1,8 +1,8 @@
 *****************************************************************
-Pin Report - Date: Sun Jun 23 15:20:21 2019 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Sat Jan 11 11:46:43 2020 Pinchecksum: NOT-AVAILABLE
 Product: Designer
-Release: v11.9 SP2
-Version: 11.9.2.1
+Release: v11.9 SP4
+Version: 11.9.4.4
 Design Name: cdh_tsat5_system
 Family: SmartFusion2
 Die: M2S010
@@ -19,7 +19,7 @@ Number |Port             |Function                     |State      |I/O Std  |Di
 6                         VDDI7                         Reserved    
 7                         MSIO71NB7                     Unassigned  
 8       GPIO_8_M2F        MSIO71PB7                     Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-9       GPIO_9_M2F        MSIO72NB7                     Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+9                         MSIO72NB7                     Unassigned  
 10      GPIO_12_M2F       MSIO73NB7                     Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 11                        VSS                           Reserved    
 12                        VDD                           Reserved    
@@ -102,7 +102,7 @@ Number |Port             |Function                     |State      |I/O Std  |Di
 89                        MSIO4PB2/USB_DATA2_B          Unassigned  
 90                        MSIO3NB2/USB_DATA1_B          Unassigned  
 91                        MSIO4NB2/USB_DATA3_B          Unassigned  
-92      CAN_RX_F2M        MSIO5PB2/USB_DATA4_B          Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+92      GPIO_9_M2F        MSIO5PB2/USB_DATA4_B          Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 93                        MSIO5NB2/USB_DATA5_B          Unassigned  
 94      CAN_TX_M2F        MSIO6PB2/USB_DATA6_B          Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 95                        VDD                           Reserved    
@@ -121,13 +121,13 @@ Number |Port             |Function                     |State      |I/O Std  |Di
 108                       CCC_NE0_PLL_VSSA              Reserved    
 109                       CCC_NE0_PLL_VDDA              Reserved    
 110                       DDRIO29PB0                    Unassigned  
-111                       DDRIO30PB0                    Unassigned  
+111     GPIO_0_M2F        DDRIO30PB0                    Assigned    LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 112                       DDRIO30NB0                    Unassigned  
 113                       VSS                           Reserved    
 114                       VDDI0                         Reserved    
 115                       DDRIO35NB0                    Unassigned  
 116                       DDRIO35PB0                    Unassigned  
-117     GPIO_0_M2F        DDRIO37NB0                    Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+117     CAN_RX_F2M        DDRIO37NB0                    Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 118     GPIO_1_M2F        DDRIO37PB0                    Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 119                       VSS                           Reserved    
 120                       VREF0                         Reserved    

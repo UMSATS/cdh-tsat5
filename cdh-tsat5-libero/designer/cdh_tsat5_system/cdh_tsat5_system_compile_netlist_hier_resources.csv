@@ -1,5 +1,5 @@
 Detailed Resource Usage
-Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,RCOSC_50MHZ
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,Multi-Mode UART,RCOSC_50MHZ
 Primitives/Primitives,0,0,18,0,0,0,0,0
 cdh_tsat5_system_sb_0/CCC_0/Primitives,0,0,0,1,1,0,0,0
 cdh_tsat5_system_sb_0/CORERESETP_0/Primitives,2,10,0,0,1,0,0,0

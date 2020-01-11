@@ -1,8 +1,8 @@
 ********************************************************************
-I/O Bank Report - Date: Sun Jun 23 15:20:21 2019
+I/O Bank Report - Date: Sat Jan 11 11:46:43 2020
 Product: Designer
-Release: v11.9 SP2
-Version: 11.9.2.1
+Release: v11.9 SP4
+Version: 11.9.4.4
 Design Name: cdh_tsat5_system
 Family: SmartFusion2
 Die: M2S010
@@ -34,14 +34,14 @@ I/O Bank Resource Usage:
           |-------|-------|------|-------|-------|--------|------|-------|----------|---------
           | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
     ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
-    Bank0 | 2.50v | N/A   | 6    | 23    | 0     | 10     | N/A  | N/A   | N/A      | DDRIO   
+    Bank0 | 2.50v | N/A   | 7    | 23    | 0     | 10     | N/A  | N/A   | N/A      | DDRIO   
     Bank1 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | MSIO    
     Bank2 | 2.50v | N/A   | 2    | 16    | 0     | 7      | N/A  | N/A   | N/A      | MSIO    
     Bank3 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
     Bank4 | N/A   | N/A   | 0    | 18    | 0     | 9      | N/A  | N/A   | N/A      | MSIO    
     Bank5 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | MSIOD   
     Bank6 | N/A   | N/A   | 0    | 11    | 0     | 4      | N/A  | N/A   | N/A      | MSIOD   
-    Bank7 | 2.50v | N/A   | 10   | 16    | 0     | 7      | N/A  | N/A   | N/A      | MSIO    
+    Bank7 | 2.50v | N/A   | 9    | 16    | 0     | 7      | N/A  | N/A   | N/A      | MSIO    
 
 I/O Voltage Usage:
 
