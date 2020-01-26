@@ -66,7 +66,7 @@ int init_spi()
       // Initialize the core SPI instance. Note that with PCLK_DIV_256, the clock period is ~2 us (i.e. 256 / 144 MHz).
       // With PCLK_DIV_128, the clock period is ~1 us. And so on. Keep this in mind when using a
       // logic analyzer, as depending on the sample rate, it will not pick up the faster clock rates.
-      SPI_init(&core_spi[CORE_SPI_0], CORESPI_0_0, SPI_MODE_MASTER, SPI_MODE0, PCLK_DIV_64);
+      SPI_init(&core_spi[CORE_SPI_0], CORESPI_0_0, SPI_MODE_MASTER, SPI_MODE0, PCLK_DIV_16);
     }
     
     return rc;
@@ -127,4 +127,30 @@ void spi_transaction_block_read_without_toggle(CoreSPIInstance_t core, SPI_slave
     SPI_block_read(&core_spi[core], cmd_buffer, cmd_size, rd_buffer, rd_size);
     SPI_GPIO_SS_DISABLE(pin);
     SPI_disable(&core_spi[core]);
+}
+
+void spi_transaction_block_transfer_without_toggle(
+		CoreSPIInstance_t core,  // The SPI core used.
+	    SPI_slave_t slave,       // The SPI slave configuration to use.
+		mss_gpio_id_t pin,       // The GPIO pin to use for the slave select.
+		uint8_t cmd_size,
+	    uint8_t * cmd_buffer,    // The buffer containing the command.
+	    uint8_t * rd_buffer,     // The buffer containing the data to write.
+		uint8_t * rd_buffer2,
+		size_t rd_size           // The size of the write buffer.
+		) {
+
+	  SPI_enable(&core_spi[core]);
+	    SPI_GPIO_SS_ENABLE(pin);
+
+	    SPI_transfer(&core_spi[core],
+	    	    cmd_buffer,
+	    	    rd_buffer,
+	    	    1);
+
+	    //SPI_block_write(&core_spi[core], cmd_buffer, cmd_size, , rd_size);
+	    SPI_block_read(&core_spi[core], cmd_buffer, 0, rd_buffer2, 1);
+	    SPI_GPIO_SS_DISABLE(pin);
+	    SPI_disable(&core_spi[core]);
+
 }

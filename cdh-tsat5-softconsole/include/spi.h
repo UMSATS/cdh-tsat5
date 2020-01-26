@@ -155,4 +155,21 @@ void spi_transaction_block_read_without_toggle(
 	size_t rd_size           // The size of the write buffer.
     );
 
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Description:
+//
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+void spi_transaction_block_transfer_without_toggle(
+		CoreSPIInstance_t core,  // The SPI core used.
+	    SPI_slave_t slave,       // The SPI slave configuration to use.
+		mss_gpio_id_t pin,       // The GPIO pin to use for the slave select.
+		uint8_t cmd_size,
+	    uint8_t * cmd_buffer,    // The buffer containing the command.
+	    uint8_t * rd_buffer,     // The buffer containing the data to write.
+		uint8_t * rd_buffer2,
+		size_t rd_size           // The size of the write buffer.
+		);
+
 #endif /* INCLUDE_SPI_H_ */

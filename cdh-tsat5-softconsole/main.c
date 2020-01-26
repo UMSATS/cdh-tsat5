@@ -308,10 +308,12 @@ static void prvSetupHardware( void )
 
 static void vTestADC(void *pvParameters)
 {
-	vTaskSuspendAll();
-	initADC();
-	readADC(CORE_SPI_0, 0, IN0);
-	xTaskResumeAll();
+	while (1) {
+		vTaskSuspendAll();
+		initADC();
+		readADC(CORE_SPI_0, ADC_SS_PIN, IN1);
+		xTaskResumeAll();
+	}
 }
 
 /*-----------------------------------------------------------*/

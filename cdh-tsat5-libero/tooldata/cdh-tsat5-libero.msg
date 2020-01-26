@@ -82,5 +82,5 @@ Implementation;Synthesis|| MT322 ||@N: Clock constraints include only register-t
 Implementation;Synthesis|| MT582 ||@N: Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack||cdh_tsat5_system.srr(736);liberoaction://cross_probe/hdl/file/'C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.srr'/linenumber/736||null;null
 Implementation;Place and Route;RootName:cdh_tsat5_system
 Implementation;Place and Route||(null)||Please refer to the log file for details about 3 Info(s)||cdh_tsat5_system_layout_log.log;liberoaction://open_report/file/cdh_tsat5_system_layout_log.log||(null);(null)
-Implementation;Generate Bitstream;RootName:cdh_tsat5_system
 Implementation;Generate Bitstream||(null)||Please refer to the log file for details||cdh_tsat5_system_generateBitstream.log;liberoaction://open_report/file/cdh_tsat5_system_generateBitstream.log||(null);(null)
+Implementation;Generate Bitstream;RootName:cdh_tsat5_system

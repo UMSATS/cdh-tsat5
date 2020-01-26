@@ -15,17 +15,17 @@ programmer 'E2001XEAAX' : Scan and Check Chain PASSED.
 programmer 'E2001XEAAX' : device 'M2S010' : Executing action PROGRAM
 programmer 'E2001XEAAX' : device 'M2S010' : Family: Igloo2
 programmer 'E2001XEAAX' : device 'M2S010' : Product:      M2GL005
-programmer 'E2001XEAAX' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007c6844
+programmer 'E2001XEAAX' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007c6944
 programmer 'E2001XEAAX' : device 'M2S010' : EXPORT CRCERR[1] = 0
 programmer 'E2001XEAAX' : device 'M2S010' : EXPORT EDCERR[1] = 0
 programmer 'E2001XEAAX' : device 'M2S010' : Programming FPGA Array...
 programmer 'E2001XEAAX' : device 'M2S010' : ===================================================================================
 programmer 'E2001XEAAX' : device 'M2S010' : EXPORT DSN[128] = ed163ff1e0bf3079d6d6184b7878d2ef
 programmer 'E2001XEAAX' : device 'M2S010' : ===================================================================================
-programmer 'E2001XEAAX' : device 'M2S010' : Finished: Sat Jan 11 11:54:23 2020 (Elapsed time 00:00:24)
+programmer 'E2001XEAAX' : device 'M2S010' : Finished: Sat Jan 25 11:17:14 2020 (Elapsed time 00:00:23)
 programmer 'E2001XEAAX' : device 'M2S010' : Executing action PROGRAM PASSED.
 programmer 'E2001XEAAX' : Chain programming PASSED.
-Chain Programming Finished: Sat Jan 11 11:54:23 2020 (Elapsed time 00:00:24)
+Chain Programming Finished: Sat Jan 25 11:17:14 2020 (Elapsed time 00:00:24)
 
                         o - o - o - o - o - o
 
