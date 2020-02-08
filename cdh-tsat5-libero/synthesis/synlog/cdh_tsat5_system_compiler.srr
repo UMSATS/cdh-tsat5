@@ -28,7 +28,9 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v" (library work)
 @I::"C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+
+Compiler output is up to date.  No re-compile necessary
+
 Selecting top level module cdh_tsat5_system
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 
@@ -360,34 +362,35 @@ State machine has 7 reachable states with original encodings of:
 @N: CL159 :"C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
 @N: CL159 :"C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 75MB peak: 80MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 30 11:54:08 2019
+# Sat Feb 08 12:37:06 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
-File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\layer0.srs changed - recompiling
+
+Linker output is up to date. No re-linking necessary
+
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 30 11:54:10 2019
+# Sat Feb 08 12:37:06 2020
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:04s realtime, 0h:00m:02s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Nov 30 11:54:10 2019
+# Sat Feb 08 12:37:06 2020
 
 ###########################################################]

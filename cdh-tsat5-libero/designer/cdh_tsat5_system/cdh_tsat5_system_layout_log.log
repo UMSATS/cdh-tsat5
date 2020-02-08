@@ -9,61 +9,61 @@ Incremental              : OFF
 INFO: Reading User PDC file C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 17 fixed I/O macros, 1 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 16 fixed I/O macros, 9 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 1 seconds
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V4.0 - 11.9.4 
-Design: cdh_tsat5_system                Started: Sat Jan 11 11:45:05 2020
+Design: cdh_tsat5_system                Started: Sat Feb 08 12:39:39 2020
 
 Initializing Standard Placement ...
 Placing design...
 End of placement.
-Pre-Placement Runtime        : 1 seconds
+Pre-Placement Runtime        : 0 seconds
 Placement Runtime            : 2 seconds
 
 Placer completed successfully.
 
 Design: cdh_tsat5_system                
-Finished: Sat Jan 11 11:45:29 2020
+Finished: Sat Feb 08 12:40:03 2020
 Total CPU Time:     00:00:17            Total Elapsed Time: 00:00:24
-Total Memory Usage: 128.3 Mbytes
+Total Memory Usage: 127.2 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sat Jan 11 11:45:43 2020
+Design: C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sat Feb 08 12:40:15 2020
 
 
 Router completed successfully.
 
 Design: C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Sat Jan 11 11:46:07 2020
-Total CPU Time:     00:00:22            Total Elapsed Time: 00:00:24
-Total Memory Usage: 476.8 Mbytes
+Finished: Sat Feb 08 12:40:39 2020
+Total CPU Time:     00:00:21            Total Elapsed Time: 00:00:24
+Total Memory Usage: 476.1 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sat Jan 11 11:46:13 2020
+Design: C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sat Feb 08 12:40:45 2020
 
 
 Router completed successfully.
 
-Design: C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Sat Jan 11 11:46:36 2020
-Total CPU Time:     00:00:22            Total Elapsed Time: 00:00:23
-Total Memory Usage: 475.9 Mbytes
+Deserm
+Fin12020
+Total CPU Time:     00:00:20            Total Elapsed Time: 00:00:22
+Total Memory Usage: 476.5 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 142  | 12084 | 1.18       |
+| 4LUT          | 146  | 12084 | 1.21       |
 | DFF           | 87   | 12084 | 0.72       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 158  | 12084 | 1.31       |
+| Logic Element | 152  | 12084 | 1.26       |
 +---------------+------+-------+------------+
 

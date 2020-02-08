@@ -129,27 +129,17 @@ void spi_transaction_block_read_without_toggle(CoreSPIInstance_t core, SPI_slave
     SPI_disable(&core_spi[core]);
 }
 
-void spi_transaction_block_transfer_without_toggle(
+void spi_adc_read(
 		CoreSPIInstance_t core,  // The SPI core used.
 	    SPI_slave_t slave,       // The SPI slave configuration to use.
 		mss_gpio_id_t pin,       // The GPIO pin to use for the slave select.
-		uint8_t cmd_size,
 	    uint8_t * cmd_buffer,    // The buffer containing the command.
-	    uint8_t * rd_buffer,     // The buffer containing the data to write.
-		uint8_t * rd_buffer2,
-		size_t rd_size           // The size of the write buffer.
+	    uint8_t * rd_buffer
 		) {
 
 	  SPI_enable(&core_spi[core]);
 	    SPI_GPIO_SS_ENABLE(pin);
-
-	    SPI_transfer(&core_spi[core],
-	    	    cmd_buffer,
-	    	    rd_buffer,
-	    	    1);
-
-	    //SPI_block_write(&core_spi[core], cmd_buffer, cmd_size, , rd_size);
-	    SPI_block_read(&core_spi[core], cmd_buffer, 0, rd_buffer2, 1);
+	    SPI_block_read(&core_spi[core], cmd_buffer, 1, rd_buffer, 3);
 	    SPI_GPIO_SS_DISABLE(pin);
 	    SPI_disable(&core_spi[core]);
 

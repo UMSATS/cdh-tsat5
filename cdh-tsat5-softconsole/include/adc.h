@@ -24,12 +24,11 @@ typedef enum __ADC_Input_Line
 	IN7 = 0b111000,
 } ADC_Input_Line;
 
-//Initialize the SPI for reading the ADC
-void initADC();
-
-// Read the ADC and return the result.
+// Read the ADC and return the result. Note that sometimes the first read is inaccurate
 uint16_t readADC
-		(CoreSPIInstance_t core, mss_gpio_id_t pin,       // The GPIO pin to used for ADC
-		ADC_Input_Line ADCline);
+		(CoreSPIInstance_t core,
+				mss_gpio_id_t pin, //The GPIO pin to used for slave select on the ADC
+		ADC_Input_Line ADCline // Indicate which ADC input line to read with IN0, IN1, etc.
+		);
 
 #endif /* INCLUDE_ADC_H_ */

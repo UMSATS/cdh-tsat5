@@ -310,8 +310,7 @@ static void vTestADC(void *pvParameters)
 {
 	while (1) {
 		vTaskSuspendAll();
-		initADC();
-		readADC(CORE_SPI_0, ADC_SS_PIN, IN1);
+		readADC(CORE_SPI_0, ADC_SS_PIN, IN4);
 		xTaskResumeAll();
 	}
 }

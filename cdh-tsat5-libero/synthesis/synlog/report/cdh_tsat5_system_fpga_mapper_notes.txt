@@ -23,7 +23,7 @@
 @N: BN362 :"c:\umsats\42-adc\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[2] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\umsats\42-adc\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[1] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\umsats\42-adc\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[0] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: FP130 |Promoting Net un1_cdh_tsat5_system_sb_0_6 on CLKINT  I_66 
+@N: FP130 |Promoting Net un1_cdh_tsat5_system_sb_0_7 on CLKINT  I_54 
 @N: FX1056 |Writing EDF file: C:\UMSATS\42-ADC\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 

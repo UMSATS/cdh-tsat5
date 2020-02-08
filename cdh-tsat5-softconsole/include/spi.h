@@ -158,18 +158,15 @@ void spi_transaction_block_read_without_toggle(
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Description:
-//
+// Reads the adc, when then ADC is connected and set up in libero, as described in Google Drive ADC Documentation.
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-void spi_transaction_block_transfer_without_toggle(
+void spi_adc_read(
 		CoreSPIInstance_t core,  // The SPI core used.
-	    SPI_slave_t slave,       // The SPI slave configuration to use.
+		SPI_slave_t slave,       // The SPI slave configuration to use.
 		mss_gpio_id_t pin,       // The GPIO pin to use for the slave select.
-		uint8_t cmd_size,
-	    uint8_t * cmd_buffer,    // The buffer containing the command.
-	    uint8_t * rd_buffer,     // The buffer containing the data to write.
-		uint8_t * rd_buffer2,
-		size_t rd_size           // The size of the write buffer.
+		uint8_t * cmd_buffer,    // The buffer containing the command.
+		uint8_t * rd_buffer	// Read buffer
 		);
 
 #endif /* INCLUDE_SPI_H_ */
