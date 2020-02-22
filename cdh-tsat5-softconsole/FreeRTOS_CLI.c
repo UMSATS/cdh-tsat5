@@ -151,9 +151,9 @@ const char *pcRegisteredCommandString;
 size_t xCommandStringLength;
 
 	/* Note:  This function is not re-entrant.  It must not be called from more
-	thank one task. */
+	than one task. */
 
-	if(pxCommand == NULL)
+	if(1/*pxCommand == NULL*/)
 	{
 		/* Search for the command string in the list of registered commands. */
 		for( pxCommand = &xRegisteredCommands; pxCommand != NULL; pxCommand = pxCommand->pxNext )
@@ -165,6 +165,7 @@ size_t xCommandStringLength;
 			a sub-string of a longer command, check the byte after the expected
 			end of the string is either the end of the string or a space before
 			a parameter. */
+			char x = pcCommandInput[ xCommandStringLength ];
 			if( ( pcCommandInput[ xCommandStringLength ] == ' ' ) || ( pcCommandInput[ xCommandStringLength ] == 0x00 ) )
 			{
 				if( strncmp( pcCommandInput, pcRegisteredCommandString, xCommandStringLength ) == 0 )

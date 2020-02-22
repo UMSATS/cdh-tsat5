@@ -1,6 +1,6 @@
 # Microsemi Physical design constraints file
 
-# Version: v11.9 SP2 11.9.2.1
+# Version: v11.9 SP4 11.9.4.4
 
 # Design Name:  
 
@@ -8,7 +8,7 @@
 
 # Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
 
-# Date generated: Sun Jun 23 15:17:57 2019 
+# Date generated: Sat Feb 22 11:24:36 2020 
 
 
 #

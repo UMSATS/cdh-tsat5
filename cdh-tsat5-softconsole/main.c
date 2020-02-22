@@ -2,7 +2,7 @@
 // UMSATS 2018-2020
 //
 // License:
-//  Available under MIT license.
+//  Available under the GNU General Public License v3.0 (GPL-3.0-or-later)
 //
 // Repository:
 //  Github: https://github.com/UMSATS/cdh-tsat5
@@ -22,13 +22,6 @@
 // - Add test code for CAN.
 // 2019-04-16 by Tamkin Rahman
 // - Add test code for watchdog and rtc.
-// 2019-06-09 by Joseph Howarth
-// - Add test code for flash.
-// 2019-06-23 by Tamkin Rahman
-// - Add test code for MRAM
-// - Update test code for RTC to remove traps.
-// - Prevent task switching instead of using mutexes for SPI read/write.
-
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*
@@ -127,14 +120,11 @@
 
 /* Application includes. */
 #include "can.h"
-#include "flash.h"
 #include "leds.h"
-#include "mram.h"
 #include "rtc_time.h"
 #include "spi.h"
 #include "uart.h"
 #include "watchdog.h"
-
 
 
 /* External variables */
@@ -166,17 +156,6 @@ static void vTestWD(void *pvParameters);
  */
 static void vTestRTC(void *pvParameters);
 
-/*
- * Test code for external flash.
- */
-static void vTestFlash(void *pvParameters);
-
-/*
- * Test code for MRAM.
- */
-static void vTestMRAM(void *pvParameters);
-
-
 /* Prototypes for the standard FreeRTOS callback/hook functions implemented
 within this file. */
 void vApplicationMallocFailedHook( void );
@@ -202,7 +181,7 @@ int main( void )
                             NULL,                        // Task parameter is not used
                             1,                           // Task runs at priority 1
                             NULL);                       // Task handle is not used
-
+    //prvUARTSend(&g_mss_uart0, (const uint8_t *) "message", 8);
     // Create UART0 RX Task
     status = xTaskCreate(    vTaskUARTBridge,            // The task function that handles all UART RX events
                             "UART0 Receiver",            // Text name for debugging
@@ -255,26 +234,6 @@ int main( void )
                          NULL,
                          1,
                          NULL);
-						 
-	status = xTaskCreate(vTestFlash,
-                         "Test Flash",
-                         2000,
-                         NULL,
-                         1,
-                         NULL);
-
-    // TR - Not quite sure of the reason, but it appears that when we have a task created for both
-    //      vTestRTC and vTestMRAM, the device stops communicating over SPI after the vTestRTC task
-    //      finishes transmission (for the first time). In core_spi.c, the software gets stuck in the
-    //      while loop "while ( transfer_idx < transfer_size )" on line 134 in "SPI_block_read". The
-    //      rx_data_ready variable never evaluates to "true", and so the software is entering an infinite
-    //      loop, waiting for the CoreSPI status to be "rx ready" to perform the final read.
-    status = xTaskCreate(vTestMRAM,
-                         "Test MRAM",
-                         256,
-                         NULL,
-                         1,
-                         NULL);
 
     vTaskStartScheduler();
 
@@ -282,6 +241,7 @@ int main( void )
 }
 
 /*-----------------------------------------------------------*/
+
 static void prvSetupHardware( void )
 {
     /* Perform any configuration necessary to use the hardware peripherals on the board. */
@@ -294,7 +254,6 @@ static void prvSetupHardware( void )
     init_WD();
     init_spi();
     init_rtc();
-    init_mram();
     init_CAN(CAN_BAUD_RATE_1000K);
 }
 
@@ -309,29 +268,28 @@ static void vTestSPI(void *pvParameters)
 
     for (;;)
     {
-        vTaskSuspendAll();
-        // Write a block every second.
-        spi_transaction_block_write_with_toggle(
-                    CORE_SPI_0,
-                    SPI_SLAVE_0,
-                    test_cmd,
-                    sizeof(test_cmd) / sizeof(test_cmd[0]),
-                    test_wr,
-                    sizeof(test_wr) / sizeof(test_wr[0])
-                );
-        xTaskResumeAll();
+        if (WAIT_FOR_CORE_MAX_DELAY(CORE_SPI_0))
+        {
+            // Write a block every second.
+            spi_transaction_block_write_with_toggle(
+                        CORE_SPI_0,
+                        SPI_SLAVE_0,
+                        test_cmd,
+                        sizeof(test_cmd) / sizeof(test_cmd[0]),
+                        test_wr,
+                        sizeof(test_wr) / sizeof(test_wr[0])
+                    );
 
-        taskYIELD();
-        vTaskSuspendAll();
-        spi_transaction_block_read_with_toggle(
-                    CORE_SPI_0,
-                    SPI_SLAVE_0,
-                    test_cmd,
-                    sizeof(test_cmd) / sizeof(test_cmd[0]),
-                    test_rd,
-                    sizeof(test_rd) / sizeof(test_rd[0])
-                );
-        xTaskResumeAll();
+            spi_transaction_block_read_with_toggle(
+                        CORE_SPI_0,
+                        SPI_SLAVE_0,
+                        test_cmd,
+                        sizeof(test_cmd) / sizeof(test_cmd[0]),
+                        test_rd,
+                        sizeof(test_rd) / sizeof(test_rd[0])
+                    );
+            RELEASE_CORE(CORE_SPI_0);
+        }
         vTaskDelay(xDelay1000ms);
     }
 }
@@ -400,185 +358,43 @@ static void vTestWD(void *pvParameters)
 /*-----------------------------------------------------------*/
 static void vTestRTC(void *pvParameters)
 {
-    // Test code
-    static volatile int error_occurred = 0;
+	// Test code
+	Calendar_t buffer = {
+			59u, // seconds
+			59u, // minutes
+			23u, // hours
+			28u, // day
+			2u, // February
+			20u, // year (2020)
+			1u, // weekday
+			1u, // week (not used), HOWEVER it must be 1 or greater.
+	};
 
-    static Calendar_t buffer = {
-            59u, // seconds
-            59u, // minutes
-            23u, // hours
-            28u, // day
-            2u, // February
-            20u, // year (2020)
-            1u, // weekday
-            1u, // week (not used), HOWEVER it must be 1 or greater.
-    };
+	Calendar_t buffer2;
 
-    static Calendar_t buffer2;
-
-    vTaskSuspendAll();
-    ds1393_write_time(&buffer);
-    if (TIME_SUCCESS != resync_rtc())
-    {
-        error_occurred = 1;
-    }
-    xTaskResumeAll();
+	if (WAIT_FOR_RTC_CORE_MAX_DELAY())
+	{
+		ds1393_write_time(&buffer);
+		if (TIME_SUCCESS != resync_rtc())
+		{
+			while(1){}
+		}
+		RELEASE_RTC_CORE();
+	}
+	else
+	{
+		while(1){}
+	}
 
     for (;;)
     {
-        vTaskSuspendAll();
-        ds1393_read_time(&buffer);
-        read_rtc(&buffer2);
-        xTaskResumeAll();
+    	if (WAIT_FOR_RTC_CORE_MAX_DELAY())
+		{
+			ds1393_read_time(&buffer);
+			read_rtc(&buffer2);
+			RELEASE_RTC_CORE();
+		}
         vTaskDelay(pdMS_TO_TICKS(500));
-    }
-}
-
-/*-----------------------------------------------------------*/
-static void vTestFlash(void *pvParameters)
-{
-
-	FlashDevice_t flash_device;
-
-	FlashStatus_t result = flash_dev_init(&flash_device,CORE_SPI_0, MSS_GPIO_5, 8, ECC_ON);
-
-	MSS_GPIO_config( MSS_GPIO_3, MSS_GPIO_OUTPUT_MODE );
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-	int done =0;
-	uint8_t data_rx[2048];
-	int i;
-	int pageNum = 0;
-	int blockNum=0;
-	int address=0x0000000;
-	int numBadBlock = 0;
-	int led = 0;
-	int BB[50];
-	uint8_t data_tx[2048];
-
-	// Clear the receive buffer and put a repeating sequence of 0-255 into the
-	// transmit buffer.
-	for(i=0;i<2048;i++){
-		data_tx[i] = i%256;
-		data_rx[i] = 0;
-	}
-
-
-	// Check if we can read the bad block look up table.
-	// There should be one mapping in the table(1 bad block).
-	int num_bad_blocks = 0;
-	result = flash_read_bb_lut(&flash_device,&flash_device.bb_lut,&num_bad_blocks);
-
-	if(result != FLASH_OK || num_bad_blocks != 1){
-		while(1);
-	}
-
-
-	// Erase the block.
-	result = flash_erase_blocks(&flash_device,0,1);
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-
-
-	result = flash_read(&flash_device,address,2048,data_rx);
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-	int j;
-	// Make sure page is erased.
-	for(j=0;j<2048;j++){
-
-		if(data_rx[j] != 0xFF){
-			while(1);
-		}
-	}
-
-	// Save the transmit buffer to flash memory.
-	result = flash_write_(&flash_device,address,2048,data_tx);
-	if(result != FLASH_OK){
-		while(1);
-	}
-
-
-	result = flash_read(&flash_device,address,2048,data_rx);
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-
-	// Make sure the data we read is the same as what was written.
-
-	for(j=0;j<2048;j++){
-
-		if(data_rx[j] != data_tx[j]){
-			while(1);
-		}
-	}
-
-
-	// Erase the block.
-	result = flash_erase_blocks(&flash_device,0,1);
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-
-
-
-
-
-    for (;;)
-    {}
-}
-
-static void vTestMRAM(void *pvParameters)
-{
-    // Test code that writes to all locations of the MRAM, and then reads it back.
-    static uint8_t write_buffer[0x100];
-    static uint8_t read_buffer1[sizeof(write_buffer)];
-    uint8_t status_reg;
-
-    static volatile int error_occurred = 0;
-
-    for (int ix = 0; ix < sizeof(write_buffer); ix++)
-    {
-        write_buffer[ix] = 0x55;
-    }
-    for(;;)
-    {
-        // Loop through all addresses.
-        for (int ix = 0; ix < MAX_MRAM_ADDRESS; ix += sizeof(write_buffer))
-        {
-           for (int ix = 0; ix < sizeof(write_buffer); ix++)
-           {
-              read_buffer1[ix] = 0xFF;
-           }
-
-           vTaskSuspendAll();
-           mr2xh40_write(&mram_instances[MRAM_INSTANCE_0], ix, write_buffer, sizeof(write_buffer));
-           xTaskResumeAll();
-
-           taskYIELD();
-
-           vTaskSuspendAll();
-           mr2xh40_read(&mram_instances[MRAM_INSTANCE_0], ix, read_buffer1, sizeof(read_buffer1));
-           xTaskResumeAll();
-
-           for (int iy = 0; iy < sizeof(write_buffer); iy++)
-           {
-               if (read_buffer1[iy] != write_buffer[iy])
-               {
-                   error_occurred = 1; // Breakpoint here!
-               }
-           }
-
-           vTaskDelay(pdMS_TO_TICKS(2000)); // Breakpoint here to make sure you are done!
-        }
     }
 }
 

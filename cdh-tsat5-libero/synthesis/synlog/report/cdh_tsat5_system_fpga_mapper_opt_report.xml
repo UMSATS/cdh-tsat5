@@ -7,7 +7,7 @@ The file contains the optimization information from mapper to be displayed as pa
 <parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
 <data>0 / 2</data>
 <report_link name="more">
-<data>C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_combined_clk.rpt</data>
+<data>C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\synthesis\synlog\report\cdh_tsat5_system_fpga_mapper_combined_clk.rpt</data>
 <title>START OF CLOCK OPTIMIZATION REPORT</title>
 </report_link>
 </parameter>

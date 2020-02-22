@@ -2,7 +2,7 @@
 // UMSATS 2018-2020
 //
 // License:
-//     Available under MIT license.
+//     Available under the GNU General Public License v3.0 (GPL-3.0-or-later)
 //
 // Repository:
 //  Github: https://github.com/UMSATS/cdh-tsat5
@@ -16,8 +16,6 @@
 // - Removed UART1 and IoT node code.
 // 2019-04-16 by Tamkin Rahman
 // - On startup, leave on LED0 and LED1 for 2 seconds (to make it easy to see whether a reset occurred).
-// 2019-06-23 by Tamkin Rahman
-// - Move pin and SPI core definitions to board_definitions.h.
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*
@@ -39,8 +37,6 @@
 /* Application includes. */
 #include "leds.h"
 
-#include "board_definitions.h"
-
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #define boardNUM_LEDS    8
 
@@ -52,7 +48,8 @@
 /* Remember the state of the outputs for easy toggling. */
 static unsigned char ucPortState = 0;
 /* MSS GPIOs */
-static const mss_gpio_id_t ucLEDs[ boardNUM_LEDS ] = { LED0, LED1, LED2, LED3,LED4, LED5, LED6, LED7 };
+static const mss_gpio_id_t ucLEDs[ boardNUM_LEDS ] = { MSS_GPIO_0, MSS_GPIO_1, MSS_GPIO_2, MSS_GPIO_3,
+                                                    MSS_GPIO_4, MSS_GPIO_5, MSS_GPIO_6, MSS_GPIO_7 };
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 void vInitializeLEDs(void)

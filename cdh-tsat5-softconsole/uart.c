@@ -171,6 +171,7 @@ static void prvProcessUART0(uint8_t *pcBuffer, uint32_t ulNumBytes)
 	pos += ulNumBytes;
 	if(ucCommandString[pos-1] == '\n' || ucCommandString[pos-1] == '\r')
 	{
+		ucCommandString[pos-1] = 0;
 		FreeRTOS_CLIProcessCommand( ucCommandString, command_write_buffer, COMMAND_BUFFER_SIZE);
 		/* End of line has been received. Send to module */
 		if (xSemaphoreTake(xUARTMutex, portMAX_DELAY) == pdTRUE)

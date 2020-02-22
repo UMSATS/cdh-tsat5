@@ -1,9 +1,9 @@
-@P:  Worst Slack : 1.508
-@P:  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 117.8 MHz
+@P:  Worst Slack : 1.426
+@P:  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 116.6 MHz
 @P:  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 8.492
+@P:  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 8.575
 @P:  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
-@P:  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 1.508
+@P:  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 1.426
 @P:  cdh_tsat5_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : NA
 @P:  cdh_tsat5_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
 @P:  cdh_tsat5_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : NA
@@ -14,8 +14,8 @@
 @P:  System - Estimated Period : 1.251
 @P:  System - Requested Period : 10.000
 @P:  System - Slack : 8.749
-@P: cdh_tsat5_system Part : m2s010tq144std
+@P: cdh_tsat5_system Part : m2s010vf400std
 @P: cdh_tsat5_system Register bits  : 87 
 @P: cdh_tsat5_system DSP Blocks  : 0
-@P: cdh_tsat5_system I/O primitives : 18
-@P:  CPU Time : 0h:00m:02s
+@P: cdh_tsat5_system I/O primitives : 25
+@P:  CPU Time : 0h:00m:06s

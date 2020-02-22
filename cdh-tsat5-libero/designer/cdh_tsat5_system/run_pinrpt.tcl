@@ -1,6 +1,6 @@
 DESIGN=cdh_tsat5_system
-DESDIR=C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system
-TARGET_DIR=C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system
+DESDIR=C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\designer\cdh_tsat5_system
+TARGET_DIR=C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\designer\cdh_tsat5_system
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144

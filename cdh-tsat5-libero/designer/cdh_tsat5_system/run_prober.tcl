@@ -1,5 +1,5 @@
 probe \
-    -desdir {C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system} \
+    -desdir {C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\designer\cdh_tsat5_system} \
     -design cdh_tsat5_system \
     -fam SmartFusion2 \
     -die PA4M1000_N \

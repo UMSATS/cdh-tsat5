@@ -6,64 +6,64 @@ High-effort              : OFF
 Repair min-delay         : ON
 Incremental              : OFF
 
-INFO: Reading User PDC file C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 18 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 18 fixed I/O macros, 7 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 0 seconds
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
 
-Placer V4.0 - 11.9.2 
-Design: cdh_tsat5_system                Started: Sun Jun 23 15:19:55 2019
+Placer V4.0 - 11.9.4 
+Design: cdh_tsat5_system                Started: Sat Feb 22 11:26:00 2020
 
 Initializing Standard Placement ...
 Placing design...
 End of placement.
-Pre-Placement Runtime        : 0 seconds
-Placement Runtime            : 0 seconds
+Pre-Placement Runtime        : 1 seconds
+Placement Runtime            : 2 seconds
 
 Placer completed successfully.
 
 Design: cdh_tsat5_system                
-Finished: Sun Jun 23 15:20:01 2019
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:06
-Total Memory Usage: 126.3 Mbytes
+Finished: Sat Feb 22 11:26:22 2020
+Total CPU Time:     00:00:16            Total Elapsed Time: 00:00:22
+Total Memory Usage: 128.5 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sun Jun 23 15:20:05 2019
+Design: C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sat Feb 22 11:26:34 2020
 
 
 Router completed successfully.
 
-Design: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Sun Jun 23 15:20:11 2019
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 475.7 Mbytes
+Design: C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
+Finished: Sat Feb 22 11:26:55 2020
+Total CPU Time:     00:00:19            Total Elapsed Time: 00:00:21
+Total Memory Usage: 476.8 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sun Jun 23 15:20:13 2019
+Design: C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_systemStarted: Sat Feb 22 11:27:00 2020
 
 
 Router completed successfully.
 
-Design: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
-Finished: Sun Jun 23 15:20:19 2019
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 475.7 Mbytes
+Design: C:\UMSATS\45-CLI\cdh-tsat5-master\cdh-tsat5-libero\designer\cdh_tsat5_system\cdh_tsat5_system
+Finished: Sat Feb 22 11:27:20 2020
+Total CPU Time:     00:00:19            Total Elapsed Time: 00:00:20
+Total Memory Usage: 476.1 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 142  | 12084 | 1.18       |
+| 4LUT          | 146  | 12084 | 1.21       |
 | DFF           | 87   | 12084 | 0.72       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 156  | 12084 | 1.29       |
+| Logic Element | 152  | 12084 | 1.26       |
 +---------------+------+-------+------------+
 

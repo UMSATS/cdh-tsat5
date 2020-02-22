@@ -4,7 +4,7 @@
 // UMSATS 2018-2020
 //
 // License:
-//  Available under MIT license.
+//  Available under the GNU General Public License v3.0 (GPL-3.0-or-later)
 //
 // Repository:
 //  Github: https://github.com/UMSATS/cdh-tsat5
@@ -20,7 +20,6 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // INCLUDES
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
-#include "board_definitions.h"
 #include "rtc_common.h"
 #include "rtc_ds1393.h"
 
