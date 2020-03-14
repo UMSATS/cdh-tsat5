@@ -1,18 +1,74 @@
 
-fsm_encoding {101089410895} onehot
+fsm_encoding {58331083316} onehot
 
-fsm_state_encoding {101089410895} 000 {0000001}
+fsm_state_encoding {58331083316} CI2CIlII {0000001}
 
-fsm_state_encoding {101089410895} 001 {0000010}
+fsm_state_encoding {58331083316} CI2CllII {0000010}
 
-fsm_state_encoding {101089410895} 010 {0000100}
+fsm_state_encoding {58331083316} CI2CO0II {0000100}
 
-fsm_state_encoding {101089410895} 011 {0001000}
+fsm_state_encoding {58331083316} CI2CI0II {0001000}
 
-fsm_state_encoding {101089410895} 100 {0010000}
+fsm_state_encoding {58331083316} CI2Cl0II {0010000}
 
-fsm_state_encoding {101089410895} 101 {0100000}
+fsm_state_encoding {58331083316} CI2CO1II {0100000}
 
-fsm_state_encoding {101089410895} 110 {1000000}
+fsm_state_encoding {58331083316} 110 {1000000}
 
-fsm_registers {101089410895} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 
+fsm_registers {58331083316} {CI2Cl0lI[6]}  {CI2Cl0lI[5]}  {CI2Cl0lI[4]}  {CI2Cl0lI[3]}  {CI2Cl0lI[2]}  {CI2Cl0lI[1]}  {CI2Cl0lI[0]} 
+
+fsm_encoding {55560055608} onehot
+
+fsm_state_encoding {55560055608} CI2Cl1OI {00000001}
+
+fsm_state_encoding {55560055608} CI2COOII {00000010}
+
+fsm_state_encoding {55560055608} CI2CIOII {00000100}
+
+fsm_state_encoding {55560055608} CI2ClOII {00001000}
+
+fsm_state_encoding {55560055608} CI2COIII {00010000}
+
+fsm_state_encoding {55560055608} CI2CIIII {00100000}
+
+fsm_state_encoding {55560055608} CI2ClIII {01000000}
+
+fsm_state_encoding {55560055608} 111 {10000000}
+
+fsm_registers {55560055608} {CI2CI1lI[7]}  {CI2CI1lI[6]}  {CI2CI1lI[5]}  {CI2CI1lI[4]}  {CI2CI1lI[3]}  {CI2CI1lI[2]}  {CI2CI1lI[1]}  {CI2CI1lI[0]} 
+
+fsm_encoding {57755077557} onehot
+
+fsm_state_encoding {57755077557} CI2CIlOI {0000001}
+
+fsm_state_encoding {57755077557} CI2CllOI {0000010}
+
+fsm_state_encoding {57755077557} CI2CO0OI {0000100}
+
+fsm_state_encoding {57755077557} CI2CI0OI {0001000}
+
+fsm_state_encoding {57755077557} CI2Cl0OI {0010000}
+
+fsm_state_encoding {57755077557} CI2CO1OI {0100000}
+
+fsm_state_encoding {57755077557} 110 {1000000}
+
+fsm_registers {57755077557} {CI2COO0I[6]}  {CI2COO0I[5]}  {CI2COO0I[4]}  {CI2COO0I[3]}  {CI2COO0I[2]}  {CI2COO0I[1]}  {CI2COO0I[0]} 
+
+fsm_encoding {121089410895} onehot
+
+fsm_state_encoding {121089410895} 000 {0000001}
+
+fsm_state_encoding {121089410895} 001 {0000010}
+
+fsm_state_encoding {121089410895} 010 {0000100}
+
+fsm_state_encoding {121089410895} 011 {0001000}
+
+fsm_state_encoding {121089410895} 100 {0010000}
+
+fsm_state_encoding {121089410895} 101 {0100000}
+
+fsm_state_encoding {121089410895} 110 {1000000}
+
+fsm_registers {121089410895} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 

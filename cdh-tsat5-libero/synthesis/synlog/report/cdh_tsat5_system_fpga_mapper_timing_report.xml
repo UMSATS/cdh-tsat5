@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\cdh_tsat5_system_fpga_mapper.srr</data>
+<data>C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\synthesis\synlog\cdh_tsat5_system_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -17,8 +17,8 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>117.8 MHz</data>
-<data>1.508</data>
+<data>98.7 MHz</data>
+<data>-0.131</data>
 </row>
 <row>
 <data>cdh_tsat5_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock</data>
@@ -29,7 +29,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>System</data>
 <data>100.0 MHz</data>
-<data>799.4 MHz</data>
-<data>8.749</data>
+<data>568.3 MHz</data>
+<data>8.241</data>
 </row>
 </report_table>

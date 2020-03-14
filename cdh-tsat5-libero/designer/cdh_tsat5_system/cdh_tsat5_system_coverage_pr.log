@@ -1,2 +1,2 @@
-While analyzing gated clock network, ambiguities have been found on gates cdh_tsat5_system_sb_0/CORESPI_0_0/ucorespi_sfr/genblk4.u_master/un3_busy_i_0_0_0:Y.
+While analyzing gated clock network, ambiguities have been found on gates cdh_tsat5_system_sb_0/CORESPI_0_0/CSPIOl/genblk4.CSPII1l/un3_busy_i_0:Y.
 The timing models of these gates have been simplified for Static Timing Analysis.

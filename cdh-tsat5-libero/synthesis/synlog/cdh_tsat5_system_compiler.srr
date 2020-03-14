@@ -11,40 +11,29 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_master.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_slave.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" (library COREAPB3_LIB)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" (library COREAPB3_LIB)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v" (library work)
-@I::"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2c.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_master.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_slave.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v" (library work)
+@I::"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v" (library work)
 Verilog syntax check successful!
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_master.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_slave.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v changed - recompiling
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v changed - recompiling
+Options changed - recompiling
 Selecting top level module cdh_tsat5_system
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
@@ -53,21 +42,21 @@ Selecting top level module cdh_tsat5_system
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC in library work.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v":5:7:5:36|Synthesizing module cdh_tsat5_system_sb_CCC_0_FCCC in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\CCC_0\cdh_tsat5_system_sb_CCC_0_FCCC.v":5:7:5:36|Synthesizing module cdh_tsat5_system_sb_CCC_0_FCCC in library work.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v":9:7:9:29|Synthesizing module cdh_tsat5_system_sb_MSS in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb_MSS\cdh_tsat5_system_sb_MSS.v":9:7:9:29|Synthesizing module cdh_tsat5_system_sb_MSS in library work.
 
-@W: CG775 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
+@W: CG775 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
 
 	APB_DWIDTH=6'b100000
 	IADDR_OPTION=32'b00000000000000000000000000000000
 	APBSLOT0ENABLE=1'b1
-	APBSLOT1ENABLE=1'b0
+	APBSLOT1ENABLE=1'b1
 	APBSLOT2ENABLE=1'b0
 	APBSLOT3ENABLE=1'b0
 	APBSLOT4ENABLE=1'b0
@@ -102,46 +91,178 @@ Selecting top level module cdh_tsat5_system
 	UPR_NIBBLE_POSN=4'b0011
 	FAMILY=32'b00000000000000000000000000010011
 	SYNC_RESET=32'b00000000000000000000000000000000
-	CAPB3OOl=32'b00000000000000000000000000000000
-	CAPB3IOl=32'b00000000000000000000000000000001
-	CAPB3lOl=32'b00000000000000000000000000000010
-	CAPB3OIl=32'b00000000000000000000000000000011
-	CAPB3IIl=32'b00000000000000000000000000000100
-	CAPB3lIl=32'b00000000000000000000000000000101
-	CAPB3Oll=32'b00000000000000000000000000000110
-	CAPB3Ill=32'b00000000000000000000000000000111
-	CAPB3lll=32'b00000000000000000000000000001000
-	CAPB3O0l=32'b00000000000000000000000000001001
-	CAPB3I0l=32'b00000000000000000000000000001010
-	CAPB3l0l=32'b00000000000000000000000000001011
-	CAPB3O1l=32'b00000000000000000000000000001100
-	CAPB3I1l=32'b00000000000000000000000000001101
-	CAPB3l1l=32'b00000000000000000000000000001110
-	CAPB3OO0=32'b00000000000000000000000000001111
-	CAPB3IO0=32'b00000000000000000000000000010000
-	CAPB3lO0=32'b00000000000000000000000000010001
-	CAPB3OI0=16'b0000000000000001
-	CAPB3II0=16'b0000000000000000
-	CAPB3lI0=16'b0000000000000000
-	CAPB3Ol0=16'b0000000000000000
-	CAPB3Il0=16'b0000000000000000
-	CAPB3ll0=16'b0000000000000000
-	CAPB3O00=16'b0000000000000000
-	CAPB3I00=16'b0000000000000000
-	CAPB3l00=16'b0000000000000000
-	CAPB3O10=16'b0000000000000000
-	CAPB3I10=16'b0000000000000000
-	CAPB3l10=16'b0000000000000000
-	CAPB3OO1=16'b0000000000000000
-	CAPB3IO1=16'b0000000000000000
-	CAPB3lO1=16'b0000000000000000
-	CAPB3OI1=16'b0000000000000000
-	CAPB3II1=16'b0000000000000000
-	CAPB3lI1=16'b0000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000000
+	SL3=16'b0000000000000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
    Generated name = CoreAPB3_Z1
 
-@W: CG360 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":1495:0:1495:8|Removing wire CAPB3IlOI, as there is no assignment to it.
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
+@W: CG360 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2c.v":7:0:7:6|Synthesizing module COREI2C in library work.
+
+	FAMILY=32'b00000000000000000000000000010001
+	OPERATING_MODE=32'b00000000000000000000000000000000
+	BAUD_RATE_FIXED=32'b00000000000000000000000000000000
+	BAUD_RATE_VALUE=32'b00000000000000000000000000000000
+	BCLK_ENABLED=32'b00000000000000000000000000000001
+	GLITCHREG_NUM=32'b00000000000000000000000000000011
+	SMB_EN=32'b00000000000000000000000000000000
+	IPMI_EN=32'b00000000000000000000000000000000
+	FREQUENCY=32'b00000000000000000000000000011110
+	FIXED_SLAVE0_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE0_ADDR_VALUE=32'b00000000000000000000000000000000
+	ADD_SLAVE1_ADDRESS_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_VALUE=32'b00000000000000000000000000000000
+	I2C_NUM=32'b00000000000000000000000000000001
+	CI2CII=5'b01100
+	CI2ClI=8'b00000000
+	CI2COl=5'b11100
+	CI2CIl=8'b00000000
+   Generated name = COREI2C_Z2
+
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":7:0:7:10|Synthesizing module COREI2CREAL in library work.
+
+	FAMILY=32'b00000000000000000000000000010001
+	OPERATING_MODE=32'b00000000000000000000000000000000
+	BAUD_RATE_FIXED=32'b00000000000000000000000000000000
+	BAUD_RATE_VALUE=32'b00000000000000000000000000000000
+	BCLK_ENABLED=32'b00000000000000000000000000000001
+	GLITCHREG_NUM=32'b00000000000000000000000000000011
+	SMB_EN=32'b00000000000000000000000000000000
+	IPMI_EN=32'b00000000000000000000000000000000
+	FREQUENCY=32'b00000000000000000000000000011110
+	FIXED_SLAVE0_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE0_ADDR_VALUE=32'b00000000000000000000000000000000
+	ADD_SLAVE1_ADDRESS_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_VALUE=32'b00000000000000000000000000000000
+	CI2CI0l=32'b00000000000000000000000000000100
+	CI2Cl0l=4'b0101
+	CI2CO1l=1'b0
+	CI2CI1l=1'b0
+	CI2Cl1l=5'b00000
+	CI2COO0=8'b00000000
+	CI2CIO0=5'b00100
+	CI2ClO0=8'b11111000
+	CI2COI0=5'b01000
+	CI2CII0=8'b00000000
+	CI2ClI0=5'b10000
+	CI2COl0=8'b01x1x000
+	CI2CII=5'b01100
+	CI2ClI=8'b00000000
+	CI2COl=5'b11100
+	CI2CIl=8'b00000000
+	CI2CIl0=5'b00000
+	CI2Cll0=5'b00001
+	CI2CO00=5'b11101
+	CI2CI00=5'b00010
+	CI2Cl00=5'b00011
+	CI2CO10=5'b00100
+	CI2CI10=5'b00101
+	CI2Cl10=5'b00110
+	CI2COO1=5'b00111
+	CI2CIO1=5'b01000
+	CI2ClO1=5'b01001
+	CI2COI1=5'b01010
+	CI2CII1=5'b01011
+	CI2ClI1=5'b01100
+	CI2COl1=5'b01101
+	CI2CIl1=5'b01110
+	CI2Cll1=5'b01111
+	CI2CO01=5'b10000
+	CI2CI01=5'b10001
+	CI2Cl01=5'b10010
+	CI2CO11=5'b10011
+	CI2CI11=5'b10100
+	CI2Cl11=5'b10101
+	CI2COOOI=5'b10110
+	CI2CIOOI=5'b10111
+	CI2ClOOI=5'b11000
+	CI2COIOI=5'b11001
+	CI2CIIOI=5'b11010
+	CI2ClIOI=5'b11011
+	CI2COlOI=5'b11100
+	CI2CIlOI=3'b000
+	CI2CllOI=3'b001
+	CI2CO0OI=3'b010
+	CI2CI0OI=3'b011
+	CI2Cl0OI=3'b100
+	CI2CO1OI=3'b101
+	CI2CI1OI=3'b110
+	CI2Cl1OI=3'b000
+	CI2COOII=3'b001
+	CI2CIOII=3'b010
+	CI2ClOII=3'b011
+	CI2COIII=3'b100
+	CI2CIIII=3'b101
+	CI2ClIII=3'b110
+	CI2COlII=3'b111
+	CI2CIlII=3'b000
+	CI2CllII=3'b001
+	CI2CO0II=3'b010
+	CI2CI0II=3'b011
+	CI2Cl0II=3'b100
+	CI2CO1II=3'b101
+	CI2CI1II=3'b110
+	CI2Cl1II=32'b00000000000000000000000000001000
+	CI2COOlI=32'b00000000000000000000000000000111
+   Generated name = COREI2CREAL_Z3
+
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1038:0:1038:7|Object CI2CIl0I is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1041:0:1041:7|Object CI2Cll0I is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1047:0:1047:7|Object CI2CI00I is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1053:0:1053:7|Object CI2CO10I is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1056:0:1056:7|Object CI2CI10I is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1059:0:1059:7|Object CI2Cl10I is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1106:0:1106:7|Object CI2Cl11I is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1108:0:1108:7|Object CI2COOOl is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1111:0:1111:7|Object CI2CIOOl is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":1113:0:1113:7|Object CI2ClOOl is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":8759:0:8759:5|Pruning unused register CI2ClllI[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":8643:0:8643:5|Pruning unused register CI2ClIlI[6:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":8512:0:8512:5|Pruning unused register CI2ClOlI[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":3385:0:3385:5|Pruning unused register CI2CIl1I. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":3385:0:3385:5|Pruning unused register CI2CO01I. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":3385:0:3385:5|Pruning unused register CI2Cll1I. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":7015:0:7015:5|Pruning unused register CI2CI01I. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":7015:0:7015:5|Optimizing register bit CI2Cl01I to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":7015:0:7015:5|Pruning unused register CI2Cl01I. Make sure that there are no unused intermediate registers.
+@W: CG133 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2c.v":407:0:407:5|Object CI2CI1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2c.v":453:0:453:5|Pruning unused register CI2CO0[12:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
 
 	FAMILY=32'b00000000000000000000000000010011
 	EXT_RESET_CFG=32'b00000000000000000000000000000000
@@ -179,49 +300,49 @@ Selecting top level module cdh_tsat5_system
 	S4=32'b00000000000000000000000000000100
 	S5=32'b00000000000000000000000000000101
 	S6=32'b00000000000000000000000000000110
-   Generated name = CoreResetP_Z2
+   Generated name = CoreResetP_Z4
 
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_q1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_rcosc. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register count_ddr_enable. Make sure that there are no unused intermediate registers.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL190 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v":19:7:19:17|Synthesizing module CORESPI_SFR in library work.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register count_ddr_enable. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v":5:0:5:5|Synthesizing module CSPIlI in library work.
 
 	USE_MASTER=32'b00000000000000000000000000000001
 	USE_SLAVE=32'b00000000000000000000000000000000
-   Generated name = CORESPI_SFR_1s_0s
+   Generated name = CSPIlI_1s_0s
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_master.v":17:7:17:16|Synthesizing module spi_master in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_master.v":5:0:5:9|Synthesizing module spi_master in library work.
 
-@W: CL118 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|Latch generated from always block for signal next_state[3:0]; possible missing assignment in an if or case statement.
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi.v":13:7:13:13|Synthesizing module CORESPI in library work.
+@W: CL118 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\spi_master.v":731:0:731:3|Latch generated from always block for signal CSPIll0[3:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v":4:0:4:6|Synthesizing module CORESPI in library work.
 
 	FAMILY=32'b00000000000000000000000000001111
 	USE_MASTER=32'b00000000000000000000000000000001
@@ -230,60 +351,60 @@ Selecting top level module cdh_tsat5_system
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":168:7:168:9|Synthesizing module OR3 in library work.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":5:7:5:38|Synthesizing module cdh_tsat5_system_sb_FABOSC_0_OSC in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":5:7:5:38|Synthesizing module cdh_tsat5_system_sb_FABOSC_0_OSC in library work.
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET in library work.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v":9:7:9:25|Synthesizing module cdh_tsat5_system_sb in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v":9:7:9:25|Synthesizing module cdh_tsat5_system_sb in library work.
 
-@N: CG364 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v":9:7:9:22|Synthesizing module cdh_tsat5_system in library work.
+@N: CG364 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system\cdh_tsat5_system.v":9:7:9:22|Synthesizing module cdh_tsat5_system in library work.
 
-@W: CL157 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused.
-@W: CL246 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi.v":41:15:41:19|Input port bits 1 to 0 of PADDR[3:0] are unused. Assign logic for all port bits or change the input port size.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v":40:8:40:12|Input s_sck is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v":42:8:42:13|Input s_mosi is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core\corespi_sfr.v":43:8:43:11|Input s_ss is unused.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL177 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
-@N: CL201 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state.
+@W: CL157 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\FABOSC_0\cdh_tsat5_system_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+@W: CL246 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi.v":70:0:70:4|Input port bits 1 to 0 of PADDR[3:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v":84:0:84:4|Input s_sck is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v":90:0:90:5|Input s_mosi is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CORESPI\3.0.156\rtl\vlog\core_obfuscated\corespi_sfr.v":93:0:93:3|Input s_ss is unused.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state.
 Extracted state machine for register sdif3_state
 State machine has 4 reachable states with original encodings of:
    000
    001
    010
    011
-@N: CL201 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state.
+@N: CL201 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state.
 Extracted state machine for register sdif2_state
 State machine has 4 reachable states with original encodings of:
    000
    001
    010
    011
-@N: CL201 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state.
+@N: CL201 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state.
 Extracted state machine for register sdif1_state
 State machine has 4 reachable states with original encodings of:
    000
    001
    010
    011
-@N: CL201 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state.
+@N: CL201 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state.
 Extracted state machine for register sdif0_state
 State machine has 4 reachable states with original encodings of:
    000
    001
    010
    011
-@N: CL201 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state.
+@N: CL201 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state.
 Extracted state machine for register sm0_state
 State machine has 7 reachable states with original encodings of:
    000
@@ -293,115 +414,147 @@ State machine has 7 reachable states with original encodings of:
    100
    101
    110
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":396:0:396:4|Input IADDR is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:6|Input PRESETN is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":400:0:400:3|Input PCLK is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":521:0:521:7|Input PRDATAS1 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":528:0:528:7|Input PRDATAS2 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":535:0:535:7|Input PRDATAS3 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":542:0:542:7|Input PRDATAS4 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":549:0:549:7|Input PRDATAS5 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":556:0:556:7|Input PRDATAS6 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":563:0:563:7|Input PRDATAS7 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":570:0:570:7|Input PRDATAS8 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":577:0:577:7|Input PRDATAS9 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":584:0:584:8|Input PRDATAS10 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":591:0:591:8|Input PRDATAS11 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":598:0:598:8|Input PRDATAS12 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":605:0:605:8|Input PRDATAS13 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:8|Input PRDATAS14 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":619:0:619:8|Input PRDATAS15 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":630:0:630:7|Input PREADYS1 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":632:0:632:7|Input PREADYS2 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:7|Input PREADYS3 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:7|Input PREADYS4 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:7|Input PREADYS5 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:7|Input PREADYS6 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":642:0:642:7|Input PREADYS7 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":644:0:644:7|Input PREADYS8 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:7|Input PREADYS9 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PREADYS10 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PREADYS11 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PREADYS12 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PREADYS13 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PREADYS14 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PREADYS15 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":664:0:664:8|Input PSLVERRS1 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":666:0:666:8|Input PSLVERRS2 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:8|Input PSLVERRS3 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:8|Input PSLVERRS4 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:8|Input PSLVERRS5 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:8|Input PSLVERRS6 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":676:0:676:8|Input PSLVERRS7 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":678:0:678:8|Input PSLVERRS8 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":680:0:680:8|Input PSLVERRS9 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":682:0:682:9|Input PSLVERRS10 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":684:0:684:9|Input PSLVERRS11 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":686:0:686:9|Input PSLVERRS12 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":688:0:688:9|Input PSLVERRS13 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
-@N: CL159 :"C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
+@N: CL201 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":8331:0:8331:5|Trying to extract state machine for register CI2Cl0lI.
+Extracted state machine for register CI2Cl0lI
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL201 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":7755:0:7755:5|Trying to extract state machine for register CI2COO0I.
+Extracted state machine for register CI2COO0I
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL201 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":5560:0:5560:5|Trying to extract state machine for register CI2CI1lI.
+Extracted state machine for register CI2CI1lI
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":88:0:88:10|Input pulse_215us is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":104:0:104:10|Input seradr1apb0 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":149:0:149:10|Input SMBALERT_NI is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":155:0:155:8|Input SMBSUS_NI is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 80MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 97MB peak: 99MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Jun 23 15:17:48 2019
+# Sat Mar 14 10:46:53 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
-File C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\layer0.srs changed - recompiling
+File C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Jun 23 15:17:48 2019
+# Sat Mar 14 10:46:54 2020
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Jun 23 15:17:48 2019
+# Sat Mar 14 10:46:54 2020
 
 ###########################################################]

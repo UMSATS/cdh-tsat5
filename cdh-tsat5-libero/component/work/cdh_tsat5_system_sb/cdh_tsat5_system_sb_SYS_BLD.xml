@@ -3079,6 +3079,97 @@
 </data>
 <separator/>
 <data>
+<name>COREI2C_0</name>
+<table>
+<header>
+ <cell>Name</cell>
+ <cell>Subsystem</cell>
+ <cell>Vendor</cell>
+ <cell>Version</cell>
+</header>
+<row>
+ <cell>COREI2C</cell>
+ <cell>MSS FIC_0 - MSS Master Subsystem</cell>
+ <cell>Actel</cell>
+ <cell>7.0.102</cell>
+</row>
+</table>
+<cdata>
+<name>Configuration</name>
+<table>
+<header>
+ <cell>Parameter</cell>
+ <cell>Value</cell>
+</header>
+<row>
+ <cell>ADD_SLAVE1_ADDRESS_EN</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>BAUD_RATE_FIXED</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>BAUD_RATE_VALUE</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>BCLK_ENABLED</cell>
+ <cell>true</cell>
+</row>
+<row>
+ <cell>FIXED_SLAVE0_ADDR_EN</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>FIXED_SLAVE0_ADDR_VALUE</cell>
+ <cell>0x0</cell>
+</row>
+<row>
+ <cell>FIXED_SLAVE1_ADDR_EN</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>FIXED_SLAVE1_ADDR_VALUE</cell>
+ <cell>0x0</cell>
+</row>
+<row>
+ <cell>FREQUENCY</cell>
+ <cell>30</cell>
+</row>
+<row>
+ <cell>GLITCHREG_NUM</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>HDL_license</cell>
+ <cell>O</cell>
+</row>
+<row>
+ <cell>I2C_NUM</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>IPMI_EN</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>OPERATING_MODE</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>SMB_EN</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>testbench</cell>
+ <cell>User</cell>
+</row>
+</table>
+</cdata>
+</data>
+<separator/>
+<data>
 <name>CORESPI_0</name>
 <table>
 <header>
@@ -3672,6 +3763,11 @@
 </header>
 <row>
  <cell>cdh_tsat5_system_sb_MSS_0:MSS_INT_F2M[0]</cell>
+ <cell>COREI2C_0_0</cell>
+ <cell>INT</cell>
+</row>
+<row>
+ <cell>cdh_tsat5_system_sb_MSS_0:MSS_INT_F2M[1]</cell>
  <cell>CORESPI_0_0</cell>
  <cell>interrupt, rx_data_ready, tx_reg_empty</cell>
 </row>
@@ -3701,6 +3797,16 @@
 <row>
  <cell>INIT_DONE</cell>
  <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>COREI2C_0_0_SDA_IO</cell>
+ <cell>INOUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>COREI2C_0_0_SCL_IO</cell>
+ <cell>INOUT</cell>
  <cell>-</cell>
 </row>
 <row>

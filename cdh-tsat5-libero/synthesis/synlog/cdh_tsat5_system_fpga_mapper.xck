@@ -1,2 +1,2 @@
 CKID0001:@|S:cdh_tsat5_system_sb_0.CCC_0.CCC_INST@|E:cdh_tsat5_system_sb_0.CORERESETP_0.RESET_N_M2F_q1@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4.u_master.un3_busy_i_0_0_0_RNIQSV12@|E:cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4.u_master.next_state[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0002:@|S:cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4.CSPII1l.un3_busy_i_0_RNITEA01@|E:cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4.CSPII1l.CSPIll0[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

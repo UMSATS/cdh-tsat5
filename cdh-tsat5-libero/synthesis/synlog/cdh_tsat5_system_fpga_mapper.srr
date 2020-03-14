@@ -1,4 +1,4 @@
-# Sun Jun 23 15:17:50 2019
+# Sat Mar 14 10:46:57 2020
 
 Synopsys Generic Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:56:37
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -12,7 +12,7 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
@@ -22,33 +22,36 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 138MB)
 
-@N: MO111 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO111 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\fabosc_0\cdh_tsat5_system_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.cdh_tsat5_system_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: FA239 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|ROM sck_enable (in view: work.spi_master(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|ROM sck_enable (in view: work.spi_master(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@N: MO106 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":222:8:222:11|Found ROM .delname. (in view: work.spi_master(verilog)) with 11 words by 1 bit.
+@W: FA239 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corei2c\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":2566:0:2566:3|ROM CI2COlll\.CI2COl0I_2[4:0] (in view: work.COREI2CREAL_Z3(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corei2c\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":2566:0:2566:3|ROM CI2COlll\.CI2COl0I_2[4:0] (in view: work.COREI2CREAL_Z3(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corei2c\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":2566:0:2566:3|Found ROM .delname. (in view: work.COREI2CREAL_Z3(verilog)) with 29 words by 5 bits.
+@W: FA239 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core_obfuscated\spi_master.v":731:0:731:3|ROM CSPIll1 (in view: work.spi_master(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core_obfuscated\spi_master.v":731:0:731:3|ROM CSPIll1 (in view: work.spi_master(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core_obfuscated\spi_master.v":731:0:731:3|Found ROM .delname. (in view: work.spi_master(verilog)) with 11 words by 1 bit.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
 
-Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z2(verilog))
+Encoding state machine CI2Cl0lI[6:0] (in view: work.COREI2CREAL_Z3(verilog))
 original code -> new code
    000 -> 0000001
    001 -> 0000010
@@ -57,73 +60,106 @@ original code -> new code
    100 -> 0010000
    101 -> 0100000
    110 -> 1000000
-@N: MO231 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core\spi_master.v":90:4:90:9|Found counter in view:work.spi_master(verilog) instance clock_count[7:0] 
+Encoding state machine CI2CI1lI[7:0] (in view: work.COREI2CREAL_Z3(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine CI2COO0I[6:0] (in view: work.COREI2CREAL_Z3(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z4(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N: MO231 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corespi\3.0.156\rtl\vlog\core_obfuscated\spi_master.v":294:0:294:5|Found counter in view:work.spi_master(verilog) instance CSPIOO1[7:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
-
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[6] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 139MB)
-
-
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
-
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 139MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 139MB)
-
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.cdh_tsat5_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled (in view: work.cdh_tsat5_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[5] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[4] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[3] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[2] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[1] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[0] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
-
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 139MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 138MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 141MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[6] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 148MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 148MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 148MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 148MB)
+
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.cdh_tsat5_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register cdh_tsat5_system_sb_0.CORERESETP_0.ddr_settled (in view: work.cdh_tsat5_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[5] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[4] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[3] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[2] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[1] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance cdh_tsat5_system_sb_0.CORERESETP_0.sm0_state[0] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\actel\directcore\corei2c\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v":5560:0:5560:5|Removing sequential instance cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2CI1lI[7] (in view: work.cdh_tsat5_system(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 148MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 169MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		    -0.33ns		 155 /        83
-   2		0h:00m:01s		    -0.29ns		 141 /        83
-   3		0h:00m:01s		     0.20ns		 141 /        83
-   4		0h:00m:01s		     0.20ns		 141 /        83
-@N: FP130 |Promoting Net un1_cdh_tsat5_system_sb_0_6 on CLKINT  I_66 
+   1		0h:00m:02s		    -2.39ns		 542 /       181
+   2		0h:00m:02s		    -2.39ns		 517 /       181
+   3		0h:00m:02s		    -2.39ns		 518 /       181
+
+   4		0h:00m:03s		    -2.39ns		 519 /       181
+
+
+   5		0h:00m:03s		    -2.39ns		 516 /       181
+@N: FP130 |Promoting Net un1_cdh_tsat5_system_sb_0_10 on CLKINT  I_109 
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 141MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 168MB peak: 170MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 141MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 170MB)
 
 
 
@@ -134,44 +170,44 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 88 clock pin(s) of sequential element(s)
-0 instances converted, 88 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 186 clock pin(s) of sequential element(s)
+0 instances converted, 186 sequential instances remain driven by gated/generated clocks
 
-===================================================================================================================================================================== Gated/Generated Clocks =====================================================================================================================================================================
-Clock Tree ID     Driving Element                                                                               Drive Element Type     Fanout     Sample Instance                                                                   Explanation                                                                                                                   
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       cdh_tsat5_system_sb_0.CCC_0.CCC_INST                                                          CCC                    84         cdh_tsat5_system_sb_0.CORERESETP_0.RESET_N_M2F_q1                                 Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-@K:CKID0002       cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4.u_master.un3_busy_i_0_0_0_RNIQSV12     CFG3                   4          cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4.u_master.next_state[0]     No clocks found on inputs                                                                                                     
-==================================================================================================================================================================================================================================================================================================================================================================
+========================================================================================================================================================== Gated/Generated Clocks ===========================================================================================================================================================
+Clock Tree ID     Driving Element                                                                    Drive Element Type     Fanout     Sample Instance                                                         Explanation                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       cdh_tsat5_system_sb_0.CCC_0.CCC_INST                                               CCC                    182        cdh_tsat5_system_sb_0.CORERESETP_0.RESET_N_M2F_q1                       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4.CSPII1l.un3_busy_i_0_RNITEA01     CFG3                   4          cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4.CSPII1l.CSPIll0[0]     No clocks found on inputs                                                                                                     
+=============================================================================================================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 141MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 139MB peak: 170MB)
 
-Writing Analyst data base C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_m.srm
+Writing Analyst data base C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\synthesis\synwork\cdh_tsat5_system_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 141MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 167MB peak: 170MB)
 
 Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn
+@N: FX1056 |Writing EDF file: C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\synthesis\cdh_tsat5_system.edn
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 L-2016.09M-SP1-5
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 139MB peak: 141MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 168MB peak: 170MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 139MB peak: 141MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 166MB peak: 170MB)
 
-@W: MT246 :"c:\work\umsats\tsat5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\ccc_0\cdh_tsat5_system_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\joseph howarth\documents\umsats\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\ccc_0\cdh_tsat5_system_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT420 |Found inferred clock cdh_tsat5_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:cdh_tsat5_system_sb_0.FABOSC_0.RCOSC_25_50MHZ_CCC"
 @W: MT420 |Found inferred clock cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:cdh_tsat5_system_sb_0.CCC_0.GL0_net"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Jun 23 15:17:53 2019
+# Timing Report written on Sat Mar 14 10:47:04 2020
 #
 
 
@@ -179,7 +215,7 @@ Top view:               cdh_tsat5_system
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Work\UMSATS\TSAT5\external_mram_integration\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\synthesis.fdc
+Constraint File(s):    C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\designer\cdh_tsat5_system\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -191,15 +227,15 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 1.508
+Worst slack in design: -0.131
 
-                                                                       Requested     Estimated     Requested     Estimated               Clock        Clock              
-Starting Clock                                                         Frequency     Frequency     Period        Period        Slack     Type         Group              
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     117.8 MHz     10.000        8.492         1.508     inferred     Inferred_clkgroup_0
-cdh_tsat5_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
-System                                                                 100.0 MHz     799.4 MHz     10.000        1.251         8.749     system       system_clkgroup    
-=========================================================================================================================================================================
+                                                                       Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                                                         Frequency     Frequency     Period        Period        Slack      Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     98.7 MHz      10.000        10.131        -0.131     inferred     Inferred_clkgroup_0
+cdh_tsat5_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA         inferred     Inferred_clkgroup_1
+System                                                                 100.0 MHz     568.3 MHz     10.000        1.759         8.241      system       system_clkgroup    
+==========================================================================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
 
@@ -209,14 +245,14 @@ System                                                                 100.0 MHz
 Clock Relationships
 *******************
 
-Clocks                                                                                                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                                               Ending                                                 |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                                                 cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      8.749  |  No paths    -      |  No paths    -      |  No paths    -    
-cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  System                                                 |  10.000      6.569  |  No paths    -      |  No paths    -      |  No paths    -    
-cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      1.508  |  No paths    -      |  No paths    -      |  No paths    -    
-====================================================================================================================================================================================================
+Clocks                                                                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                               Ending                                                 |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                 cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      8.241   |  No paths    -      |  No paths    -      |  No paths    -    
+cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  System                                                 |  10.000      5.845   |  No paths    -      |  No paths    -      |  No paths    -    
+cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      -0.131  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -238,41 +274,41 @@ Detailed Report for Clock: cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock
 Starting Points with Worst Slack
 ********************************
 
-                                                                              Starting                                                                                                                                              Arrival          
-Instance                                                                      Reference                                                 Type        Pin                Net                                                          Time        Slack
-                                                                              Clock                                                                                                                                                                  
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]                               3.576       1.508
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[15]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[15]     3.580       1.591
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]                               3.576       1.598
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_SEL          cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx         3.488       1.620
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_WRITE        CoreAPB3_0_APBmslave0_PWRITE                                 3.682       1.860
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ENABLE       CoreAPB3_0_APBmslave0_PENABLE                                3.736       1.871
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[12]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[12]     3.677       2.034
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[13]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[13]     3.647       2.247
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[14]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[14]     3.652       2.285
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state[1]     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  state[1]                                                     0.108       3.208
-=====================================================================================================================================================================================================================================================
+                                                                   Starting                                                                                                                                              Arrival           
+Instance                                                           Reference                                                 Type        Pin                Net                                                          Time        Slack 
+                                                                   Clock                                                                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]                               3.576       -0.131
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[15]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[15]     3.580       -0.092
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]                               3.576       -0.067
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_SEL          cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx         3.488       -0.064
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_WRITE        CoreAPB3_0_APBmslave0_PWRITE                                 3.682       0.020 
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ENABLE       CoreAPB3_0_APBmslave0_PENABLE                                3.736       0.105 
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[12]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[12]     3.677       0.458 
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[8]      CoreAPB3_0_APBmslave0_PADDR[8]                               3.945       0.502 
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[6]      CoreAPB3_0_APBmslave0_PADDR[6]                               3.746       0.623 
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[13]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[13]     3.647       0.627 
+===========================================================================================================================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                                                                    Starting                                                                                                                       Required          
-Instance                                                                            Reference                                                 Type        Pin                Net                                   Time         Slack
-                                                                                    Clock                                                                                                                                            
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[2]     CoreAPB3_0_APBmslave0_PRDATA_m[2]     9.737        1.508
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.tx_data_ready      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 N_99_i                                9.662        1.591
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[3]     m43_N_12_i                            9.475        1.598
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.i_tx_reg_empty     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 un1_tx_data_ready5_i                  9.662        1.637
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[0]     CoreAPB3_0_APBmslave0_PRDATA_m[0]     9.633        1.754
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[4]     CoreAPB3_0_APBmslave0_PRDATA_m[4]     9.541        1.785
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[6]     CoreAPB3_0_APBmslave0_PRDATA_m[6]     9.672        1.793
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[5]     CoreAPB3_0_APBmslave0_PRDATA_m[5]     9.697        1.818
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[1]     CoreAPB3_0_APBmslave0_PRDATA_m[1]     9.711        1.832
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                      cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[7]     CoreAPB3_0_APBmslave0_PRDATA_m[7]     9.804        1.925
-=====================================================================================================================================================================================================================================
+                                                                     Starting                                                                                                                                              Required           
+Instance                                                             Reference                                                 Type        Pin                Net                                                          Time         Slack 
+                                                                     Clock                                                                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST       cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[3]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[3]     9.475        -0.131
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST       cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[0]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[0]     9.633        0.016 
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST       cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[4]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[4]     9.541        0.107 
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2ClIOl        cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D                  CI2ClIOl_10                                                  9.745        0.240 
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST       cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[6]     cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[6]     9.672        0.293 
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2ClI0I[0]     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 CI2ClI0I_0_sqmuxa_RNIHO2MA                                   9.662        0.388 
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2ClI0I[1]     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 CI2ClI0I_0_sqmuxa_RNIHO2MA                                   9.662        0.388 
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2ClI0I[2]     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 CI2ClI0I_0_sqmuxa_RNIHO2MA                                   9.662        0.388 
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2ClI0I[3]     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 CI2ClI0I_0_sqmuxa_RNIHO2MA                                   9.662        0.388 
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2ClI0I[4]     cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 CI2ClI0I_0_sqmuxa_RNIHO2MA                                   9.662        0.388 
+==============================================================================================================================================================================================================================================
 
 
 
@@ -282,40 +318,211 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      10.000
-    - Setup time:                            0.263
+    - Setup time:                            0.525
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.737
+    = Required time:                         9.475
 
-    - Propagation time:                      8.229
+    - Propagation time:                      9.606
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     1.508
+    = Slack (critical) :                     -0.131
 
-    Number of logic level(s):                4
-    Starting point:                          cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[3]
-    Ending point:                            cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[2]
+    Number of logic level(s):                5
+    Starting point:                          cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[2]
+    Ending point:                            cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[3]
     The start point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
     The end   point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
 
-Instance / Net                                                                                           Pin                Pin               Arrival     No. of    
-Name                                                                                         Type        Name               Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                               MSS_010     F_HM0_ADDR[3]      Out     3.576     3.576       -         
-CoreAPB3_0_APBmslave0_PADDR[3]                                                               Net         -                  -       1.143     -           20        
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.ss_reg_RNIT5461[2]                   CFG3        C                  In      -         4.718       -         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.ss_reg_RNIT5461[2]                   CFG3        Y                  Out     0.226     4.944       -         
-m48_m3_1                                                                                     Net         -                  -       0.556     -           1         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.i_tx_reg_empty_RNICPAV1     CFG4        D                  In      -         5.500       -         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.i_tx_reg_empty_RNICPAV1     CFG4        Y                  Out     0.326     5.826       -         
-m48_0_1_0_0                                                                                  Net         -                  -       0.556     -           1         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.i_tx_reg_empty_RNIGV4M3     CFG3        A                  In      -         6.382       -         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.i_tx_reg_empty_RNIGV4M3     CFG3        Y                  Out     0.087     6.469       -         
-m48_0_1                                                                                      Net         -                  -       0.556     -           1         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.control_reg_RNI0JEK6[5]                       CFG3        A                  In      -         7.024       -         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.control_reg_RNI0JEK6[5]                       CFG3        Y                  Out     0.087     7.112       -         
-CoreAPB3_0_APBmslave0_PRDATA_m[2]                                                            Net         -                  -       1.117     -           1         
-cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                               MSS_010     F_HM0_RDATA[2]     In      -         8.229       -         
-====================================================================================================================================================================
-Total path delay (propagation time + setup) of 8.492 is 4.565(53.8%) logic and 3.926(46.2%) route.
+Instance / Net                                                                                        Pin                Pin               Arrival     No. of    
+Name                                                                                      Type        Name               Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_ADDR[2]      Out     3.576     3.576       -         
+CoreAPB3_0_APBmslave0_PADDR[2]                                                            Net         -                  -       1.146     -           29        
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.PRDATA_3_i_m2_i_m2_1_0_wmux[3]       ARI1        B                  In      -         4.722       -         
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.PRDATA_3_i_m2_i_m2_1_0_wmux[3]       ARI1        Y                  Out     0.165     4.886       -         
+PRDATA_3_i_m2_i_m2_1_0_y0[3]                                                              Net         -                  -       0.372     -           1         
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.PRDATA_3_i_m2_i_m2_1_0_wmux_0[3]     ARI1        A                  In      -         5.258       -         
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.PRDATA_3_i_m2_i_m2_1_0_wmux_0[3]     ARI1        Y                  Out     0.100     5.359       -         
+N_303                                                                                     Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12_1                          CFG4        D                  In      -         6.476       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12_1                          CFG4        Y                  Out     0.288     6.764       -         
+PRDATA_1_N_7L12_1                                                                         Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12                            CFG4        D                  In      -         7.319       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12                            CFG4        Y                  Out     0.326     7.646       -         
+PRDATA_1_N_7L12                                                                           Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[3]                                CFG4        D                  In      -         8.201       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[3]                                CFG4        Y                  Out     0.288     8.489       -         
+cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[3]                                  Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_RDATA[3]     In      -         9.606       -         
+=================================================================================================================================================================
+Total path delay (propagation time + setup) of 10.131 is 5.268(52.0%) logic and 4.863(48.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.525
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.475
+
+    - Propagation time:                      9.567
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.092
+
+    Number of logic level(s):                5
+    Starting point:                          cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[15]
+    Ending point:                            cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[3]
+    The start point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+
+Instance / Net                                                                          Pin                Pin               Arrival     No. of    
+Name                                                                        Type        Name               Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST              MSS_010     F_HM0_ADDR[15]     Out     3.580     3.580       -         
+cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[15]                    Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIAIMV      CFG2        A                  In      -         4.697       -         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIAIMV      CFG2        Y                  Out     0.100     4.798       -         
+m4_1                                                                        Net         -                  -       0.630     -           2         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIPD8F2     CFG4        C                  In      -         5.428       -         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIPD8F2     CFG4        Y                  Out     0.210     5.637       -         
+CoreAPB3_0_APBmslave1_PSELx                                                 Net         -                  -       0.923     -           16        
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12_1            CFG4        B                  In      -         6.560       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12_1            CFG4        Y                  Out     0.165     6.725       -         
+PRDATA_1_N_7L12_1                                                           Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12              CFG4        D                  In      -         7.280       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12              CFG4        Y                  Out     0.326     7.606       -         
+PRDATA_1_N_7L12                                                             Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[3]                  CFG4        D                  In      -         8.162       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[3]                  CFG4        Y                  Out     0.288     8.450       -         
+cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[3]                    Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST              MSS_010     F_HM0_RDATA[3]     In      -         9.567       -         
+===================================================================================================================================================
+Total path delay (propagation time + setup) of 10.092 is 5.194(51.5%) logic and 4.898(48.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.525
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.475
+
+    - Propagation time:                      9.542
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.067
+
+    Number of logic level(s):                5
+    Starting point:                          cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[3]
+    Ending point:                            cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[3]
+    The start point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+
+Instance / Net                                                                                        Pin                Pin               Arrival     No. of    
+Name                                                                                      Type        Name               Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_ADDR[3]      Out     3.576     3.576       -         
+CoreAPB3_0_APBmslave0_PADDR[3]                                                            Net         -                  -       1.145     -           28        
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.PRDATA_3_i_m2_i_m2_1_0_wmux[3]       ARI1        A                  In      -         4.721       -         
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.PRDATA_3_i_m2_i_m2_1_0_wmux[3]       ARI1        Y                  Out     0.100     4.822       -         
+PRDATA_3_i_m2_i_m2_1_0_y0[3]                                                              Net         -                  -       0.372     -           1         
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.PRDATA_3_i_m2_i_m2_1_0_wmux_0[3]     ARI1        A                  In      -         5.194       -         
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.PRDATA_3_i_m2_i_m2_1_0_wmux_0[3]     ARI1        Y                  Out     0.100     5.295       -         
+N_303                                                                                     Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12_1                          CFG4        D                  In      -         6.412       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12_1                          CFG4        Y                  Out     0.288     6.699       -         
+PRDATA_1_N_7L12_1                                                                         Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12                            CFG4        D                  In      -         7.255       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12                            CFG4        Y                  Out     0.326     7.581       -         
+PRDATA_1_N_7L12                                                                           Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[3]                                CFG4        D                  In      -         8.137       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[3]                                CFG4        Y                  Out     0.288     8.425       -         
+cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[3]                                  Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_RDATA[3]     In      -         9.542       -         
+=================================================================================================================================================================
+Total path delay (propagation time + setup) of 10.067 is 5.204(51.7%) logic and 4.863(48.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.525
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.475
+
+    - Propagation time:                      9.539
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.064
+
+    Number of logic level(s):                5
+    Starting point:                          cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_SEL
+    Ending point:                            cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[3]
+    The start point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+
+Instance / Net                                                                          Pin                Pin               Arrival     No. of    
+Name                                                                        Type        Name               Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST              MSS_010     F_HM0_SEL          Out     3.488     3.488       -         
+cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx                        Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIAIMV      CFG2        B                  In      -         4.605       -         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIAIMV      CFG2        Y                  Out     0.164     4.769       -         
+m4_1                                                                        Net         -                  -       0.630     -           2         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIPD8F2     CFG4        C                  In      -         5.399       -         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIPD8F2     CFG4        Y                  Out     0.210     5.609       -         
+CoreAPB3_0_APBmslave1_PSELx                                                 Net         -                  -       0.923     -           16        
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12_1            CFG4        B                  In      -         6.532       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12_1            CFG4        Y                  Out     0.165     6.696       -         
+PRDATA_1_N_7L12_1                                                           Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12              CFG4        D                  In      -         7.252       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_N_7L12              CFG4        Y                  Out     0.326     7.578       -         
+PRDATA_1_N_7L12                                                             Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[3]                  CFG4        D                  In      -         8.134       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[3]                  CFG4        Y                  Out     0.288     8.422       -         
+cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[3]                    Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST              MSS_010     F_HM0_RDATA[3]     In      -         9.539       -         
+===================================================================================================================================================
+Total path delay (propagation time + setup) of 10.064 is 5.165(51.3%) logic and 4.898(48.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.367
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.633
+
+    - Propagation time:                      9.617
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.016
+
+    Number of logic level(s):                5
+    Starting point:                          cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[15]
+    Ending point:                            cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[0]
+    The start point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+
+Instance / Net                                                                                        Pin                Pin               Arrival     No. of    
+Name                                                                                      Type        Name               Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_ADDR[15]     Out     3.580     3.580       -         
+cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[15]                                  Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIAIMV                    CFG2        A                  In      -         4.697       -         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIAIMV                    CFG2        Y                  Out     0.100     4.798       -         
+m4_1                                                                                      Net         -                  -       0.630     -           2         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIPD8F2_0                 CFG4        C                  In      -         5.428       -         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST_RNIPD8F2_0                 CFG4        Y                  Out     0.210     5.637       -         
+CoreAPB3_0_APBmslave0_PSELx                                                               Net         -                  -       0.715     -           4         
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2CIIll\.CI2CII0I18_0_a2_0_o2_0     CFG4        B                  In      -         6.352       -         
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CIlI\[0\]\.ui2c.CI2CIIll\.CI2CII0I18_0_a2_0_o2_0     CFG4        Y                  Out     0.148     6.501       -         
+N_236                                                                                     Net         -                  -       0.830     -           9         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_0_0[0]                            CFG4        D                  In      -         7.330       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_0_0[0]                            CFG4        Y                  Out     0.326     7.657       -         
+PRDATA_1_0_0[0]                                                                           Net         -                  -       0.556     -           1         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[0]                                CFG4        D                  In      -         8.212       -         
+cdh_tsat5_system_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[0]                                CFG4        Y                  Out     0.288     8.500       -         
+cdh_tsat5_system_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[0]                                  Net         -                  -       1.117     -           1         
+cdh_tsat5_system_sb_0.cdh_tsat5_system_sb_MSS_0.MSS_ADLIB_INST                            MSS_010     F_HM0_RDATA[0]     In      -         9.617       -         
+=================================================================================================================================================================
+Total path delay (propagation time + setup) of 9.984 is 5.020(50.3%) logic and 4.965(49.7%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -330,29 +537,30 @@ Detailed Report for Clock: System
 Starting Points with Worst Slack
 ********************************
 
-                                                                                   Starting                                         Arrival          
-Instance                                                                           Reference     Type     Pin     Net               Time        Slack
-                                                                                   Clock                                                             
------------------------------------------------------------------------------------------------------------------------------------------------------
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.next_state[0]     System        SLE      Q       next_state[0]     0.087       8.749
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.next_state[1]     System        SLE      Q       next_state[1]     0.087       8.749
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.next_state[2]     System        SLE      Q       next_state[2]     0.087       8.749
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.next_state[3]     System        SLE      Q       next_state[3]     0.087       8.749
-=====================================================================================================================================================
+                                                                         Starting                                      Arrival          
+Instance                                                                 Reference     Type     Pin     Net            Time        Slack
+                                                                         Clock                                                          
+----------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.CCC_0.CCC_INST                                     System        CCC      GL0     GL0_net_i      0.000       8.241
+cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4\.CSPII1l.CSPIll0[0]     System        SLE      Q       CSPIll0[0]     0.087       8.749
+cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4\.CSPII1l.CSPIll0[1]     System        SLE      Q       CSPIll0[1]     0.087       8.749
+cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4\.CSPII1l.CSPIll0[2]     System        SLE      Q       CSPIll0[2]     0.087       8.749
+cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4\.CSPII1l.CSPIll0[3]     System        SLE      Q       CSPIll0[3]     0.087       8.749
+========================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                                                              Starting                                      Required          
-Instance                                                                      Reference     Type     Pin     Net            Time         Slack
-                                                                              Clock                                                           
-----------------------------------------------------------------------------------------------------------------------------------------------
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state[0]     System        SLE      D       state_3[0]     9.745        8.749
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state[1]     System        SLE      D       state_3[1]     9.745        8.749
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state[2]     System        SLE      D       state_3[2]     9.745        8.749
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state[3]     System        SLE      D       state_3[3]     9.745        8.749
-==============================================================================================================================================
+                                                                         Starting                                        Required          
+Instance                                                                 Reference     Type     Pin     Net              Time         Slack
+                                                                         Clock                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4\.CSPII1l.CSPIIl0[0]     System        SLE      D       CSPIIl0_3[0]     9.745        8.749
+cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4\.CSPII1l.CSPIIl0[1]     System        SLE      D       CSPIIl0_3[1]     9.745        8.749
+cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4\.CSPII1l.CSPIIl0[2]     System        SLE      D       CSPIIl0_3[2]     9.745        8.749
+cdh_tsat5_system_sb_0.CORESPI_0_0.CSPIOl.genblk4\.CSPII1l.CSPIIl0[3]     System        SLE      D       CSPIIl0_3[3]     9.745        8.749
+===========================================================================================================================================
 
 
 
@@ -366,28 +574,28 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.745
 
-    - Propagation time:                      0.996
+    - Propagation time:                      1.504
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 8.749
+    = Slack (non-critical) :                 8.241
 
     Number of logic level(s):                1
-    Starting point:                          cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.next_state[0] / Q
-    Ending point:                            cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state[0] / D
-    The start point is clocked by            System [rising] on pin CLK
+    Starting point:                          cdh_tsat5_system_sb_0.CCC_0.CCC_INST / GL0
+    Ending point:                            cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CI0 / D
+    The start point is clocked by            System [rising]
     The end   point is clocked by            cdh_tsat5_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                                              Pin      Pin               Arrival     No. of    
-Name                                                                               Type     Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------------------------------------------------------------
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.next_state[0]     SLE      Q        Out     0.087     0.087       -         
-next_state[0]                                                                      Net      -        -       0.585     -           1         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state_3[0]        CFG2     B        In      -         0.672       -         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state_3[0]        CFG2     Y        Out     0.165     0.837       -         
-state_3[0]                                                                         Net      -        -       0.159     -           1         
-cdh_tsat5_system_sb_0.CORESPI_0_0.ucorespi_sfr.genblk4\.u_master.state[0]          SLE      D        In      -         0.996       -         
-=============================================================================================================================================
-Total path delay (propagation time + setup) of 1.251 is 0.507(40.6%) logic and 0.744(59.4%) route.
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                         Type       Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+cdh_tsat5_system_sb_0.CCC_0.CCC_INST         CCC        GL0      Out     0.000     0.000       -         
+GL0_net_i                                    Net        -        -       1.117     -           1         
+cdh_tsat5_system_sb_0.CCC_0.GL0_INST         CLKINT     A        In      -         1.117       -         
+cdh_tsat5_system_sb_0.CCC_0.GL0_INST         CLKINT     Y        Out     0.387     1.504       -         
+GL0_INST                                     Net        -        -       0.000     -           183       
+cdh_tsat5_system_sb_0.COREI2C_0_0.CI2CI0     SLE        D        In      -         1.504       -         
+=========================================================================================================
+Total path delay (propagation time + setup) of 1.760 is 0.642(36.5%) logic and 1.117(63.5%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -397,10 +605,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 139MB peak: 141MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 167MB peak: 170MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 139MB peak: 141MB)
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 167MB peak: 170MB)
 
 ---------------------------------------
 Resource Usage Report for cdh_tsat5_system 
@@ -413,31 +621,32 @@ MSS_010         1 use
 OR3             1 use
 RCOSC_25_50MHZ  1 use
 SYSRESET        1 use
-CFG1           1 use
-CFG2           30 uses
-CFG3           30 uses
-CFG4           65 uses
+CFG1           6 uses
+CFG2           98 uses
+CFG3           129 uses
+CFG4           256 uses
 
 Carry cells:
 ARI1            8 uses - used for arithmetic functions
-ARI1            7 uses - used for Wide-Mux implementation
-Total ARI1      15 uses
+ARI1            15 uses - used for Wide-Mux implementation
+Total ARI1      23 uses
 
 
 Sequential Cells: 
-SLE            87 uses
+SLE            185 uses
 
 DSP Blocks:    0 of 22 (0%)
 
-I/O ports: 19
-I/O primitives: 18
+I/O ports: 21
+I/O primitives: 20
+BIBUF          2 uses
 INBUF          3 uses
 OUTBUF         15 uses
 
 
 Global Clock Buffers: 2
 
-Total LUTs:    141
+Total LUTs:    512
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -445,14 +654,14 @@ RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
 RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  87 + 0 + 0 + 0 = 87;
-Total number of LUTs after P&R:  141 + 0 + 0 + 0 = 141;
+Total number of SLEs after P&R:  185 + 0 + 0 + 0 = 185;
+Total number of LUTs after P&R:  512 + 0 + 0 + 0 = 512;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 29MB peak: 141MB)
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 31MB peak: 170MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Sun Jun 23 15:17:53 2019
+Process took 0h:00m:07s realtime, 0h:00m:05s cputime
+# Sat Mar 14 10:47:04 2020
 
 ###########################################################]

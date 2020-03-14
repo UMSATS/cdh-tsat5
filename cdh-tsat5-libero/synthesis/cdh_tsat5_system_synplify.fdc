@@ -1,2 +1,4 @@
 define_attribute {i:cdh_tsat5_system_sb_0.FABOSC_0} {syn_noprune} 1
+define_attribute {i:cdh_tsat5_system_sb_0.BIBUF_COREI2C_0_0_SCL_IO} {syn_noprune} 1
+define_attribute {i:cdh_tsat5_system_sb_0.BIBUF_COREI2C_0_0_SDA_IO} {syn_noprune} 1
 define_attribute {i:cdh_tsat5_system_sb_0} {syn_noprune} 1

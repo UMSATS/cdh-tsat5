@@ -1,0 +1,537 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# --- Using Windows Actel DirectCore AMBA BFM compiler
+# --- Compiling Actel DirectCore AMBA BFM source files ...
+# 
+# AMBA BFM Compiler (BETA Version 2.1.107 04Feb09) 
+#   Reading
+#    Processing ./coreapb3_usertb_master.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    31 Global  localconstants Defined
+#    42 Global  localvariables Defined
+#   Writing Vectors ./coreapb3_usertb_master.vec
+#    Commands Generated 201
+#    Vectors Generated 666
+#    Vector CheckSum cd447d4c
+# 
+# BFM Compiler Completed Okay
+# --- Done Compiling Actel DirectCore AMBA BFM source files.
+# 
+# AMBA BFM Compiler (Version 3.0.0 Mar 2014) 
+# 
+# @I: BFM101 : Reading input BFM file "test.bfm".
+# 
+# @I: BFM101 : Reading input BFM file "user.bfm".
+# 
+# @I: BFM101 : Reading input BFM file "subsystem.bfm".
+# 
+# @I: BFM107 : Checking procedure calls.
+# 
+# @I: BFM103 : Writing vectors output file "test.vec".
+# 
+# @I: BFM104 : 12 commands are generated in the output vectors output file.
+# 
+# @I: BFM105 : 29 vectors are generated in the output vectors output file.
+# 
+# @I: BFM106 : Output vectors files CheckSum 0e4ce36c
+# 
+# 
+# @I: BFM Compiler Completed Successfully.
+# 
+# 
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/cdh_tsat5_system/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap SmartFusion2 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap COREAPB3_LIB COREAPB3_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap CORESPI_LIB ../component/Actel/DirectCore/CORESPI/3.0.156/mti/lib_vlog_rtl/CORESPI_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:53:24 on Feb 14,2020
+# vcom -reportprogress 300 -work CORESPI_LIB -force_refresh 
+# End time: 15:53:24 on Feb 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:53:24 on Feb 14,2020
+# vlog -reportprogress 300 -work CORESPI_LIB -force_refresh 
+# End time: 15:53:24 on Feb 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:53:24 on Feb 14,2020
+# vlog -reportprogress 300 -vlog01compat -work postlayout C:/Users/Joseph Howarth/Documents/UMSATS/cdh-tsat5/cdh-tsat5-libero/designer/cdh_tsat5_system/cdh_tsat5_system_ba.v 
+# -- Compiling module sdf_IOPAD_TRI
+# -- Compiling module sdf_IOPAD_IN
+# -- Compiling module cdh_tsat5_system
+# 
+# Top level modules:
+# 	cdh_tsat5_system
+# End time: 15:53:24 on Feb 14,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -L COREAPB3_LIB -L CORESPI_LIB -t 1fs -sdfmax /cdh_tsat5_system=C:/Users/Joseph Howarth/Documents/UMSATS/cdh-tsat5/cdh-tsat5-libero/designer/cdh_tsat5_system/cdh_tsat5_system_ba.sdf postlayout.cdh_tsat5_system 
+# Start time: 15:53:25 on Feb 14,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.cdh_tsat5_system
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading SmartFusion2.CFG4
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_IOPAD_TRI
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.ARI1_CC
+# Loading SmartFusion2.SYSRESET_FF
+# Loading SmartFusion2.MSS_010_IP
+# Loading SmartFusion2.MSS_010_MAIN
+# Loading SmartFusion2.MSS_IOMUX
+# Loading SmartFusion2.M3_BFM
+# Loading SmartFusion2.BFM_MAIN
+# Loading SmartFusion2.MSS_APBSLAVES
+# Loading SmartFusion2.MSS_PCLK_DIVISOR
+# Loading SmartFusion2.MSS_MMUART
+# Loading SmartFusion2.MSS_SPI
+# Loading SmartFusion2.MSS_I2C
+# Loading SmartFusion2.MSS_RTC
+# Loading SmartFusion2.MSS_COMBLK
+# Loading SmartFusion2.MSS_COMBLK_FIFO
+# Loading SmartFusion2.MSS_SIIMASTER
+# Loading SmartFusion2.G4M_GPIO
+# Loading SmartFusion2.G4M_PDMA
+# Loading SmartFusion2.PDMARegs
+# Loading SmartFusion2.PDMAReg
+# Loading SmartFusion2.chanArb
+# Loading SmartFusion2.writeAdjust
+# Loading SmartFusion2.DMAExec
+# Loading SmartFusion2.MSS_H2FINTCTRL
+# Loading SmartFusion2.MSS_AHBTOAPB
+# Loading SmartFusion2.G4M_AHBTOAPB
+# Loading SmartFusion2.AhbToApbSM
+# Loading SmartFusion2.PenableScheduler
+# Loading SmartFusion2.PreadyMarshal
+# Loading SmartFusion2.ApbAddrData
+# Loading SmartFusion2.G4M_FABRICIF
+# Loading SmartFusion2.FABRICIF_HM
+# Loading SmartFusion2.AhbWrapper_HM
+# Loading SmartFusion2.ClientAddrData_HM
+# Loading SmartFusion2.AhbClient_HM
+# Loading SmartFusion2.ApbClient_HM
+# Loading SmartFusion2.FABRICIF_FM
+# Loading SmartFusion2.Client_FM
+# Loading SmartFusion2.ClientAddrData_FM
+# Loading SmartFusion2.AhbWrapper_FM
+# Loading SmartFusion2.ApbWrapper_FM
+# Loading SmartFusion2.MSS_CCC
+# Loading SmartFusion2.CCC_PLL
+# Loading SmartFusion2.ABISCB82
+# Loading SmartFusion2.ABI_PLL_FRONT
+# Loading SmartFusion2.Divide_2
+# Loading SmartFusion2.ABI_PHASE
+# Loading SmartFusion2.MSS_FACC
+# Loading SmartFusion2.MSS_RESETSYNC
+# Loading SmartFusion2.MSS_SYNCHRONISER
+# Loading SmartFusion2.div2
+# Loading SmartFusion2.Odd_Divider
+# Loading SmartFusion2.Even_Divider
+# Loading SmartFusion2.mss_facc_divider
+# Loading SmartFusion2.prog_delay_line
+# Loading SmartFusion2.buffcell
+# Loading SmartFusion2.real_clockmux
+# Loading SmartFusion2.MSS_ResetController
+# Loading SmartFusion2.MSS_SYSREG_010
+# Loading SmartFusion2.MSS_AHB2X
+# Loading SmartFusion2.MSS_RWP
+# Loading SmartFusion2.MSS_RWP_SF
+# Loading SmartFusion2.MSS_SWC
+# Loading SmartFusion2.MSS_W1P
+# Loading SmartFusion2.MSS_SWITCH
+# Loading SmartFusion2.G4M_SWITCH
+# Loading SmartFusion2.SW_Matrix9x7
+# Loading SmartFusion2.SWMaster0Stage
+# Loading SmartFusion2.AddrDecM0
+# Loading SmartFusion2.DefaultSlaveSM
+# Loading SmartFusion2.SWMaster2Stage
+# Loading SmartFusion2.AddrDecM2
+# Loading SmartFusion2.SWMaster3Stage
+# Loading SmartFusion2.AddrDecM3
+# Loading SmartFusion2.SWMaster4Stage
+# Loading SmartFusion2.AddrDecM4
+# Loading SmartFusion2.SWMaster6Stage
+# Loading SmartFusion2.AddrDecM6
+# Loading SmartFusion2.SWMaster7Stage
+# Loading SmartFusion2.AddrDecM7
+# Loading SmartFusion2.SWMaster9Stage
+# Loading SmartFusion2.AddrDecM9
+# Loading SmartFusion2.SWSlaveStageM9_ESRAM
+# Loading SmartFusion2.SlaveArbiterM9_ESRAM
+# Loading SmartFusion2.SWSlaveStageM9
+# Loading SmartFusion2.SlaveArbiterM9
+# Loading SmartFusion2.SW_A2ABridge
+# Loading SmartFusion2.SW_A2Aaddrdec
+# Loading SmartFusion2.A2A_Matrix2x16
+# Loading SmartFusion2.A2A_Masterstage
+# Loading SmartFusion2.A2A_addrdec
+# Loading SmartFusion2.A2A_Slavestage
+# Loading SmartFusion2.G4M_HPDMA
+# Loading SmartFusion2.hpd_config_regs
+# Loading SmartFusion2.hpd_dma_controller
+# Loading SmartFusion2.fsm_hpd_dma_cntrl
+# Loading SmartFusion2.fsm_hpd_rnd_rbin
+# Loading SmartFusion2.hpd_write_bfrc
+# Loading SmartFusion2.hpd_read_bfrc
+# Loading SmartFusion2.hpd_data_buffer
+# Loading SmartFusion2.hpd_glu_logic_mux
+# Loading SmartFusion2.hpd_ahb_master
+# Loading SmartFusion2.MSS_CACHE_010
+# Loading SmartFusion2.G4M_CACHE_010
+# Loading SmartFusion2.g4m_cache_digital_010
+# Loading SmartFusion2.cc_cache_engine_010
+# Loading SmartFusion2.cc_ahbmstr_010
+# Loading SmartFusion2.ECCBLK_010
+# Loading SmartFusion2.cachematrix5x6_010
+# Loading SmartFusion2.cc_cm_master0stg_010
+# Loading SmartFusion2.cc_cm_addrdecm0_010
+# Loading SmartFusion2.cc_cm_defslavesm_010
+# Loading SmartFusion2.cc_cm_master1stg_010
+# Loading SmartFusion2.cc_cm_addrdecm1_010
+# Loading SmartFusion2.cc_cm_master2stg_010
+# Loading SmartFusion2.cc_cm_addrdecm2_010
+# Loading SmartFusion2.cc_cm_master4stg_010
+# Loading SmartFusion2.cc_cm_slave0stg_010
+# Loading SmartFusion2.cc_cm_slave1stg_010
+# Loading SmartFusion2.cc_cm_slave1arb_010
+# Loading SmartFusion2.cc_cm_slave2stg_010
+# Loading SmartFusion2.cc_cm_slave2arb_010
+# Loading SmartFusion2.cc_cm_slave3stg_010
+# Loading SmartFusion2.cc_cm_slave4stg_010
+# Loading SmartFusion2.cc_cm_slave5stg_010
+# Loading SmartFusion2.cc_cm_slave5arb_010
+# Loading SmartFusion2.cc_cm_slave6stg_010
+# Loading SmartFusion2.cc_sbus2mem_010
+# Loading SmartFusion2.tagmem64x21_010
+# Loading SmartFusion2.G4M_CACHERAM
+# Loading SmartFusion2.spmbist_mux_bypass_010
+# Loading SmartFusion2.MSS_BFM_AHBSLAVE
+# Loading SmartFusion2.MSS_BFM_AHBSLAVEEXT
+# Loading SmartFusion2.MSS_AHB_NVM
+# Loading SmartFusion2.ahb_nvm_bfm
+# Loading SmartFusion2.nvm_ram
+# Loading SmartFusion2.G4M_MDDR_SUBSYS_010
+# Loading SmartFusion2.synchroniser
+# Loading SmartFusion2.G4M_AXI_DDR_PHYWRP_010
+# Loading SmartFusion2.G4M_AXI_DDRINTF_010
+# Loading SmartFusion2.aximon_010
+# Loading SmartFusion2.ddrc_monitor_010
+# Loading SmartFusion2.ddrc_axi_wrp_010
+# Loading SmartFusion2.axi_exclusive_010
+# Loading SmartFusion2.reorder_block_010
+# Loading SmartFusion2.f_reorder_block_010
+# Loading SmartFusion2.f_axi_read_port_010
+# Loading SmartFusion2.axi_write_port_010
+# Loading SmartFusion2.trans_schd_010
+# Loading SmartFusion2.ddrc_apb_wrp_010
+# Loading SmartFusion2.ddrc_axi_dyn_reg_sync_010
+# Loading SmartFusion2.ddrc_apb_reg_sync_010
+# Loading SmartFusion2.ddrc_op_registers_010
+# Loading SmartFusion2.ddrc_wdata_ram_010
+# Loading SmartFusion2.ddrc_010
+# Loading SmartFusion2.bypass_010
+# Loading SmartFusion2.ih_010
+# Loading SmartFusion2.ih_core_in_if_010
+# Loading SmartFusion2.ingot_sync_fifo_flopout_rst_010
+# Loading SmartFusion2.ih_core_out_if_010
+# Loading SmartFusion2.ih_address_map_010
+# Loading SmartFusion2.ih_te_if_010
+# Loading SmartFusion2.ih_be_if_010
+# Loading SmartFusion2.ih_fifo_if_010
+# Loading SmartFusion2.ih_fifo_control_010
+# Loading SmartFusion2.mr_010
+# Loading SmartFusion2.mr_ram_rd_pipeline_010
+# Loading SmartFusion2.mr_data_steering_ecc_010
+# Loading SmartFusion2.mr_test_mode_010
+# Loading SmartFusion2.mr_ecc_encoder_010
+# Loading SmartFusion2.mr_secded_lane_010
+# Loading SmartFusion2.pi_010
+# Loading SmartFusion2.ra_ecc64_010
+# Loading SmartFusion2.rd_010
+# Loading SmartFusion2.rd_test_mode_010
+# Loading SmartFusion2.rd_ecc_decoder_010
+# Loading SmartFusion2.rd_secded_lane_010
+# Loading SmartFusion2.rt_010
+# Loading SmartFusion2.teengine_010
+# Loading SmartFusion2.te_rd_cam_010
+# Loading SmartFusion2.te_rd_replace_010
+# Loading SmartFusion2.selnet_010
+# Loading SmartFusion2.te_filter_010
+# Loading SmartFusion2.te_rd_nxt_010
+# Loading SmartFusion2.te_wr_cam_010
+# Loading SmartFusion2.te_wr_replace_010
+# Loading SmartFusion2.te_wr_nxt_010
+# Loading SmartFusion2.te_misc_010
+# Loading SmartFusion2.dti_010
+# Loading SmartFusion2.ts_010
+# Loading SmartFusion2.os_select_net_tags_010
+# Loading SmartFusion2.os_select_net_010
+# Loading SmartFusion2.os_glue_010
+# Loading SmartFusion2.gs_010
+# Loading SmartFusion2.gs_glue_010
+# Loading SmartFusion2.gs_dll_calib_010
+# Loading SmartFusion2.gs_global_constraints_010
+# Loading SmartFusion2.gs_next_xact_010
+# Loading SmartFusion2.gs_odt_010
+# Loading SmartFusion2.gs_rank_constraints_010
+# Loading SmartFusion2.gs_global_fsm_010
+# Loading SmartFusion2.gs_q_fsm_010
+# Loading SmartFusion2.gs_init_ddr_fsm_010
+# Loading SmartFusion2.gs_zq_calib_010
+# Loading SmartFusion2.gs_load_mr_010
+# Loading SmartFusion2.memc_wu_010
+# Loading SmartFusion2.memc_wu_wdata_if_010
+# Loading SmartFusion2.phy_apb_reg_sync_010
+# Loading SmartFusion2.phy_apb_wrp_010
+# Loading SmartFusion2.phy_op_registers_010
+# Loading SmartFusion2.phy_axi_dyn_reg_sync_010
+# Loading SmartFusion2.dfi_phy_core_010
+# Loading SmartFusion2.dll
+# Loading SmartFusion2.dll_ffwrap
+# Loading SmartFusion2.dll_mux21wrap
+# Loading SmartFusion2.dl
+# Loading SmartFusion2.dl_dec
+# Loading SmartFusion2.dl_scan_logic
+# Loading SmartFusion2.dl_balanced_mux2
+# Loading SmartFusion2.dl_nandwrap
+# Loading SmartFusion2.dl_invwrap
+# Loading SmartFusion2.dl_scan_ffwrap
+# Loading SmartFusion2.dl_cd
+# Loading SmartFusion2.dl_fd1
+# Loading SmartFusion2.dl_inv1wrap
+# Loading SmartFusion2.dl_orwrap
+# Loading SmartFusion2.dl_invwrap1
+# Loading SmartFusion2.dll_dc_fsm
+# Loading SmartFusion2.dl_0dly
+# Loading SmartFusion2.dll_dlywrap
+# Loading SmartFusion2.dll_pd
+# Loading SmartFusion2.dll_of
+# Loading SmartFusion2.dfi_rank_tracker
+# Loading SmartFusion2.dfi_upd_stat_if
+# Loading SmartFusion2.dfi_resp_gen
+# Loading SmartFusion2.ingot_acthigh_sync
+# Loading SmartFusion2.fifo_re_gen_dfi
+# Loading SmartFusion2.G4M_FIC64_010
+# Loading SmartFusion2.G4M_DDRBRIDGE
+# Loading SmartFusion2.ddrb_idc_rdcntrl
+# Loading SmartFusion2.ddrb_htrans_decode
+# Loading SmartFusion2.ddrb_idc_rdbuf
+# Loading SmartFusion2.ddrb_idc_rdbuf_cntrl
+# Loading SmartFusion2.ddrb_idc_arb_rd_if
+# Loading SmartFusion2.ddrb_wcb
+# Loading SmartFusion2.ddrb_wrcntrl
+# Loading SmartFusion2.ddrb_wrbuf_cntrl
+# Loading SmartFusion2.ddrb_wrbuf
+# Loading SmartFusion2.ddrb_flush_cntrl
+# Loading SmartFusion2.ddrb_arb_wr_if
+# Loading SmartFusion2.ddrb_rdcntrl
+# Loading SmartFusion2.ddrb_rdbuf
+# Loading SmartFusion2.ddrb_rdbuf_cntrl
+# Loading SmartFusion2.ddrb_arb_rd_if
+# Loading SmartFusion2.ddrb_ahb_slave
+# Loading SmartFusion2.ddrb_axi_arbiter
+# Loading SmartFusion2.ddrb_arb_wreq_gen
+# Loading SmartFusion2.ddrb_arb_rreq_gen
+# Loading SmartFusion2.ddrb_wr_arbiter
+# Loading SmartFusion2.ddrb_waddr_chctrl
+# Loading SmartFusion2.ddrb_wdata_chctrl
+# Loading SmartFusion2.ddrb_wresp_chctrl
+# Loading SmartFusion2.ddrb_rd_arbiter
+# Loading SmartFusion2.ddrb_raddr_chctrl
+# Loading SmartFusion2.ddrb_rdata_chctrl
+# Loading SmartFusion2.G4MAIN_AXISYNC_010
+# Loading SmartFusion2.fic64_confg_regs_010
+# Loading SmartFusion2.G4M_DDRIO_CALIB_010
+# Loading SmartFusion2.iocalib_fsm_010
+# Loading SmartFusion2.G4M_AHBTOAPB_CONFIG
+# Loading SmartFusion2.AhbWrapper_config_HM
+# Loading SmartFusion2.ClientAddrData_config_HM
+# Loading SmartFusion2.ApbClient_config_HM
+# Loading SmartFusion2.APB_CONFIG_MUX
+# Loading SmartFusion2.clockmux
+# Loading SmartFusion2.G4M_REVFIC
+# Loading SmartFusion2.G4MAIN_AXITOAHB_REVFIC
+# Loading SmartFusion2.MSSDDR_SDRMUX
+# Loading SmartFusion2.MSS_DDRBRIDGE
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.GB_NG
+# Loading postlayout.sdf_IOPAD_IN
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.CCC
+# Loading SmartFusion2.CCC_FB_DELAY
+# Loading SmartFusion2.CCC_DELAY
+# Loading SmartFusion2.CCC_RF_DELAY
+# Loading SmartFusion2.CCC_RF_DIV
+# Loading SmartFusion2.Freq_Divider
+# Loading SmartFusion2.CCC_FB_DIV
+# Loading SmartFusion2.CCC_RF_MUX
+# Loading SmartFusion2.CCC_FB_MUX
+# Loading SmartFusion2.CCC_GPD0
+# Loading SmartFusion2.CCC_GPD
+# Loading SmartFusion2.CCC_GPD1
+# Loading SmartFusion2.CCC_GPD2
+# Loading SmartFusion2.CCC_GPD3
+# Loading SmartFusion2.CCC_SYNCB_GEN
+# Loading SmartFusion2.RSTN_SYNC
+# Loading SmartFusion2.SYNCGEN_CNT14
+# Loading SmartFusion2.CCC_GPD_MUX0
+# Loading SmartFusion2.CCC_GPD_MUX
+# Loading SmartFusion2.CCC_GPD_MUX1
+# Loading SmartFusion2.CCC_GPD_MUX2
+# Loading SmartFusion2.CCC_GPD_MUX3
+# Loading SmartFusion2.CCC_NGMUX0
+# Loading SmartFusion2.CCC_NGMUX
+# Loading SmartFusion2.CCC_NGPREMUX
+# Loading SmartFusion2.CCC_NGMUX1
+# Loading SmartFusion2.CCC_NGMUX2
+# Loading SmartFusion2.CCC_NGMUX3
+# Loading SmartFusion2.CCC_CONFIG
+# Loading SmartFusion2.CFG1
+# Loading SmartFusion2.CC_CONFIG
+# Loading SmartFusion2.CC_CONFIG_2
+# Loading SmartFusion2.RCOSC_25_50MHZ
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.VCC
+# Loading SmartFusion2.IOMUX
+# Loading SmartFusion2.setresetenableflop
+# Loading SmartFusion2.ACTEL_ecc_010
+# Loading SmartFusion2.DW_ecc
+# Loading SmartFusion2.MG_Ecc
+# Loading SmartFusion2.RAMSP256X72
+# Loading SmartFusion2.SYKA65_256X72X1CM2
+# Loading SmartFusion2.b_axi_read_port_010
+# Loading SmartFusion2.priority_block_010
+# Loading SmartFusion2.te_rd_mux_010
+# Loading SmartFusion2.te_rd_entry
+# Loading SmartFusion2.select_block_l1_010
+# Loading SmartFusion2.select_block_l2plus_010
+# Loading SmartFusion2.te_wr_mux_010
+# Loading SmartFusion2.te_wr_entry
+# Loading SmartFusion2.select_block_l1_tags_010
+# Loading SmartFusion2.bsm_010
+# Loading SmartFusion2.dl_element
+# Loading SmartFusion2.phy_ctrl_slice
+# Loading SmartFusion2.dll_rl
+# Loading SmartFusion2.phy_ctrl_wrapper
+# Loading SmartFusion2.phy_ctrl
+# Loading SmartFusion2.phy_ctrl_clkbuf16_wrapper
+# Loading SmartFusion2.phy_ctrl_nor2_wrapper
+# Loading SmartFusion2.phy_ctrl_load_wrapper
+# Loading SmartFusion2.phy_ctrl_mux21_wrapper
+# Loading SmartFusion2.phy_ctrl_clkinv16_wrapper
+# Loading SmartFusion2.phy_data_slice_swapbits
+# Loading SmartFusion2.phy_wr_level_fsm
+# Loading SmartFusion2.dfi_multi_rank_ratio_logic
+# Loading SmartFusion2.phy_gate_level_fsm
+# Loading SmartFusion2.phy_rd_level_fsm
+# Loading SmartFusion2.phy_data
+# Loading SmartFusion2.phy_data_clkbuf16_wrapper
+# Loading SmartFusion2.phy_data_inv8_wrapper
+# Loading SmartFusion2.phy_data_clkbuf8_wrapper
+# Loading SmartFusion2.phy_data_mux21_wrapper
+# Loading SmartFusion2.phy_data_clkinv16_wrapper
+# Loading SmartFusion2.phy_data_posff_wrapper
+# Loading SmartFusion2.phy_data_and2_16_wrapper
+# Loading SmartFusion2.phy_data_wrdqsclk_load_wrapper
+# Loading SmartFusion2.phy_data_wrdataclk_load_wrapper
+# Loading SmartFusion2.phy_data_nor2_wrapper
+# Loading SmartFusion2.phy_data_clkbuf12_wrapper
+# Loading SmartFusion2.phy_data_wr_fifo
+# Loading SmartFusion2.phy_data_clk_dly_wrapper
+# Loading SmartFusion2.phy_data_out_bit
+# Loading SmartFusion2.phy_data_negff_wrapper
+# Loading SmartFusion2.phy_data_stoy_mux21_wrapper
+# Loading SmartFusion2.phy_data_buf1_wrapper
+# Loading SmartFusion2.phy_data_inv1_wrapper
+# Loading SmartFusion2.phy_data_posff_set_wrapper
+# Loading SmartFusion2.phy_data_dqs_out
+# Loading SmartFusion2.phy_data_local_odt_dqs_load_wrapper
+# Loading SmartFusion2.phy_data_fifo_we_out
+# Loading SmartFusion2.phy_data_and2_wrapper
+# Loading SmartFusion2.phy_data_fifoweout_load_wrapper
+# Loading SmartFusion2.phy_data_dqin_dly
+# Loading SmartFusion2.phy_data_in_bit
+# Loading SmartFusion2.phy_data_dqin_nor2_load_wrapper
+# Loading SmartFusion2.phy_data_dqin_load_wrapper
+# Loading SmartFusion2.phy_data_pos_captff_wrapper
+# Loading SmartFusion2.phy_data_rd_fifo
+# Loading SmartFusion2.phy_data_xor2_wrapper
+# Loading SmartFusion2.dfi_phy_bist
+# Loading SmartFusion2.dfi_prbs
+# Loading SmartFusion2.ingot_sync_fifo_rst
+# Loading SmartFusion2.phy_data_slice
+# Loading SmartFusion2.phy_ctrl_cmd_bit
+# Loading SmartFusion2.phy_ctrl_posff_wrapper
+# Loading SmartFusion2.phy_ctrl_cmd_bit_load_wrapper
+# Loading SmartFusion2.phy_ctrl_buf1_wrapper
+# Loading SmartFusion2.phy_ctrl_clkout
+# Loading SmartFusion2.phy_ctrl_inv1_wrapper
+# Loading SmartFusion2.phy_ctrl_negff_set_wrapper
+# Loading SmartFusion2.phy_ctrl_stoy_mux21_wrapper
+# Loading SmartFusion2.phy_ctrl_clkout_load_wrapper
+# Loading SmartFusion2.dfi_single_rank_ratio_logic
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# usage: sdfcom [ options ] source-file output-file
+# 
+# Options:
+# 
+#   -32                 Run in 32-bit mode
+# 
+#   -64                 Run in 64-bit mode
+# 
+#   -mindelays          Use minimum timing from min:typ:max expressions
+# 
+#   -typdelays          Use typical timing from min:typ:max expressions (default)
+# 
+#   -maxdelays          Use maximum timing from min:typ:max expressions
+# 
+#   -delayscale <val>   Scale delays by the specified value
+# 
+#   -nocompress         Don't compress the resulting output file
+# 
+#   -suppress <msg(s)>  Suppress comma-separed list of error/warning messages
+# 
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# Loading SmartFusion2.UDP_BUFF
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 26
+# End time: 15:53:39 on Feb 14,2020, Elapsed time: 0:00:14
+# Errors: 2, Warnings: 0

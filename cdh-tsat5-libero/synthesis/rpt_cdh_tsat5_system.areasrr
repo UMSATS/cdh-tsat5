@@ -9,19 +9,19 @@ Part:			M2S010TQ144STD (Microsemi)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      87                 100 %                
+SLE      185                100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system:	87 (31.64 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system:	185 (24.60 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           126                100 %                
-ARI1          15                 100 %                
-BLACK BOX     73                 100 %                
+CFG           489                100 %                
+ARI1          23                 100 %                
+BLACK BOX     77                 100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system:	214 (77.82 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system:	589 (78.32 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -29,15 +29,15 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block cdh_tsat5_system:	2 (0.73 % Utilization)
+Total GLOBAL BUFFERS in the block cdh_tsat5_system:	2 (0.27 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       18                 100 %                
+IO       20                 100 %                
 =================================================
-Total IO PADS in the block cdh_tsat5_system:	18 (6.55 % Utilization)
+Total IO PADS in the block cdh_tsat5_system:	20 (2.66 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   cdh_tsat5_system_sb   ########
@@ -47,19 +47,19 @@ Instance path:   cdh_tsat5_system.cdh_tsat5_system_sb
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      87                 100 %                
+SLE      185                100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system.cdh_tsat5_system_sb:	87 (31.64 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system.cdh_tsat5_system_sb:	185 (24.60 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           126                100 %                
-ARI1          15                 100 %                
-BLACK BOX     73                 100 %                
+CFG           489                100 %                
+ARI1          23                 100 %                
+BLACK BOX     77                 100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system.cdh_tsat5_system_sb:	214 (77.82 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system.cdh_tsat5_system_sb:	589 (78.32 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -67,7 +67,59 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block cdh_tsat5_system.cdh_tsat5_system_sb:	2 (0.73 % Utilization)
+Total GLOBAL BUFFERS in the block cdh_tsat5_system.cdh_tsat5_system_sb:	2 (0.27 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       2                  10 %                 
+=================================================
+Total IO PADS in the block cdh_tsat5_system.cdh_tsat5_system_sb:	2 (0.27 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   COREI2C_Z2   ########
+Instance path:   cdh_tsat5_system_sb.COREI2C_Z2                 
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      98                 53 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.COREI2C_Z2:	98 (13.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           365                74.6 %               
+ARI1          8                  34.8 %               
+BLACK BOX     4                  5.19 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.COREI2C_Z2:	377 (50.13 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   COREI2CREAL_Z3   ########
+Instance path:   COREI2C_Z2.COREI2CREAL_Z3                          
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      88                 47.6 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREI2C_Z2.COREI2CREAL_Z3:	88 (11.70 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           362                74 %                 
+ARI1          8                  34.8 %               
+BLACK BOX     4                  5.19 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block COREI2C_Z2.COREI2CREAL_Z3:	374 (49.73 % Utilization)
 
 -----------------------------------------------------------------------
 ########   Utilization report for  cell:   CORESPI_15s_1s_0s   ########
@@ -77,60 +129,60 @@ Instance path:   cdh_tsat5_system_sb.CORESPI_15s_1s_0s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      77                 88.5 %               
+SLE      77                 41.6 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CORESPI_15s_1s_0s:	77 (28.00 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CORESPI_15s_1s_0s:	77 (10.24 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      122                96.8 %               
-ARI1     15                 100 %                
+CFG      85                 17.4 %               
+ARI1     13                 56.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CORESPI_15s_1s_0s:	137 (49.82 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CORESPI_15s_1s_0s:	98 (13.03 % Utilization)
 
------------------------------------------------------------------------
-########   Utilization report for  cell:   CORESPI_SFR_1s_0s   ########
-Instance path:   CORESPI_15s_1s_0s.CORESPI_SFR_1s_0s                   
-=======================================================================
+------------------------------------------------------------------
+########   Utilization report for  cell:   CSPIlI_1s_0s   ########
+Instance path:   CORESPI_15s_1s_0s.CSPIlI_1s_0s                   
+==================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      77                 88.5 %               
+SLE      77                 41.6 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CORESPI_15s_1s_0s.CORESPI_SFR_1s_0s:	77 (28.00 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CORESPI_15s_1s_0s.CSPIlI_1s_0s:	77 (10.24 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      122                96.8 %               
-ARI1     15                 100 %                
+CFG      85                 17.4 %               
+ARI1     13                 56.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block CORESPI_15s_1s_0s.CORESPI_SFR_1s_0s:	137 (49.82 % Utilization)
+Total COMBINATIONAL LOGIC in the block CORESPI_15s_1s_0s.CSPIlI_1s_0s:	98 (13.03 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   spi_master   ########
-Instance path:   CORESPI_SFR_1s_0s.spi_master                   
+Instance path:   CSPIlI_1s_0s.spi_master                        
 ================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      51                 58.6 %               
+SLE      51                 27.6 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CORESPI_SFR_1s_0s.spi_master:	51 (18.55 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CSPIlI_1s_0s.spi_master:	51 (6.78 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      78                 61.9 %               
-ARI1     13                 86.7 %               
+CFG      53                 10.8 %               
+ARI1     13                 56.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block CORESPI_SFR_1s_0s.spi_master:	91 (33.09 % Utilization)
+Total COMBINATIONAL LOGIC in the block CSPIlI_1s_0s.spi_master:	66 (8.78 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAPB3_Z1   ########
@@ -140,30 +192,44 @@ Instance path:   cdh_tsat5_system_sb.CoreAPB3_Z1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  1.59 %               
+CFG      34                 6.95 %               
+ARI1     2                  8.7 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreAPB3_Z1:	2 (0.73 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreAPB3_Z1:	36 (4.79 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   COREAPB3_MUXPTOB3   ########
+Instance path:   CoreAPB3_Z1.COREAPB3_MUXPTOB3                         
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      34                 6.95 %               
+ARI1     2                  8.7 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3_Z1.COREAPB3_MUXPTOB3:	36 (4.79 % Utilization)
 
 -------------------------------------------------------------------
-########   Utilization report for  cell:   CoreResetP_Z2   ########
-Instance path:   cdh_tsat5_system_sb.CoreResetP_Z2                 
+########   Utilization report for  cell:   CoreResetP_Z4   ########
+Instance path:   cdh_tsat5_system_sb.CoreResetP_Z4                 
 ===================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      10                 11.5 %               
+SLE      10                 5.41 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CoreResetP_Z2:	10 (3.64 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cdh_tsat5_system_sb.CoreResetP_Z4:	10 (1.33 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  1.59 %               
-BLACK BOX     66                 90.4 %               
+CFG           2                  0.4090 %             
+BLACK BOX     66                 85.7 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreResetP_Z2:	68 (24.73 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.CoreResetP_Z4:	68 (9.04 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -171,7 +237,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.CoreResetP_Z2:	1 (0.36 % Utilization)
+Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.CoreResetP_Z4:	1 (0.13 % Utilization)
 
 ------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   cdh_tsat5_system_sb_CCC_0_FCCC   ########
@@ -181,9 +247,9 @@ Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     2                  2.74 %               
+BLACK BOX     2                  2.6 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	2 (0.73 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	2 (0.27 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -191,7 +257,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	1 (0.36 % Utilization)
+Total GLOBAL BUFFERS in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_CCC_0_FCCC:	1 (0.13 % Utilization)
 
 --------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   cdh_tsat5_system_sb_FABOSC_0_OSC   ########
@@ -201,9 +267,9 @@ Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     2                  2.74 %               
+BLACK BOX     2                  2.6 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC:	2 (0.73 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_FABOSC_0_OSC:	2 (0.27 % Utilization)
 
 -----------------------------------------------------------------------------
 ########   Utilization report for  cell:   cdh_tsat5_system_sb_MSS   ########
@@ -213,9 +279,10 @@ Instance path:   cdh_tsat5_system_sb.cdh_tsat5_system_sb_MSS
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     1                  1.37 %               
+CFG           3                  0.6130 %             
+BLACK BOX     1                  1.3 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_MSS:	1 (0.36 % Utilization)
+Total COMBINATIONAL LOGIC in the block cdh_tsat5_system_sb.cdh_tsat5_system_sb_MSS:	4 (0.53 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

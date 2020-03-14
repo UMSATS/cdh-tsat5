@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sun Jun 23 15:17:43 2019
+// Created by SmartDesign Sat Mar 14 10:46:37 2020
 // Version: v11.9 SP2 11.9.2.1
 //////////////////////////////////////////////////////////////////////
 
@@ -27,7 +27,10 @@ module cdh_tsat5_system(
     GPIO_9_M2F,
     MMUART_0_TXD_M2F,
     m_mosi,
-    m_sck
+    m_sck,
+    // Inouts
+    COREI2C_0_0_SCL_IO,
+    COREI2C_0_0_SDA_IO
 );
 
 //--------------------------------------------------------------------
@@ -56,11 +59,18 @@ output MMUART_0_TXD_M2F;
 output m_mosi;
 output m_sck;
 //--------------------------------------------------------------------
+// Inout
+//--------------------------------------------------------------------
+inout  COREI2C_0_0_SCL_IO;
+inout  COREI2C_0_0_SDA_IO;
+//--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
 wire   CAN_RX_F2M;
 wire   CAN_TX_M2F_net_0;
 wire   cdh_tsat5_system_sb_0_POWER_ON_RESET_N;
+wire   COREI2C_0_0_SCL_IO;
+wire   COREI2C_0_0_SDA_IO;
 wire   DEVRST_N;
 wire   GPIO_0_M2F_net_0;
 wire   GPIO_1_M2F_net_0;
@@ -140,40 +150,43 @@ assign GPIO_12_M2F            = GPIO_12_M2F_net_1;
 //--------cdh_tsat5_system_sb
 cdh_tsat5_system_sb cdh_tsat5_system_sb_0(
         // Inputs
-        .FAB_RESET_N      ( cdh_tsat5_system_sb_0_POWER_ON_RESET_N ),
-        .DEVRST_N         ( DEVRST_N ),
-        .MMUART_0_RXD_F2M ( MMUART_0_RXD_F2M ),
-        .CAN_RX_F2M       ( CAN_RX_F2M ),
-        .m_miso           ( m_miso ),
-        .s_mosi           ( VCC_net ),
-        .s_sck            ( VCC_net ),
-        .s_ss             ( VCC_net ),
+        .FAB_RESET_N        ( cdh_tsat5_system_sb_0_POWER_ON_RESET_N ),
+        .DEVRST_N           ( DEVRST_N ),
+        .MMUART_0_RXD_F2M   ( MMUART_0_RXD_F2M ),
+        .CAN_RX_F2M         ( CAN_RX_F2M ),
+        .m_miso             ( m_miso ),
+        .s_mosi             ( VCC_net ),
+        .s_sck              ( VCC_net ),
+        .s_ss               ( VCC_net ),
         // Outputs
-        .POWER_ON_RESET_N ( cdh_tsat5_system_sb_0_POWER_ON_RESET_N ),
-        .INIT_DONE        (  ),
-        .FAB_CCC_GL0      (  ),
-        .FAB_CCC_LOCK     (  ),
-        .MSS_READY        (  ),
-        .MMUART_0_TXD_M2F ( MMUART_0_TXD_M2F_net_0 ),
-        .CAN_TX_M2F       ( CAN_TX_M2F_net_0 ),
-        .CAN_TX_EN_N_M2F  (  ),
-        .GPIO_0_M2F       ( GPIO_0_M2F_net_0 ),
-        .GPIO_1_M2F       ( GPIO_1_M2F_net_0 ),
-        .GPIO_3_M2F       ( GPIO_3_M2F_net_0 ),
-        .GPIO_5_M2F       ( GPIO_5_M2F_net_0 ),
-        .GPIO_6_M2F       ( GPIO_6_M2F_net_0 ),
-        .GPIO_7_M2F       ( GPIO_7_M2F_net_0 ),
-        .GPIO_8_M2F       ( GPIO_8_M2F_net_0 ),
-        .GPIO_9_M2F       ( GPIO_9_M2F_net_0 ),
-        .GPIO_10_M2F      ( GPIO_10_M2F_net_0 ),
-        .GPIO_11_M2F      ( GPIO_11_M2F_net_0 ),
-        .GPIO_12_M2F      ( GPIO_12_M2F_net_0 ),
-        .enable_master    (  ),
-        .enable_slave     (  ),
-        .m_mosi           ( m_mosi_net_0 ),
-        .m_sck            ( m_sck_net_0 ),
-        .m_ss             (  ),
-        .s_miso           (  ) 
+        .POWER_ON_RESET_N   ( cdh_tsat5_system_sb_0_POWER_ON_RESET_N ),
+        .INIT_DONE          (  ),
+        .FAB_CCC_GL0        (  ),
+        .FAB_CCC_LOCK       (  ),
+        .MSS_READY          (  ),
+        .MMUART_0_TXD_M2F   ( MMUART_0_TXD_M2F_net_0 ),
+        .CAN_TX_M2F         ( CAN_TX_M2F_net_0 ),
+        .CAN_TX_EN_N_M2F    (  ),
+        .GPIO_0_M2F         ( GPIO_0_M2F_net_0 ),
+        .GPIO_1_M2F         ( GPIO_1_M2F_net_0 ),
+        .GPIO_3_M2F         ( GPIO_3_M2F_net_0 ),
+        .GPIO_5_M2F         ( GPIO_5_M2F_net_0 ),
+        .GPIO_6_M2F         ( GPIO_6_M2F_net_0 ),
+        .GPIO_7_M2F         ( GPIO_7_M2F_net_0 ),
+        .GPIO_8_M2F         ( GPIO_8_M2F_net_0 ),
+        .GPIO_9_M2F         ( GPIO_9_M2F_net_0 ),
+        .GPIO_10_M2F        ( GPIO_10_M2F_net_0 ),
+        .GPIO_11_M2F        ( GPIO_11_M2F_net_0 ),
+        .GPIO_12_M2F        ( GPIO_12_M2F_net_0 ),
+        .enable_master      (  ),
+        .enable_slave       (  ),
+        .m_mosi             ( m_mosi_net_0 ),
+        .m_sck              ( m_sck_net_0 ),
+        .m_ss               (  ),
+        .s_miso             (  ),
+        // Inouts
+        .COREI2C_0_0_SDA_IO ( COREI2C_0_0_SDA_IO ),
+        .COREI2C_0_0_SCL_IO ( COREI2C_0_0_SCL_IO ) 
         );
 
 

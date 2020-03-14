@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Joseph Howarth/Documents/UMSATS/cdh-tsat5/cdh-tsat5-libero/simulation
+vcdh_tsat5_system
+Z1 !s110 1581717204
+!i10b 1
+!s100 nPnR[C[Gj1[aKjALN<2h<0
+Ij3_J7D@];:hI85JoOe?3g1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1581717158
+Z4 8C:/Users/Joseph Howarth/Documents/UMSATS/cdh-tsat5/cdh-tsat5-libero/designer/cdh_tsat5_system/cdh_tsat5_system_ba.v
+Z5 FC:/Users/Joseph Howarth/Documents/UMSATS/cdh-tsat5/cdh-tsat5-libero/designer/cdh_tsat5_system/cdh_tsat5_system_ba.v
+L0 45
+Z6 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1581717204.000000
+Z8 !s107 C:/Users/Joseph Howarth/Documents/UMSATS/cdh-tsat5/cdh-tsat5-libero/designer/cdh_tsat5_system/cdh_tsat5_system_ba.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/Users/Joseph Howarth/Documents/UMSATS/cdh-tsat5/cdh-tsat5-libero/designer/cdh_tsat5_system/cdh_tsat5_system_ba.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postlayout -O0
+Z11 tCvgOpt 0
+vsdf_IOPAD_IN
+R1
+!i10b 1
+!s100 =9Fc0;cn;6dEP3RFemTQn3
+I[6R8H1CWMD2<j8WGL9Fo10
+R2
+R0
+R3
+R4
+R5
+L0 25
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+!i10b 1
+!s100 H<OW9mQ8ViVa0WVYlGC?>0
+IaQDBdaAI2OkeYXN3Y0glD0
+R2
+R0
+R3
+R4
+R5
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+nsdf_@i@o@p@a@d_@t@r@i

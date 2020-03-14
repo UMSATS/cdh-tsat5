@@ -1,0 +1,2 @@
+@E: CG389 :"C:\Users\Joseph Howarth\Documents\UMSATS\cdh-tsat5\cdh-tsat5-libero\component\work\cdh_tsat5_system_sb\cdh_tsat5_system_sb.v":405:0:405:9|Reference to undefined module CoreAPB3
+
