@@ -1,23 +1,3 @@
-adc.c
-J
-Type
-Text
-Size
-781 bytes
-Storage used
-781 bytes
-Location
-42-External A/D Converter
-Owner
-me
-Modified
-Feb 8, 2020 by me
-Opened
-7:53 PM by me
-Created
-Feb 8, 2020 with Google Drive Web
-Add a description
-Viewers can download
 #include "adc.h"
 #include "cdh_tsat5_system_hw_platform.h"
 #include "spi.h"
