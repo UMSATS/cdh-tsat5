@@ -20,6 +20,8 @@
 // 2019-04-17 by Tamkin Rahman
 // - Allow the user to register a GPIO to use as the slave select to avoid toggling the slave select between byte transfers. Also,
 //   add new functions to allow the user to use a GPIO for the slave select.
+// 2020-01-11 by Jonathan Balewicz
+// - Added function for interacting with the ADC
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -127,4 +129,19 @@ void spi_transaction_block_read_without_toggle(CoreSPIInstance_t core, SPI_slave
     SPI_block_read(&core_spi[core], cmd_buffer, cmd_size, rd_buffer, rd_size);
     SPI_GPIO_SS_DISABLE(pin);
     SPI_disable(&core_spi[core]);
+}
+void spi_adc_read(
+		CoreSPIInstance_t core,  // The SPI core used.
+	    SPI_slave_t slave,       // The SPI slave configuration to use.
+		mss_gpio_id_t pin,       // The GPIO pin to use for the slave select.
+	    uint8_t * cmd_buffer,    // The buffer containing the command.
+	    uint8_t * rd_buffer
+		) {
+
+	  SPI_enable(&core_spi[core]);
+	    SPI_GPIO_SS_ENABLE(pin);
+	    SPI_block_read(&core_spi[core], cmd_buffer, 1, rd_buffer, 3);
+	    SPI_GPIO_SS_DISABLE(pin);
+	    SPI_disable(&core_spi[core]);
+
 }

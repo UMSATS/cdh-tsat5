@@ -22,6 +22,8 @@
 // 2019-04-17 by Tamkin Rahman
 // - Allow the user to register a GPIO to use as the slave select to avoid toggling the slave select between byte transfers. Also,
 //   add new functions to allow the user to use a GPIO for the slave select.
+// 2020-01-11 by Jonathan Balewicz
+// - Added function for interacting with the ADC
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -154,5 +156,16 @@ void spi_transaction_block_read_without_toggle(
     uint8_t * rd_buffer,     // The buffer containing the data to write.
 	size_t rd_size           // The size of the write buffer.
     );
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Description:
+// Reads the adc, when then ADC is connected and set up in libero, as described in Google Drive ADC Documentation.
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+void spi_adc_read(
+		CoreSPIInstance_t core,  // The SPI core used.
+		SPI_slave_t slave,       // The SPI slave configuration to use.
+		mss_gpio_id_t pin,       // The GPIO pin to use for the slave select.
+		uint8_t * cmd_buffer,    // The buffer containing the command.
+		uint8_t * rd_buffer	// Read buffer
+		);
 #endif /* INCLUDE_SPI_H_ */
