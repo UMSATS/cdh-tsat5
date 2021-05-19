@@ -2,7 +2,7 @@
 // UMSATS 2018-2020
 //
 // License:
-// 	Available under MIT license.
+// 	Available under the GNU General Public License v3.0 (GPL-3.0-or-later)
 //
 // Repository:
 //  Github: https://github.com/UMSATS/cdh-tsat5
@@ -39,15 +39,21 @@
 
 /* Application includes. */
 #include "uart.h"
+
+#include "commands.h"
 #include "version.h"
 
 #define UART_BUFFER_SIZE	128
 #define REPLY_QUEUE_SIZE	5
+#define COMMAND_BUFFER_SIZE 256
 
 static const IRQn_Type xUART0_IRQ = UART0_IRQn;
 static uint8_t uart0buffer[UART_BUFFER_SIZE];
 static uint8_t copied_buffer[UART_BUFFER_SIZE];
+static uint8_t command_buffer[COMMAND_BUFFER_SIZE];
+static size_t command_buffer_size = 0;
 static size_t uxUART0UnreadBytes;
+static uint8_t command_write_buffer[COMMAND_BUFFER_SIZE];
 
 TaskHandle_t xUART0RxTaskToNotify;
 SemaphoreHandle_t xUARTMutex;
@@ -74,6 +80,8 @@ void vInitializeUARTs(uint32_t ulBaud0)
 
 	/* Set the UART Rx notification function to trigger after a single byte is received. */
 	MSS_UART_set_rx_handler(&g_mss_uart0, prvUARTRxNotificationHandler, MSS_UART_FIFO_SINGLE_BYTE );
+
+	initCommand();
 }
 
 void vTaskUARTBridge(void *pvParameters)
@@ -84,6 +92,9 @@ void vTaskUARTBridge(void *pvParameters)
 	const mss_uart_instance_t *my_uart = (mss_uart_instance_t *) pvParameters;
 	const uint8_t *my_buffer = uart0buffer;
 	size_t *uxUnreadBytes = &uxUART0UnreadBytes;
+	char *charPtr;
+
+	uint8_t sec_copied_buffer[128];
 
 	size_t uxBytesRead;
 
@@ -99,7 +110,7 @@ void vTaskUARTBridge(void *pvParameters)
 			taskENTER_CRITICAL();
 			{
 				strlcpy(copied_buffer, my_buffer, *uxUnreadBytes + 1);
-
+				strlcpy(sec_copied_buffer, my_buffer, *uxUnreadBytes + 1);
 				/* Subtract the number of bytes processed from the available bytes */
 				*uxUnreadBytes -= *uxUnreadBytes;
 			}
@@ -107,14 +118,7 @@ void vTaskUARTBridge(void *pvParameters)
 		}
 
 		uxBytesRead = strlen(copied_buffer);
-		for (int ix = 0; ix < uxBytesRead; ix++)
-		{
-			if (copied_buffer[ix] == 'v')
-			{
-				prvUARTSend(&g_mss_uart0, (const uint8_t *) CDH_SW_VERSION_STRING, strlen(CDH_SW_VERSION_STRING));
-				break;
-			}
-		}
+
 		/* Echo back all data to the terminal */
 		prvUARTSend(&g_mss_uart0, (const uint8_t *) copied_buffer, strlen(copied_buffer));
 
@@ -165,13 +169,15 @@ static void prvProcessUART0(uint8_t *pcBuffer, uint32_t ulNumBytes)
 	/* Add characters onto the command string */
 	memcpy(&ucCommandString[pos], pcBuffer, ulNumBytes);
 	pos += ulNumBytes;
-
-	if(ucCommandString[pos-1] == 10)
+	if(ucCommandString[pos-1] == '\n' || ucCommandString[pos-1] == '\r')
 	{
+		ucCommandString[pos-1] = 0;
+		FreeRTOS_CLIProcessCommand( ucCommandString, command_write_buffer, COMMAND_BUFFER_SIZE);
 		/* End of line has been received. Send to module */
 		if (xSemaphoreTake(xUARTMutex, portMAX_DELAY) == pdTRUE)
 		{
-			prvUARTSend(&g_mss_uart0, "test\n\r", strlen("test\n\r"));
+
+			prvUARTSend(&g_mss_uart0, command_write_buffer, strlen(command_write_buffer));
 			xSemaphoreGive(xUARTMutex);
 		}
 		pos = 0;
@@ -179,7 +185,7 @@ static void prvProcessUART0(uint8_t *pcBuffer, uint32_t ulNumBytes)
 }
 
 
-static void prvUARTSend(mss_uart_instance_t *pxUART, const uint8_t *pcBuffer, size_t xBufferLength)
+void prvUARTSend(mss_uart_instance_t *pxUART, const uint8_t *pcBuffer, size_t xBufferLength)
 {
 	const TickType_t xVeryShortDelay = 2UL;
 
@@ -199,4 +205,3 @@ static void prvUARTSend(mss_uart_instance_t *pxUART, const uint8_t *pcBuffer, si
 		}
 	}
 }
-
