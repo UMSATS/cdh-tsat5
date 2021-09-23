@@ -36,7 +36,9 @@ void send_command_priority(SystemID systemId, OutgoingCommand command, uint8_t d
         memcpy(&sendData[1], data, (datalength < 7) ? datalength : 7);
     }
     CANMessage_t message = {id, 1, 8, sendData};
-    (*outputController)(message);
+    if(outputController != NULL){
+        (*outputController)(message);
+    }
     printPacket(message);
 }
 
