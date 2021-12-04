@@ -135,8 +135,6 @@
 #include "uart.h"
 #include "watchdog.h"
 
-
-
 /* External variables */
 extern TaskHandle_t xUART0RxTaskToNotify;
 
@@ -144,38 +142,6 @@ extern TaskHandle_t xUART0RxTaskToNotify;
  * Set up the hardware ready to run this demo.
  */
 static void prvSetupHardware( void );
-
-/*
- * Test code for CoreSPI.
- */
-static void vTestSPI(void *pvParameters);
-
-/*
- * Test code for CAN.
- */
-static void vTestCANTx(void *pvParameters);
-static void vTestCANRx(void *pvParameters);
-
-/*
- * Test code for Watchdog.
- */
-static void vTestWD(void *pvParameters);
-
-/*
- * Test code for RTC.
- */
-static void vTestRTC(void *pvParameters);
-
-/*
- * Test code for external flash.
- */
-static void vTestFlash(void *pvParameters);
-
-/*
- * Test code for MRAM.
- */
-static void vTestMRAM(void *pvParameters);
-
 
 /* Prototypes for the standard FreeRTOS callback/hook functions implemented
 within this file. */
@@ -196,85 +162,85 @@ int main( void )
     prvSetupHardware();
 
     // Create LED spinning task
-    status = xTaskCreate(    vTaskSpinLEDs,              // The task function that spins the LEDs
-                            "LED Spinner",               // Text name for debugging
-                            1000,                        // Size of the stack allocated for this task
-                            NULL,                        // Task parameter is not used
-                            1,                           // Task runs at priority 1
-                            NULL);                       // Task handle is not used
-
-    // Create UART0 RX Task
-    status = xTaskCreate(    vTaskUARTBridge,            // The task function that handles all UART RX events
-                            "UART0 Receiver",            // Text name for debugging
-                            1000,                        // Size of the stack allocated for this task
-                            (void *) &g_mss_uart0,       // Task parameter is the UART instance used by the task
-                            2,                           // Task runs at priority 2
-                            &xUART0RxTaskToNotify);      // Task handle for task notification
-
-    status = xTaskCreate(vTestSPI,
-                         "Test SPI",
-                         1000,
-                         NULL,
-                         1,
-                         NULL);
-
-    status = xTaskCreate(vTestSPI,
-                         "Test SPI2",
-                         1000,
-                         NULL,
-                         1,
-                         NULL);
-
-    // TODO - Starting to run out of heap space for these tasks... should start thinking about
-    // increasing heap space or managing memory in a smarter manner. First step would be looking
-    // at the FreeRTOS configurations and the linker file *.ld.
-    status = xTaskCreate(vTestCANTx,
-                         "Test CAN Tx",
-                         configMINIMAL_STACK_SIZE,
-                         NULL,
-                         1,
-                         NULL);
-
-    status = xTaskCreate(vTestCANRx,
-                         "Test CAN Rx",
-                         configMINIMAL_STACK_SIZE,
-                         NULL,
-                         1,
-                         NULL);
-
-    status = xTaskCreate(vTestWD,
-                         "Test WD",
-                         configMINIMAL_STACK_SIZE,
-                         NULL,
-                         1,
-                         NULL);
-
-    status = xTaskCreate(vTestRTC,
-                         "Test RTC",
-                         configMINIMAL_STACK_SIZE,
-                         NULL,
-                         1,
-                         NULL);
-						 
-	status = xTaskCreate(vTestFlash,
-                         "Test Flash",
-                         2000,
-                         NULL,
-                         1,
-                         NULL);
-
-    // TR - Not quite sure of the reason, but it appears that when we have a task created for both
-    //      vTestRTC and vTestMRAM, the device stops communicating over SPI after the vTestRTC task
-    //      finishes transmission (for the first time). In core_spi.c, the software gets stuck in the
-    //      while loop "while ( transfer_idx < transfer_size )" on line 134 in "SPI_block_read". The
-    //      rx_data_ready variable never evaluates to "true", and so the software is entering an infinite
-    //      loop, waiting for the CoreSPI status to be "rx ready" to perform the final read.
-    status = xTaskCreate(vTestMRAM,
-                         "Test MRAM",
-                         256,
-                         NULL,
-                         1,
-                         NULL);
+//    status = xTaskCreate(    vTaskSpinLEDs,              // The task function that spins the LEDs
+//                            "LED Spinner",               // Text name for debugging
+//                            1000,                        // Size of the stack allocated for this task
+//                            NULL,                        // Task parameter is not used
+//                            1,                           // Task runs at priority 1
+//                            NULL);                       // Task handle is not used
+//
+//    // Create UART0 RX Task
+//    status = xTaskCreate(    vTaskUARTBridge,            // The task function that handles all UART RX events
+//                            "UART0 Receiver",            // Text name for debugging
+//                            1000,                        // Size of the stack allocated for this task
+//                            (void *) &g_mss_uart0,       // Task parameter is the UART instance used by the task
+//                            2,                           // Task runs at priority 2
+//                            &xUART0RxTaskToNotify);      // Task handle for task notification
+//
+//    status = xTaskCreate(vTestSPI,
+//                         "Test SPI",
+//                         1000,
+//                         NULL,
+//                         1,
+//                         NULL);
+//
+//    status = xTaskCreate(vTestSPI,
+//                         "Test SPI2",
+//                         1000,
+//                         NULL,
+//                         1,
+//                         NULL);
+//
+//    // TODO - Starting to run out of heap space for these tasks... should start thinking about
+//    // increasing heap space or managing memory in a smarter manner. First step would be looking
+//    // at the FreeRTOS configurations and the linker file *.ld.
+//    status = xTaskCreate(vTestCANTx,
+//                         "Test CAN Tx",
+//                         configMINIMAL_STACK_SIZE,
+//                         NULL,
+//                         1,
+//                         NULL);
+//
+//    status = xTaskCreate(vTestCANRx,
+//                         "Test CAN Rx",
+//                         configMINIMAL_STACK_SIZE,
+//                         NULL,
+//                         1,
+//                         NULL);
+//
+//    status = xTaskCreate(vTestWD,
+//                         "Test WD",
+//                         configMINIMAL_STACK_SIZE,
+//                         NULL,
+//                         1,
+//                         NULL);
+//
+//    status = xTaskCreate(vTestRTC,
+//                         "Test RTC",
+//                         configMINIMAL_STACK_SIZE,
+//                         NULL,
+//                         1,
+//                         NULL);
+//
+//	status = xTaskCreate(vTestFlash,
+//                         "Test Flash",
+//                         2000,
+//                         NULL,
+//                         1,
+//                         NULL);
+//
+//    // TR - Not quite sure of the reason, but it appears that when we have a task created for both
+//    //      vTestRTC and vTestMRAM, the device stops communicating over SPI after the vTestRTC task
+//    //      finishes transmission (for the first time). In core_spi.c, the software gets stuck in the
+//    //      while loop "while ( transfer_idx < transfer_size )" on line 134 in "SPI_block_read". The
+//    //      rx_data_ready variable never evaluates to "true", and so the software is entering an infinite
+//    //      loop, waiting for the CoreSPI status to be "rx ready" to perform the final read.
+//    status = xTaskCreate(vTestMRAM,
+//                         "Test MRAM",
+//                         256,
+//                         NULL,
+//                         1,
+//                         NULL);
 
     vTaskStartScheduler();
 
@@ -296,290 +262,6 @@ static void prvSetupHardware( void )
     init_rtc();
     init_mram();
     init_CAN(CAN_BAUD_RATE_1000K);
-}
-
-/*-----------------------------------------------------------*/
-static void vTestSPI(void *pvParameters)
-{
-    uint8_t test_cmd[] = {0x55, 0x56};
-    uint8_t test_wr[] = {0x01, 0x02, 0x03, 0x04, 0x05};
-    uint8_t test_rd[4];
-
-    const TickType_t xDelay1000ms = pdMS_TO_TICKS(1000);
-
-    for (;;)
-    {
-        vTaskSuspendAll();
-        // Write a block every second.
-        spi_transaction_block_write_with_toggle(
-                    CORE_SPI_0,
-                    SPI_SLAVE_0,
-                    test_cmd,
-                    sizeof(test_cmd) / sizeof(test_cmd[0]),
-                    test_wr,
-                    sizeof(test_wr) / sizeof(test_wr[0])
-                );
-        xTaskResumeAll();
-
-        taskYIELD();
-        vTaskSuspendAll();
-        spi_transaction_block_read_with_toggle(
-                    CORE_SPI_0,
-                    SPI_SLAVE_0,
-                    test_cmd,
-                    sizeof(test_cmd) / sizeof(test_cmd[0]),
-                    test_rd,
-                    sizeof(test_rd) / sizeof(test_rd[0])
-                );
-        xTaskResumeAll();
-        vTaskDelay(xDelay1000ms);
-    }
-}
-
-/*-----------------------------------------------------------*/
-static void vTestCANTx(void *pvParameters)
-{
-    const TickType_t delay = pdMS_TO_TICKS(100);
-    CANMessage_t msg = {
-                        0x321,
-                        1,
-                        8,
-                        {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08}
-                     };
-    for (;;)
-    {
-        if (CAN_TRANSMIT_READY())
-        {
-            CAN_transmit_message(&msg);
-        }
-        vTaskDelay(delay);
-    }
-}
-
-/*-----------------------------------------------------------*/
-static void vTestCANRx(void *pvParameters)
-{
-    int messages_processed = 0;
-    CANMessage_t rx_msg;
-    for (;;)
-    {
-        if (xQueueReceive(can_rx_queue, &rx_msg, portMAX_DELAY) == pdTRUE)
-        {
-            messages_processed++;
-        }
-    }
-}
-
-/*-----------------------------------------------------------*/
-static void vTestWD(void *pvParameters)
-{
-    // In the future, this task could be used as a reset service. For instance, tasks could:
-    // - Check-in to this task. If a task fails to check-in as expected, the watchdog would be left to reset.
-    // - Request a reset.
-
-    // Note that the watchdog is not enabled (by the MSS) for certain situations, such as:
-    // - While debugging.
-    // - Programming.
-    if (timeout_occured_WD())
-    {
-        clear_timeout_WD();
-        // TODO - Log event!
-    }
-    else
-    {
-        // TODO - Log event!
-    }
-
-    for (;;)
-    {
-        service_WD();
-        vTaskDelay(pdMS_TO_TICKS(WD_TASK_PERIOD_ms));
-    }
-}
-
-/*-----------------------------------------------------------*/
-static void vTestRTC(void *pvParameters)
-{
-    // Test code
-    static volatile int error_occurred = 0;
-
-    static Calendar_t buffer = {
-            59u, // seconds
-            59u, // minutes
-            23u, // hours
-            28u, // day
-            2u, // February
-            20u, // year (2020)
-            1u, // weekday
-            1u, // week (not used), HOWEVER it must be 1 or greater.
-    };
-
-    static Calendar_t buffer2;
-
-    vTaskSuspendAll();
-    ds1393_write_time(&buffer);
-    if (TIME_SUCCESS != resync_rtc())
-    {
-        error_occurred = 1;
-    }
-    xTaskResumeAll();
-
-    for (;;)
-    {
-        vTaskSuspendAll();
-        ds1393_read_time(&buffer);
-        read_rtc(&buffer2);
-        xTaskResumeAll();
-        vTaskDelay(pdMS_TO_TICKS(500));
-    }
-}
-
-/*-----------------------------------------------------------*/
-static void vTestFlash(void *pvParameters)
-{
-
-	FlashDevice_t flash_device;
-
-	FlashStatus_t result = flash_dev_init(&flash_device,CORE_SPI_0, MSS_GPIO_5, 8, ECC_ON);
-
-	MSS_GPIO_config( MSS_GPIO_3, MSS_GPIO_OUTPUT_MODE );
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-	int done =0;
-	uint8_t data_rx[2048];
-	int i;
-	int pageNum = 0;
-	int blockNum=0;
-	int address=0x0000000;
-	int numBadBlock = 0;
-	int led = 0;
-	int BB[50];
-	uint8_t data_tx[2048];
-
-	// Clear the receive buffer and put a repeating sequence of 0-255 into the
-	// transmit buffer.
-	for(i=0;i<2048;i++){
-		data_tx[i] = i%256;
-		data_rx[i] = 0;
-	}
-
-
-	// Check if we can read the bad block look up table.
-	// There should be one mapping in the table(1 bad block).
-	int num_bad_blocks = 0;
-	result = flash_read_bb_lut(&flash_device,&flash_device.bb_lut,&num_bad_blocks);
-
-	if(result != FLASH_OK || num_bad_blocks != 1){
-		while(1);
-	}
-
-
-	// Erase the block.
-	result = flash_erase_blocks(&flash_device,0,1);
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-
-
-	result = flash_read(&flash_device,address,2048,data_rx);
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-	int j;
-	// Make sure page is erased.
-	for(j=0;j<2048;j++){
-
-		if(data_rx[j] != 0xFF){
-			while(1);
-		}
-	}
-
-	// Save the transmit buffer to flash memory.
-	result = flash_write_(&flash_device,address,2048,data_tx);
-	if(result != FLASH_OK){
-		while(1);
-	}
-
-
-	result = flash_read(&flash_device,address,2048,data_rx);
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-
-	// Make sure the data we read is the same as what was written.
-
-	for(j=0;j<2048;j++){
-
-		if(data_rx[j] != data_tx[j]){
-			while(1);
-		}
-	}
-
-
-	// Erase the block.
-	result = flash_erase_blocks(&flash_device,0,1);
-
-	if(result != FLASH_OK){
-		while(1);
-	}
-
-
-
-
-
-    for (;;)
-    {}
-}
-
-static void vTestMRAM(void *pvParameters)
-{
-    // Test code that writes to all locations of the MRAM, and then reads it back.
-    static uint8_t write_buffer[0x100];
-    static uint8_t read_buffer1[sizeof(write_buffer)];
-    uint8_t status_reg;
-
-    static volatile int error_occurred = 0;
-
-    for (int ix = 0; ix < sizeof(write_buffer); ix++)
-    {
-        write_buffer[ix] = 0x55;
-    }
-    for(;;)
-    {
-        // Loop through all addresses.
-        for (int ix = 0; ix < MAX_MRAM_ADDRESS; ix += sizeof(write_buffer))
-        {
-           for (int ix = 0; ix < sizeof(write_buffer); ix++)
-           {
-              read_buffer1[ix] = 0xFF;
-           }
-
-           vTaskSuspendAll();
-           mr2xh40_write(&mram_instances[MRAM_INSTANCE_0], ix, write_buffer, sizeof(write_buffer));
-           xTaskResumeAll();
-
-           taskYIELD();
-
-           vTaskSuspendAll();
-           mr2xh40_read(&mram_instances[MRAM_INSTANCE_0], ix, read_buffer1, sizeof(read_buffer1));
-           xTaskResumeAll();
-
-           for (int iy = 0; iy < sizeof(write_buffer); iy++)
-           {
-               if (read_buffer1[iy] != write_buffer[iy])
-               {
-                   error_occurred = 1; // Breakpoint here!
-               }
-           }
-
-           vTaskDelay(pdMS_TO_TICKS(2000)); // Breakpoint here to make sure you are done!
-        }
-    }
 }
 
 /*-----------------------------------------------------------*/
