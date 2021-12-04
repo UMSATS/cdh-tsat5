@@ -18,10 +18,10 @@
 /**
  * Object to be stored in a heap
  */
-struct HeapObj{
+typedef struct {
     int key;
     void* value; //the actual object stored
-};
+} HeapObj;
 
 struct Heap{
     HeapObj *arr;
@@ -35,7 +35,7 @@ void insert(Heap *h, HeapObj);
 void print(Heap *h);
 void heapify_bottom_top(Heap *h,int index);
 void heapify_top_bottom(Heap *h, int parent_node);
-HeapObj PopMin(Heap *h);
+int PopMin(Heap *h);
 
 
 /**

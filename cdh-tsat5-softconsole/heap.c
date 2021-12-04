@@ -41,9 +41,9 @@ void heapify_bottom_top(Heap *h,int index){
 
     if(h->arr[parent_node].key > h->arr[index].key){
         //swap and recursive call
-        temp = h->arr[parent_node];
+        temp = h->arr[parent_node].key;
         h->arr[parent_node] = h->arr[index];
-        h->arr[index] = temp;
+        h->arr[index].key = temp;
         heapify_bottom_top(h,parent_node);
     }
 }
@@ -67,9 +67,9 @@ void heapify_top_bottom(Heap *h, int parent_node){
         min = right;
 
     if(min != parent_node){
-        temp = h->arr[min];
+        temp = h->arr[min].key;
         h->arr[min] = h->arr[parent_node];
-        h->arr[parent_node] = temp;
+        h->arr[parent_node].key = temp;
 
         // recursive  call
         heapify_top_bottom(h, min);
@@ -83,7 +83,7 @@ int PopMin(Heap *h){
         return -1;
     }
     // replace first node by last and delete last
-    pop = h->arr[0];
+    pop = h->arr[0].key;
     h->arr[0] = h->arr[h->count-1];
     h->count--;
     heapify_top_bottom(h, 0);
