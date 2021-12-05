@@ -31,6 +31,9 @@ This project requires SoftConsole 4.0 and Libero 11.9.2.
 12. Under the "Debugger" tab, change the Config options to: **"--command "set DEVICE M2S010" --file board/microsemi-cortex-m3.cfg"**
 12. With the MSR board connected, click "Apply", and then "Debug" to run the software.
 
+## Branches
+The software is partially covered with unit tests in the **tests** branch. When adding to the master branch, checkout the **tests** branch, and use **git merge your-branch**. Run the tests using instructions on the README of this page: https://github.com/Speuce/cdh-tsat5/tree/master/cdh-tsat5-softconsole/test/gtest. Ensure the tests pass and add tests to the test branch if necessary before creating your PR. After merging your PR, push your merge and changes to the tests branch.
+
 ## Licensing
 This project is available under the MIT license.
 
