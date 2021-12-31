@@ -23,7 +23,7 @@ void printPacket(CANMessage_t t){
  * @param systemId the subsystem to send the command to
  * @param command the command Opcode
  * @param data the data associated with the command (or null if no extra data)
- *        *** DATA SHOULD BE ≤ 7 bytes
+ *        *** DATA SHOULD BE <= 7 bytes
  * @param priority the custom priority of the command (max is 0b00000, min is 0b11111)
  */
 void send_command_priority(SystemID systemId, OutgoingCommand command, uint8_t data[],uint8_t datalength, uint8_t priority){
@@ -47,7 +47,7 @@ void send_command_priority(SystemID systemId, OutgoingCommand command, uint8_t d
  * @param systemId the subsystem to send the command to
  * @param command the command Opcode
  * @param data the data associated with the command (or null if no extra data)
- *        *** DATA SHOULD BE ≤ 7 bytes
+ *        *** DATA SHOULD BE <= 7 bytes
  */
 void send_command(SystemID systemId, OutgoingCommand command, uint8_t data[], uint8_t datalength){
     send_command_priority(systemId, command, data, datalength, command & (0x00FF));
