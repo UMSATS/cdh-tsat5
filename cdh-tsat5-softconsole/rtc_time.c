@@ -13,6 +13,9 @@
 // History
 // 2019-04-18 by Tamkin Rahman
 // - Created.
+// 2021-12-29 by Daigh Burgess
+// - Add setting rtc in two steps
+// - (two commands needed to transmit complete time data)
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -47,6 +50,11 @@
 							   + (time)->hour   * SECONDS_IN_HOUR \
 							   + (time)->month  * SECONDS_IN_MONTH \
 							   + (time)->year   * SECONDS_IN_YEAR
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+// VARIABLES
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+static Calendar_t external_rtc_timestamp; //used to store and build the rtc timestamp
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 // FUNCTION PROTOTYPES
@@ -90,6 +98,34 @@ void set_rtc(Calendar_t * time)
 	ds1393_write_time(time);
 	resync_rtc();
 }
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+void set_rtc_using_timestamp()
+{
+	set_rtc(&external_rtc_timestamp);
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+ErrCodesRTC_t set_external_rtc_step1(uint8_t* first_half_of_time)
+{
+	external_rtc_timestamp.second = first_half_of_time[0];
+	external_rtc_timestamp.minute = first_half_of_time[1];
+	external_rtc_timestamp.hour   = first_half_of_time[2];
+	external_rtc_timestamp.day    = first_half_of_time[3];
+
+	return first_half_time_valid(&external_rtc_timestamp);
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+ErrCodesRTC_t set_external_rtc_step2(uint8_t* second_half_of_time)
+{
+	external_rtc_timestamp.month   = second_half_of_time[0];
+	external_rtc_timestamp.year    = second_half_of_time[1];
+	external_rtc_timestamp.weekday = second_half_of_time[2];
+	external_rtc_timestamp.week    = second_half_of_time[3];
+
+	return time_valid(&external_rtc_timestamp);
+}
 #endif
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -120,6 +156,35 @@ ErrCodesRTC_t time_valid(Calendar_t * time)
     else if (time->year > MAX_YEARS)
     {
         rc = TIME_YEARS_INVALID;
+    }
+    else
+    {
+        rc = TIME_SUCCESS;
+    }
+
+    return rc;
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+ErrCodesRTC_t first_half_time_valid(Calendar_t * time)
+{
+    ErrCodesRTC_t rc = TIME_UNKNOWN_ERROR;
+
+    if (time->second > MAX_SECONDS)
+    {
+        rc = TIME_SECONDS_INVALID;
+    }
+    else if (time->minute > MAX_MINUTES)
+    {
+        rc = TIME_MINUTES_INVALID;
+    }
+    else if (time->hour > MAX_HOURS)
+    {
+        rc = TIME_HOURS_INVALID;
+    }
+	else if ((time->day < MIN_DAYS) || (time->day > MAX_DAYS))
+    {
+        rc = TIME_DAYS_INVALID;
     }
     else
     {

@@ -1,12 +1,30 @@
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+// UMSATS 2018-2020
 //
-// Created by Matthew Kwiatkowski on 2021-01-30.
+// License:
+//  Available under MIT license.
 //
+// Repository:
+//  Github: https://github.com/UMSATS/cdh-tsat5
+//
+// File Description:
+//  Command handler module
+//
+// History
+// 2021-01-30 by Matthew Kwiatkowski
+// - Created.
+// 2021-12-30 by Daigh Burgess
+// - Add setting rtc in two steps - handlers
+// - Add resyncing rtc - handler
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 #include <zconf.h>
 #include <stdio.h>
 #include <assert.h>
 #include "command_sender.h"
 //#include "can.h"
+#include "command_handler.h"
 
 /**
  * The id of the current message being processed.
@@ -24,24 +42,15 @@ CANMessage_t currmsg;
 void (*command_function_map[(0x01<<COMMAND_MAP_SIZE)])(CANMessage_t)={NULL};
 
 
-/**
- * Handles unknown incoming commands.
- * Some sort of reporting should be done here.
- * @param msg the unknown command received.
- */
-void handle_unknown_command(CANMessage_t msg);
-
-/**
- * Handles the shutdown command
- */
-void handle_shut_down(CANMessage_t msg);
-
-
 int val(int id);
+
 
 void init_handler(){
         command_function_map[0x00] = handle_unknown_command; //by default any command pointing to 0 in the command map is ignored/reported.
         command_function_map[0x01] = handle_shut_down;
+        command_function_map[0x90] = handle_set_rtc_step1;
+        command_function_map[0x91] = handle_set_rtc_step2;
+        command_function_map[0xD1] = handle_resync_rtc;
         ///////////////////////////////////////////
         //
         // ADD ALL OTHER COMMAND HANDLERS HERE
@@ -56,9 +65,31 @@ void handle_unknown_command(CANMessage_t msg){
     //send a 'not acknowledged'
 }
 
-
 void handle_shut_down(CANMessage_t msg){
 
+}
+
+void handle_set_rtc_step1(CANMessage_t msg){
+	if (set_external_rtc_step1(msg.data) == TIME_SUCCESS)
+		send_default_ack();
+	else
+		send_default_non_ack();
+}
+
+void handle_set_rtc_step2(CANMessage_t msg){
+	if (set_external_rtc_step2(msg.data) == TIME_SUCCESS){
+		set_rtc_using_timestamp();
+		send_default_ack();
+	}
+	else
+		send_default_non_ack();
+}
+
+void handle_resync_rtc(CANMessage_t msg){
+	if (resync_rtc() == TIME_SUCCESS)
+		send_default_ack();
+	else
+		send_default_non_ack();
 }
 
 
